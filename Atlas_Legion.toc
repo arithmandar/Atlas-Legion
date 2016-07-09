@@ -1,0 +1,12 @@
+﻿## Interface: 70000
+## Title: Atlas |r|cFF0099FF[Legion]|r
+## Notes: Legion Dungeon Maps
+## Version: 1.33.00
+## Author: arith
+## X-Date: @project-date-iso@
+## X-Email: atlas.addon at gmail.com
+## X-Website: http://www.atlasmod.com
+## X-Category: Map
+## RequiredDeps: Atlas
+
+Atlas_Legion_DB.lua
