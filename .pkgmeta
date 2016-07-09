@@ -5,3 +5,8 @@ manual-changelog:
     markup-type: plain
     
 enable-nolib-creation: no
+
+ignore:
+    - Images\AssaultonVioletHold.psd
+    - Images\DarkheartThicket.psd
+    - Images\EyeofAzshara.psd
