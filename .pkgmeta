@@ -10,6 +10,9 @@ ignore:
     - Images\AssaultonVioletHold.psd
     - Images\DarkheartThicket.psd
     - Images\EyeofAzshara.psd
+    - Images\HallsofValorA.psd
+    - Images\HallsofValorB.psd
+    - Images\HallsofValorC.psd
     - Images\MawofSoulsA.psd
     - Images\NeltharionsLair.psd
     - Images\TheArcway.psd
