@@ -162,17 +162,24 @@ local myDB = {
 		{  10, 1737,  }; --Gul'dan
 	};
 ]]
-	-- Map TODO
---[[
-	VaultoftheWardens = {
-		{ "A", 10001,  }; --Entrance
-		{  1, 1467,  }; --Tirathon Saltheril
-		{  2, 1695,  }; --Inquisitor Tormentorum
-		{  3, 1468,  }; --Ash'golm
-		{  4, 1469,  }; --Glazer
-		{  5, 1470,  }; --Cordana Felsong
+	VaultoftheWardensA = {
+		{ "A", 10001, 483, 387 }; --Entrance
+		{ "B", 10002, 62, 205 }; --Connection
+		{ "B", 10002, 131, 205 }; --Connection
+		{ "C", 10003, 97, 116 }; --Elevator
+		{  1, 1467, 96, 282 }; --Tirathon Saltheril
 	};
-]]
+	VaultoftheWardensB = {
+		{ "C", 10003, 168, 157 }; --Elevator
+		{ "D", 10004, 34, 154 }; --Connection
+		{  2, 1695, 116, 153 }; --Inquisitor Tormentorum
+		{  3, 1468, 163, 380 }; --Ash'golm
+		{  4, 1469, 403, 156 }; --Glazer
+	};
+	VaultoftheWardensC = {
+		{ "D", 10004, 271, 25 }; --Connection
+		{  5, 1470, 246, 426 }; --Cordana Felsong
+	};
 };
 
 for k, v in pairs(myDB) do
