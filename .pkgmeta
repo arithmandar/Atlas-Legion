@@ -8,6 +8,9 @@ enable-nolib-creation: no
 
 ignore:
     - Images/AssaultonVioletHold.psd
+    - Images/BlackRookHoldA.psd
+    - Images/BlackRookHoldB.psd
+    - Images/BlackRookHoldC.psd
     - Images/CourtofStarsA.psd
     - Images/CourtofStarsB.psd
     - Images/DarkheartThicket.psd

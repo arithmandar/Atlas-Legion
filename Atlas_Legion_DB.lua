@@ -37,16 +37,29 @@ local myDB = {
 		{  8, 1711, 244, 73 }; --Fel Lord Betrug
 		
 	};
-	-- Map TODO
---[[
-	BlackRookHold = {
-		{ "A", 10001,  }; --Entrance
-		{  1, 1518,  }; --The Amalgam of Souls
-		{  2, 1653,  }; --Illysanna Ravencrest
-		{  3, 1664,  }; --Smashspite the Hateful
-		{  4, 1672,  }; --Lord Kur'talos Ravencrest
+	BlackRookHoldA = {
+		{ "A", 10001, 115, 49 }; --Entrance
+		{ "B", 10002, 441, 408 }; --Connection
+		{  1, 1518, 219, 314 }; --The Amalgam of Souls
 	};
-]]
+	BlackRookHoldB = {
+		{ "B", 10001, 46, 314 }; --Connection
+		{ "C", 10001, 203, 478 }; --Connection
+		{ "C", 10001, 294, 478 }; --Connection
+		{ "D", 10001, 212, 339 }; --Connection
+		{ "D", 10001, 437, 318 }; --Connection
+		{ "E", 10001, 360, 277 }; --Connection
+		{ "F", 10001, 244, 26 }; --Connection
+		{ "G", 10001, 149, 135 }; --Connection
+		{  2, 1653, 251, 413 }; --Illysanna Ravencrest
+	};
+	BlackRookHoldC = {
+		{ "E", 10001, 318, 103 }; --Connection
+		{ "F", 10001, 299, 90 }; --Connection
+		{ "G", 10001, 203, 191 }; --Connection
+		{  3, 1664, 351, 60 }; --Smashspite the Hateful
+		{  4, 1672, 158, 171 }; --Lord Kur'talos Ravencrest
+	};
 	CourtofStarsA = {
 		{ "A", 10001, 198, 377 }; --Entrance
 		{ "B", 10002, 300, 319 }; --Connection
