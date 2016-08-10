@@ -35,7 +35,6 @@ local myDB = {
 		{  6, 1696, 356, 121 }; --Anub'esset
 		{  7, 1697, 206, 78 }; --Sael'orn
 		{  8, 1711, 244, 73 }; --Fel Lord Betrug
-		
 	};
 	BlackRookHoldA = {
 		{ "A", 10001, 115, 49 }; --Entrance
@@ -43,13 +42,13 @@ local myDB = {
 		{  1, 1518, 219, 314 }; --The Amalgam of Souls
 	};
 	BlackRookHoldB = {
-		{ "B", 10001, 46, 314 }; --Connection
-		{ "C", 10001, 203, 478 }; --Connection
+		{ "B", 10001, 69, 337 }; --Connection
+		{ "C", 10001, 201, 477 }; --Connection
 		{ "C", 10001, 294, 478 }; --Connection
-		{ "D", 10001, 212, 339 }; --Connection
-		{ "D", 10001, 437, 318 }; --Connection
-		{ "E", 10001, 360, 277 }; --Connection
-		{ "F", 10001, 244, 26 }; --Connection
+		{ "D", 10001, 186, 320 }; --Connection
+		{ "D", 10001, 428, 319 }; --Connection
+		{ "E", 10001, 335, 298 }; --Connection
+		{ "F", 10001, 243, 26 }; --Connection
 		{ "G", 10001, 149, 135 }; --Connection
 		{  2, 1653, 251, 413 }; --Illysanna Ravencrest
 	};
@@ -150,21 +149,77 @@ local myDB = {
 		{  7, 1726,  }; --Xavius
 	};
 ]]
+	TheEmeraldNightmareA = {
+		{ "A", 10001, 122, 344 }; --Entrance
+		{ "B", 10002, 50, 446 }; --Entrance
+		{  1, 1703, 284, 239 }; --Nythendra
+		{ "1'", 10003, 160, 281 }; --Nightmare Watcher
+	};
+	TheEmeraldNightmareB = {
+		{ "B",  10002, 55, 344 }; --Connection
+		{ "C",  10003, 348, 242 }; --Un'Goro Crater
+		{ "D",  10004, 399, 225 }; --Mulgore
+		{ "E",  10005, 343, 158 }; --Grizzly Hills
+		{ "F",  10006, 396, 159 }; --The Emerald Dreamway
+		{ "1'", 10010, 366, 202 }; --Malfurion Stormrage
+	};
+	TheEmeraldNightmareC = {
+		{ "C", 10003, 424, 464 }; --Entrance
+		{  2, 1744, 234, 206 }; --Elerethe Renferal
+	};
+	TheEmeraldNightmareD = {
+		{ "D", 10004, 418, 327 }; --Entrance
+		{  3, 1738, 146, 251 }; --Il'gynoth, Heart of Corruption
+	};
+	TheEmeraldNightmareE = {
+		{ "E", 10005, 96, 303 }; --Entrance
+		{  4, 1672, 253, 155 }; --Ursoc
+	};
+	TheEmeraldNightmareF = {
+		{ "F", 10006, 97, 382 }; --Entrance
+		{  5, 1704, 180, 252 }; --Dragons of Nightmare
+	};
+	TheEmeraldNightmareG = {
+		{ "G", 10007, 194, 407 }; --Entrance
+		{  6, 1750, 297, 228 }; --Cenarius
+	};
 	TheNightholdA = {
-		{ "A", 10001, 145, 376 }; --Entrance
-		{ "B", 10002, 377, 90 }; --Connection
-		{  1, 1706, 234, 74 }; --Skorpyron
+		{ "A", 10001, 155, 376 }; --Entrance
+		{ "B", 10002, 427, 57 }; --Connection
+		{  1, 1706, 245, 71 }; --Skorpyron
+		{ "1'", 10003, 130, 350 }; --Palace Watcher
 	};
 	TheNightholdB = {
-		{ "B", 10001, 182, 466 }; --Connection
-		{ "C", 10001, 146, 190 }; --Connection
-		{  2, 1725, 301, 324 }; --Chronomatic Anomaly
-		{  3, 1731, 149, 122 }; --Trilliax
+		{ "B", 10001, 158, 466 }; --Connection
+		{ "C", 10001, 99, 199 }; --Connection
+		{ "C", 10001, 327, 130 }; --Connection
+		{ "D", 10001, 467, 9 }; --Connection
+		{  2, 1725, 271, 338 }; --Chronomatic Anomaly
+		{  3, 1731, 105, 114 }; --Trilliax
 	};
 	TheNightholdC = {
 		{  4, 1751, 197, 229 }; --Spellblade Aluriel
 		{  6, 1713, 407, 466 }; --Krosus
-		{  7, 1761, 399, 98 }; --High Botanist Tel'arn
+		{  7, 1761, 416, 83 }; --High Botanist Tel'arn
+		{ "D", 10001, 210, 129 }; --Connection
+		{ "E", 10001, 118, 277 }; --Connection
+		{ "F", 10001, 223, 153 }; --Connection
+		{ "G", 10001, 216, 175 }; --Connection
+		{ "H", 10001, 261, 134 }; --Connection
+	};
+	TheNightholdD = {
+		{ 5, 1762, 175, 320 }; --Tichondrius
+		{ "E", 10001, 282, 220 }; --Connection
+	};
+	TheNightholdE = {
+		{  8, 1732, 152, 95 }; --Star Augur Etraeus
+		{ "F", 10001, 186, 295 }; --Connection
+		{ "G", 10001, 169, 466 }; --Connection
+		{ "H", 10001, 412, 221 }; --Connection
+	};
+	TheNightholdF = {
+		{  9, 1743, 251, 249 }; --Grand Magistrix Elisande
+		{  "I", 10001, 179, 328 }; --Connection
 	};
 	-- Map TODO
 --[[
