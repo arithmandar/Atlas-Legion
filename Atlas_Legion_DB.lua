@@ -216,7 +216,7 @@ local myDB = {
 	};
 	TheNightholdD = {
 		{ 5, 1762, 175, 320 }; -- Tichondrius
-		{ "E", 10001, 282, 220 }; -- Connection
+		{ "E", 10001, 199, 165 }; -- Connection
 	};
 	TheNightholdE = {
 		{  8, 1732, 152, 95 }; -- Star Augur Etraeus
@@ -226,7 +226,7 @@ local myDB = {
 	};
 	TheNightholdF = {
 		{  9, 1743, 251, 249 }; -- Grand Magistrix Elisande
-		{  "I", 10001, 179, 328 }; -- Connection
+		{  "I", 10001, 349, 154 }; -- Connection
 	};
 	-- Map TODO
 --[[

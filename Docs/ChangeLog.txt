@@ -2,6 +2,13 @@ $Id$
 Atlas, a World of Warcraft instance map browser
 Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 
+================
+= Known Issues =
+================
+- The following boss / map is missing due to insufficient information
+  - The Nighthold: Gul'dan
+  - The Emerald Nightmare: Xavius
+
 ==============
 = Change Log =
 ==============
