@@ -13,8 +13,14 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.34.01 (Sep. XX, 2016)
+------------------------
+- Move main map data from core Atlas into individual module's DB
+- Added quest item to Eye of Azshara map
+- Added exit and NPC locations to Neltharion's Lair map
+
 v1.34.00 (Aug. 31, 2016)
------------------------
+------------------------
 - Initial version for WoW Legion
 - Translation added:
   - Brazilian Portuguese (Markllan)

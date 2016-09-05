@@ -22,7 +22,6 @@
 
 --]]
 
-
 --[[ /////////////////////////////////////////
  Atlas Map NPC Description Data
  zoneID = {
@@ -94,7 +93,8 @@ local myDB = {
 		{   2,  1490, 220, 279 }; -- Lady Hatecoil
 		{   3,  1491, 405, 287 }; -- King Deepbeard
 		{   4,  1479, 307, 200 }; -- Serpentrix
-		{   5,  1492, 321, 301 }; -- Wrath of Azshara
+		{   5,  1492, 307, 301 }; -- Wrath of Azshara
+		{ "1'", 10002, 360, 324 }; -- Crate of Corks, Alchemy quest - Put a Cork in It (39331)
 	};
 	HallsofValorA = { 
 		{ "A", 10001, 249, 12 }; -- Entrance
@@ -130,10 +130,13 @@ local myDB = {
 	};
 	NeltharionsLair = {
 		{ "A", 10001, 496, 255 }; -- Entrance
+		{ "B", 10002, 13, 274 }; -- Exit
 		{  1, 1662, 356, 232 }; -- Rokmora
 		{  2, 1665, 227, 269 }; -- Ularogg Cragshaper
-		{  3, 1673, 170, 180 }; -- Naraxas
+		{  3, 1673, 150, 200 }; -- Naraxas
 		{  4, 1687, 48, 327 }; -- Dargrul the Underking
+		{ "1'", 10003, 486, 224 }; -- Spiritwalker Ebonhorn
+		{ "2'", 10004, 489, 201 }; -- Mushroom Merchant
 	};
 	TheArcway = {
 		{ "A", 10001, 267, 81 }; -- Entrance
