@@ -15,9 +15,10 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 
 v1.34.01 (Sep. XX, 2016)
 ------------------------
-- Move main map data from core Atlas into individual module's DB
+- Moved main map data from core Atlas into individual module's DB
 - Added quest item to Eye of Azshara map
 - Added exit and NPC locations to Neltharion's Lair map
+- Excluded the source PSD of Darkheart Thicket's large map images from official package
 
 v1.34.00 (Aug. 31, 2016)
 ------------------------
