@@ -254,6 +254,21 @@ local myMaps = {
 		{ GREN.." 1') "..L["Spiritwalker Ebonhorn"], 10003 }; -- 113526
 		{ GREN.." 2') "..L["Mushroom Merchant"], 10004 }; -- 111746
 	};
+	TheArcwayEnt = {
+		ZoneName = { BZ["The Arcway"]..ALC["L-Parenthesis"]..ALC["Entrance"]..ALC["R-Parenthesis"] };
+		Location = { BZ["Sanctum of Order"] };
+		DungeonID = "1189";
+		DungeonHeroicID = "1190";
+		--Acronym = "";
+		JournalInstanceID = "726";
+		Module = "Atlas_Legion";
+		{ BLUE.." A) "..BZ["The Grand Promenade"], 10001 };
+		{ BLUE.." B) "..BZ["Terrace of Order"], 10002 };
+		{ BLUE.." C) "..BZ["The Arcway"], 10003 };
+		{ PURP.." A) "..ALC["Transport"], 10004 };
+		{ PURP.." B) "..L["Portal to Shal'Aran"], 10005 };
+		{ WHIT.." 1) "..ALC["Meeting Stone"], 10006 };
+	};
 	TheArcway = {
 		ZoneName = { BZ["The Arcway"] };
 		Location = { BZ["Suramar"] };
@@ -544,4 +559,276 @@ local myMaps = {
 for k, v in pairs(myMaps) do
 	AtlasMaps[k] = v;
 end
+--@do-not-package@
+--[[
+local myDropDownLayouts_Order = {
+	[ATLAS_DDL_CONTINENT] = {
+		[1] = ATLAS_DDL_CONTINENT_BROKENISLES;
+	};
+	[ATLAS_DDL_LEVEL] = {
+		[1] = ATLAS_DDL_LEVEL_110PLUS;
+	};
+	[ATLAS_DDL_EXPANSION] = {
+		[1] = ATLAS_DDL_EXPANSION_LEGION;
+	};
+};
 
+for k1, v1 in pairs(myDropDownLayouts_Order) do
+	for k2, v2 in pairs(myDropDownLayouts_Order[k1]) do
+		local isEntryExist = false;
+		for ka, va in pairs(Atlas_DropDownLayouts_Order[k1]) do
+			if (va == v2) then
+				isEntryExist = true;
+			end
+		end
+		if (not isEntryExist) then
+			table.insert(Atlas_DropDownLayouts_Order[k1], v2);
+		end
+	end
+end
+
+local myDropDownLayouts = {
+	[ATLAS_DDL_CONTINENT] = {
+		[ATLAS_DDL_CONTINENT_BROKENISLES] = {
+			"HallsofValorA",
+			"HallsofValorB",
+			"HallsofValorC",
+			"BlackRookHoldA",
+			"BlackRookHoldB",
+			"BlackRookHoldC",
+			"VaultoftheWardensA",
+			"VaultoftheWardensB",
+			"VaultoftheWardensC",
+			"EyeofAzshara",
+			"DarkheartThicket",
+			"NeltharionsLair",
+			"MawofSoulsA",
+			"MawofSoulsB",
+			"TheArcwayEnt",
+			"TheArcway",
+			"CourtofStarsA",
+			"CourtofStarsB",
+			"AssaultonVioletHold",
+			"TheEmeraldNightmareA",
+			"TheEmeraldNightmareB",
+			"TheEmeraldNightmareC",
+			"TheEmeraldNightmareD",
+			"TheEmeraldNightmareE",
+			"TheEmeraldNightmareF",
+			"TheEmeraldNightmareG",
+			"TheNightholdA",
+			"TheNightholdB",
+			"TheNightholdC",
+			"TheNightholdD",
+			"TheNightholdE",
+			"TheNightholdF",
+			-- "TheNightholdG",
+		},
+	},
+	[ATLAS_DDL_LEVEL] = {
+		[ATLAS_DDL_LEVEL_100TO110] = {
+			"AssaultonVioletHold",	-- Legion
+			"DarkheartThicket",	-- Legion
+			"EyeofAzshara",		-- Legion
+			"HallsofValorA",	-- Legion
+			"HallsofValorB",	-- Legion
+			"HallsofValorC",	-- Legion
+			"NeltharionsLair",	-- Legion
+		},
+		[ATLAS_DDL_LEVEL_110PLUS] = {
+			"BlackRookHoldA",
+			"BlackRookHoldB",
+			"BlackRookHoldC",
+			"VaultoftheWardensA",
+			"VaultoftheWardensB",
+			"VaultoftheWardensC",
+			"MawofSoulsA",
+			"MawofSoulsB",
+			"TheArcwayEnt",
+			"TheArcway",
+			"CourtofStarsA",
+			"CourtofStarsB",
+			"TheEmeraldNightmareA",
+			"TheEmeraldNightmareB",
+			"TheEmeraldNightmareC",
+			"TheEmeraldNightmareD",
+			"TheEmeraldNightmareE",
+			"TheEmeraldNightmareF",
+			"TheEmeraldNightmareG",
+			"TheNightholdA",
+			"TheNightholdB",
+			"TheNightholdC",
+			"TheNightholdD",
+			"TheNightholdE",
+			"TheNightholdF",
+			-- "TheNightholdG",
+		},
+	},
+	[ATLAS_DDL_PARTYSIZE] = {
+		[ATLAS_DDL_PARTYSIZE_5_AE] = {
+			"BlackRookHoldA",		-- Legion
+			"BlackRookHoldB",		-- Legion
+			"BlackRookHoldC",		-- Legion
+			"TheArcwayEnt",			-- Legion
+			"TheArcway",			-- Legion
+			"AssaultonVioletHold",		-- Legion
+			"CourtofStarsA",		-- Legion
+			"CourtofStarsB",		-- Legion
+			"DarkheartThicket",		-- Legion
+			"EyeofAzshara",			-- Legion
+		},
+		[ATLAS_DDL_PARTYSIZE_5_FS] = {
+			"HallsofValorA",	-- Legion
+			"HallsofValorB",	-- Legion
+			"HallsofValorC",	-- Legion
+			"MawofSoulsA",		-- Legion
+			"MawofSoulsB",		-- Legion
+			"NeltharionsLair",	-- Legion
+		},
+		[ATLAS_DDL_PARTYSIZE_5_TZ] = {
+			"VaultoftheWardensA",			-- Legion
+			"VaultoftheWardensB",			-- Legion
+			"VaultoftheWardensC",			-- Legion
+		},
+		[ATLAS_DDL_PARTYSIZE_10_AN] = {
+			"TheEmeraldNightmareA",		-- Legion
+			"TheEmeraldNightmareB",		-- Legion
+			"TheEmeraldNightmareC",		-- Legion
+			"TheEmeraldNightmareD",		-- Legion
+			"TheEmeraldNightmareE",		-- Legion
+			"TheEmeraldNightmareF",		-- Legion
+			"TheEmeraldNightmareG",		-- Legion
+			"TheNightholdA",		-- Legion
+			"TheNightholdB",		-- Legion
+			"TheNightholdC",		-- Legion
+			"TheNightholdD",		-- Legion
+			"TheNightholdE",		-- Legion
+			"TheNightholdF",		-- Legion
+			-- "TheNightholdG",		-- Legion
+		},
+		[ATLAS_DDL_PARTYSIZE_20TO40AH] = {
+			"TheEmeraldNightmareA",		-- Legion
+			"TheEmeraldNightmareB",		-- Legion
+			"TheEmeraldNightmareC",		-- Legion
+			"TheEmeraldNightmareD",		-- Legion
+			"TheEmeraldNightmareE",		-- Legion
+			"TheEmeraldNightmareF",		-- Legion
+			"TheEmeraldNightmareG",		-- Legion
+		},
+		[ATLAS_DDL_PARTYSIZE_20TO40IZ] = {
+			"TheNightholdA",		-- Legion
+			"TheNightholdB",		-- Legion
+			"TheNightholdC",		-- Legion
+			"TheNightholdD",		-- Legion
+			"TheNightholdE",		-- Legion
+			"TheNightholdF",		-- Legion
+			-- "TheNightholdG",		-- Legion
+		},
+	},
+	[ATLAS_DDL_EXPANSION] = {
+		[ATLAS_DDL_EXPANSION_LEGION] = {
+			"HallsofValorA",
+			"HallsofValorB",
+			"HallsofValorC",
+			"BlackRookHoldA",
+			"BlackRookHoldB",
+			"BlackRookHoldC",
+			"VaultoftheWardensA",
+			"VaultoftheWardensB",
+			"VaultoftheWardensC",
+			"EyeofAzshara",
+			"DarkheartThicket",
+			"NeltharionsLair",
+			"MawofSoulsA",
+			"MawofSoulsB",
+			"TheArcwayEnt",
+			"TheArcway",
+			"CourtofStarsA",
+			"CourtofStarsB",
+			"AssaultonVioletHold",
+			"TheEmeraldNightmareA",
+			"TheEmeraldNightmareB",
+			"TheEmeraldNightmareC",
+			"TheEmeraldNightmareD",
+			"TheEmeraldNightmareE",
+			"TheEmeraldNightmareF",
+			"TheEmeraldNightmareG",
+			"TheNightholdA",
+			"TheNightholdB",
+			"TheNightholdC",
+			"TheNightholdD",
+			"TheNightholdE",
+			"TheNightholdF",
+			-- "TheNightholdG",
+		},
+	},
+	[ATLAS_DDL_TYPE] = {
+		[ATLAS_DDL_TYPE_INSTANCE_AB] = {
+			"TheArcwayEnt",			-- Legion
+			"TheArcway",			-- Legion
+			"AssaultonVioletHold",		-- Legion
+			"BlackRookHoldA",		-- Legion
+			"BlackRookHoldB",		-- Legion
+			"BlackRookHoldC",		-- Legion
+		},
+		[ATLAS_DDL_TYPE_INSTANCE_CF] = {
+			"CourtofStarsA",		-- Legion
+			"CourtofStarsB",		-- Legion
+			"DarkheartThicket",		-- Legion
+			"TheEmeraldNightmareA",		-- Legion
+			"TheEmeraldNightmareB",		-- Legion
+			"TheEmeraldNightmareC",		-- Legion
+			"TheEmeraldNightmareD",		-- Legion
+			"TheEmeraldNightmareE",		-- Legion
+			"TheEmeraldNightmareF",		-- Legion
+			"TheEmeraldNightmareG",		-- Legion
+			"EyeofAzshara",			-- Legion
+		},
+		[ATLAS_DDL_TYPE_INSTANCE_GM] = {
+			"HallsofValorA",	-- Legion
+			"HallsofValorB",	-- Legion
+			"HallsofValorC",	-- Legion
+			"MawofSoulsA",			-- Legion
+			"MawofSoulsB",			-- Legion
+		},
+		[ATLAS_DDL_TYPE_INSTANCE_NS] = {
+			"NeltharionsLair",		-- Legion
+			"TheNightholdA",		-- Legion
+			"TheNightholdB",		-- Legion
+			"TheNightholdC",		-- Legion
+			"TheNightholdD",		-- Legion
+			"TheNightholdE",		-- Legion
+			"TheNightholdF",		-- Legion
+			-- "TheNightholdG",		-- Legion
+		},
+		[ATLAS_DDL_TYPE_INSTANCE_TZ] = {
+			"VaultoftheWardensA",		-- Legion
+			"VaultoftheWardensB",		-- Legion
+			"VaultoftheWardensC",		-- Legion
+		},
+		[ATLAS_DDL_TYPE_ENTRANCE] = {
+			"TheArcwayEnt",			-- Legion
+		},
+	},
+};
+
+for k1, v1 in pairs(myDropDownLayouts) do
+	for k2, v2 in pairs(myDropDownLayouts[k1]) do
+		if (Atlas_DropDownLayouts[k1][k2] == nil) then
+			Atlas_DropDownLayouts[k1][k2] = { };
+		end
+		for k3, v3 in pairs(myDropDownLayouts[k1][k2]) do
+			local isEntryExist = false;
+			for ka, va in pairs(Atlas_DropDownLayouts[k1][k2]) do
+				if (va == v3) then
+					isEntryExist = true;
+				end
+			end
+			if (not isEntryExist) then
+				table.insert(Atlas_DropDownLayouts[k1][k2], v3);
+			end
+		end
+	end
+end
+]]
+--@end-do-not-package@

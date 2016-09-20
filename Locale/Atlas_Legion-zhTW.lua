@@ -55,6 +55,7 @@ if L then
 	--L["Echoing Horn of the Damned"] = "Echoing Horn of the Damned";
 
 	--The Arcway
+	L["Portal to Shal'Aran"] = "沙亞蘭傳送門";
 
 	--Court of Stars
 

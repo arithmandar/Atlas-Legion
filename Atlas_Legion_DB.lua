@@ -138,6 +138,17 @@ local myDB = {
 		{ "1'", 10003, 486, 224 }; -- Spiritwalker Ebonhorn
 		{ "2'", 10004, 489, 201 }; -- Mushroom Merchant
 	};
+	TheArcwayEnt = {
+		{ " A", 10001, 280, 107 }; -- The Grand Promenade
+		{ " B", 10002, 492, 348 }; -- Terrace of Order
+		{ " C", 10003, 113, 377 }; -- The Arcway
+		{ " A", 10004, 356,  51 }; -- Transport
+		{ " A", 10004, 356, 165 }; -- Transport
+		{ " A", 10004, 356, 293 }; -- Transport
+		{ " A", 10004, 356, 408 }; -- Transport
+		{ " B", 10005, 236, 267 }; -- Portal to Shal'Aran
+		{ " 1", 10006, 197, 337 }; -- Meeting Stone
+	};
 	TheArcway = {
 		{ "A", 10001, 267, 81 }; -- Entrance
 		{  1, 1497, 61, 350 }; -- Ivanyr
