@@ -411,10 +411,11 @@ local myMaps = {
 	TheNightholdEnt = {
 		ZoneName = { BZ["The Nighthold"]..ALC["L-Parenthesis"]..ALC["Entrance"]..ALC["R-Parenthesis"] };
 		Location = { BZ["Sanctum of Order"] };
-		DungeonID = "1189";
-		DungeonHeroicID = "1190";
-		--Acronym = "";
-		JournalInstanceID = "726";
+		DungeonID = "1351";
+		DungeonHeroicID = "1352";
+		DungeonMythicID = "1353";
+		JournalInstanceID = "786";
+		PlayerLimit = "10-30";
 		Module = "Atlas_Legion";
 		{ BLUE.." A) "..BZ["The Grand Promenade"], 10001 };
 		{ BLUE.." B) "..BZ["Terrace of Order"], 10002 };
