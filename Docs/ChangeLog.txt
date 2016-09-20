@@ -16,6 +16,7 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 v1.34.02 (Sep. 20, 2016)
 ------------------------
 - Added the entrance map for the Arcway
+- Added the entrance map for the Nighthold
 - Translation added:
   - German (pas06)
 

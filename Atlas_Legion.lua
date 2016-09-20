@@ -265,9 +265,10 @@ local myMaps = {
 		{ BLUE.." A) "..BZ["The Grand Promenade"], 10001 };
 		{ BLUE.." B) "..BZ["Terrace of Order"], 10002 };
 		{ BLUE.." C) "..BZ["The Arcway"], 10003 };
-		{ PURP.." A) "..ALC["Transport"], 10004 };
-		{ PURP.." B) "..L["Portal to Shal'Aran"], 10005 };
-		{ WHIT.." 1) "..ALC["Meeting Stone"], 10006 };
+		{ BLUE.." D) "..BZ["The Nighthold"], 10004 };
+		{ PURP.." A) "..ALC["Transport"], 10005 };
+		{ PURP.." B) "..L["Portal to Shal'Aran"], 10006 };
+		{ WHIT.." 1) "..ALC["Meeting Stone"], 10007 };
 	};
 	TheArcway = {
 		ZoneName = { BZ["The Arcway"] };
@@ -407,6 +408,22 @@ local myMaps = {
 		{ WHIT.." 7) "..Atlas_GetBossName("Xavius", 1726), 1726 };
 	};
 ]]
+	TheNightholdEnt = {
+		ZoneName = { BZ["The Nighthold"]..ALC["L-Parenthesis"]..ALC["Entrance"]..ALC["R-Parenthesis"] };
+		Location = { BZ["Sanctum of Order"] };
+		DungeonID = "1189";
+		DungeonHeroicID = "1190";
+		--Acronym = "";
+		JournalInstanceID = "726";
+		Module = "Atlas_Legion";
+		{ BLUE.." A) "..BZ["The Grand Promenade"], 10001 };
+		{ BLUE.." B) "..BZ["Terrace of Order"], 10002 };
+		{ BLUE.." C) "..BZ["The Arcway"], 10003 };
+		{ BLUE.." D) "..BZ["The Nighthold"], 10004 };
+		{ PURP.." A) "..ALC["Transport"], 10005 };
+		{ PURP.." B) "..L["Portal to Shal'Aran"], 10006 };
+		{ WHIT.." 1) "..ALC["Meeting Stone"], 10007 };
+	};
 	TheNightholdA = {
 		ZoneName = { BZ["The Nighthold"]..ALC["MapA"] };
 		Location = { BZ["Suramar"] };

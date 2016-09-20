@@ -142,12 +142,13 @@ local myDB = {
 		{ " A", 10001, 280, 107 }; -- The Grand Promenade
 		{ " B", 10002, 492, 348 }; -- Terrace of Order
 		{ " C", 10003, 113, 377 }; -- The Arcway
-		{ " A", 10004, 356,  51 }; -- Transport
-		{ " A", 10004, 356, 165 }; -- Transport
-		{ " A", 10004, 356, 293 }; -- Transport
-		{ " A", 10004, 356, 408 }; -- Transport
-		{ " B", 10005, 236, 267 }; -- Portal to Shal'Aran
-		{ " 1", 10006, 197, 337 }; -- Meeting Stone
+		{ " D", 10004, 263, 201 }; -- The Nighthold
+		{ " A", 10005, 356,  51 }; -- Transport
+		{ " A", 10005, 356, 165 }; -- Transport
+		{ " A", 10005, 356, 293 }; -- Transport
+		{ " A", 10005, 356, 408 }; -- Transport
+		{ " B", 10006, 236, 267 }; -- Portal to Shal'Aran
+		{ " 1", 10007, 197, 337 }; -- Meeting Stone
 	};
 	TheArcway = {
 		{ "A", 10001, 267, 81 }; -- Entrance
@@ -203,6 +204,18 @@ local myDB = {
 	TheEmeraldNightmareG = {
 		{ "G", 10007, 194, 407 }; -- Entrance
 		{  6, 1750, 297, 228 }; -- Cenarius
+	};
+	TheNightholdEnt = {
+		{ " A", 10001, 280, 107 }; -- The Grand Promenade
+		{ " B", 10002, 492, 348 }; -- Terrace of Order
+		{ " C", 10003, 113, 377 }; -- The Arcway
+		{ " D", 10004, 263, 201 }; -- The Nighthold
+		{ " A", 10005, 356,  51 }; -- Transport
+		{ " A", 10005, 356, 165 }; -- Transport
+		{ " A", 10005, 356, 293 }; -- Transport
+		{ " A", 10005, 356, 408 }; -- Transport
+		{ " B", 10006, 236, 267 }; -- Portal to Shal'Aran
+		{ " 1", 10007, 197, 337 }; -- Meeting Stone
 	};
 	TheNightholdA = {
 		{ "A", 10001, 155, 376 }; -- Entrance
