@@ -13,6 +13,10 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.34.03 (Sep. XX, 2016)
+------------------------
+- Fixed Ursoc's JournalEncounter ID
+
 v1.34.02 (Sep. 20, 2016)
 ------------------------
 - Added the entrance map for the Arcway

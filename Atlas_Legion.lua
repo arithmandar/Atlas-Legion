@@ -361,7 +361,7 @@ local myMaps = {
 		PlayerLimit = "10-30";
 		Module = "Atlas_Legion";
 		{ BLUE.." E) "..ALC["Portal"], 10005 };
-		{ WHIT.." 4) "..Atlas_GetBossName("Ursoc", 1672), 1672 };
+		{ WHIT.." 4) "..Atlas_GetBossName("Ursoc", 1667), 1667 };
 	};
 	TheEmeraldNightmareF = {
 		ZoneName = { BZ["The Emerald Nightmare"]..ALC["MapF"] };
