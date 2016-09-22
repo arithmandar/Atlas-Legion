@@ -16,6 +16,13 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 v1.34.03 (Sep. XX, 2016)
 ------------------------
 - Fixed Ursoc's JournalEncounter ID
+- Corrected Maw of Souls 2nd map's mapID. 
+- Added dungeon level to below dungeon / raid:
+  - Maw of Souls
+  - The Nighthold
+  - Black Rook Hold
+  - Vault of the Wardens
+  - Court of Stars
 
 v1.34.02 (Sep. 20, 2016)
 ------------------------
