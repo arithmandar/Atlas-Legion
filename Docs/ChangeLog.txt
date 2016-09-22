@@ -13,7 +13,7 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
-v1.34.03 (Sep. XX, 2016)
+v1.34.03 (Sep. 23, 2016)
 ------------------------
 - Fixed Ursoc's JournalEncounter ID
 - Corrected Maw of Souls 2nd map's mapID. 

@@ -52,7 +52,7 @@ if L then
 	L["Mushroom Merchant"] = "蘑菇商人";
 
 	--Maw of Souls
-	--L["Echoing Horn of the Damned"] = "Echoing Horn of the Damned";
+	L["Echoing Horn of the Damned"] = "遭譴者回音號角";
 
 	--The Arcway
 	L["Portal to Shal'Aran"] = "沙亞蘭傳送門";
