@@ -104,8 +104,10 @@ local myDB = {
 		{  2, 1486, 343, 272 }; -- Hyrja
 	};
 	HallsofValorB = { 
-		{ "B", 10002, 406, 78 }; -- Portal
-		{  3, 1487, 145, 267 }; -- Fenryr
+		{ "B", 10002, 435, 104 }; -- Portal
+		{  3, 1487, 109, 345 }; -- Fenryr
+		{ "3'",  10003, 175, 144 }; -- Fenryr's western spawn point
+		{ "3''", 10004, 344, 287 }; -- Fenryr's eastern spawn point
 	};
 	HallsofValorC = { 
 		{ "C", 10003, 250, 36 }; -- Connection

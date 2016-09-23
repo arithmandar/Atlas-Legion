@@ -199,6 +199,8 @@ local myMaps = {
 		Module = "Atlas_Legion";
 		{ BLUE.." B) "..ALC["Portal"], 10002 };
 		{ WHIT.." 3) "..Atlas_GetBossName("Fenryr", 1487), 1487 };
+		{ INDENT..WHIT.." 3') "..L["Fenryr's western spawn point"], 10003 };
+		{ INDENT..WHIT.." 3'') "..L["Fenryr's eastern spawn point"], 10004 };
 	};
 	HallsofValorC = { 
 		ZoneName = { BZ["Halls of Valor"]..ALC["MapC"] };

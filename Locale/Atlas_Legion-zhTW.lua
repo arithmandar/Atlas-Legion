@@ -31,6 +31,8 @@ if L then
 --@localization(locale="zhTW", format="lua_additive_table")@
 --@do-not-package@
 	--Halls of Valor
+	L["Fenryr's western spawn point"] = "芬里爾的西邊出現點";
+	L["Fenryr's eastern spawn point"] = "芬里爾的東邊出現點";
 	--L["King Tor"] = "King Tor"; -- 97084
 	--L["King Bjorn"] = "King Bjorn"; -- 97081
 	--L["King Haldor"] = "King Haldor"; -- 95843

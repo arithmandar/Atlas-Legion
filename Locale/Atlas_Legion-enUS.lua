@@ -29,6 +29,8 @@ local L = AceLocale:NewLocale("Atlas_Legion", "enUS", true, true);
 
 if L then
 	--Halls of Valor
+	L["Fenryr's western spawn point"] = "Fenryr's western spawn point";
+	L["Fenryr's eastern spawn point"] = "Fenryr's eastern spawn point";
 	L["King Tor"] = "King Tor"; -- 97084
 	L["King Bjorn"] = "King Bjorn"; -- 97081
 	L["King Haldor"] = "King Haldor"; -- 95843
