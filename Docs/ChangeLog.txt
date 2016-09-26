@@ -13,6 +13,11 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.34.05 (Sep. XX, 2016)
+------------------------
+- Fine-tuned Vault of the Wardens's MapC with better color background
+- Added quest item and NPC to Vault of the Wardens's MapC
+
 v1.34.04 (Sep. 26, 2016)
 ------------------------
 - Revamped Fenryr's map (Fields of the Eternal Hunt, Halls of Valor)

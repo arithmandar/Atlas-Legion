@@ -592,6 +592,8 @@ local myMaps = {
 		Module = "Atlas_Legion";
 		{ BLUE.." D) "..ALC["Connection"], 10004 };
 		{ WHIT.." 5) "..Atlas_GetBossName("Cordana Felsong", 1470), 1470 };
+		{ GREN.." 1') "..L["Fel-Ravaged Tome"], 10005};
+		{ GREN.." 2') "..L["Drelanim Whisperwind"], 10006 };
 	};
 };
 

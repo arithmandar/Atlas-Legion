@@ -28,7 +28,20 @@ local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local L = AceLocale:NewLocale("Atlas_Legion", "enUS", true, true);
 
 if L then
-	--Halls of Valor
+	-- Assault on VioletHold
+
+	-- Court of Stars
+
+	-- Black Rook Hold 
+	L["Dantalionax"] = "Dantalionax";
+
+	-- Darkheart Thicket
+
+	-- Eye of Azshara
+	L["Crate of Corks"] = "Crate of Corks"; -- Alchemy quest - Put a Cork in It (39331)
+	L["Put a Cork in It"] = "Put a Cork in It";
+
+	-- Halls of Valor
 	L["Fenryr's western spawn point"] = "Fenryr's western spawn point";
 	L["Fenryr's eastern spawn point"] = "Fenryr's eastern spawn point";
 	L["King Tor"] = "King Tor"; -- 97084
@@ -36,37 +49,26 @@ if L then
 	L["King Haldor"] = "King Haldor"; -- 95843
 	L["King Ranulf"] = "King Ranulf"; -- 97083
 
-	--Black Rook Hold 
-	L["Dantalionax"] = "Dantalionax";
-
-	--Vault of the Wardens
-
-	--Eye of Azshara
-	L["Crate of Corks"] = "Crate of Corks"; -- Alchemy quest - Put a Cork in It (39331)
-	L["Put a Cork in It"] = "Put a Cork in It";
-
-	--Darkheart Thicket
-
-	--Neltharion's Lair
+	-- Neltharion's Lair
 	L["Spiritwalker Ebonhorn"] = "Spiritwalker Ebonhorn"; -- 113526
 	L["Mushroom Merchant"] = "Mushroom Merchant"; -- 111746
 
-	--Maw of Souls
+	-- Maw of Souls
 	L["Echoing Horn of the Damned"] = "Echoing Horn of the Damned";
 
-	--The Arcway
+	-- The Arcway
 	L["Portal to Shal'Aran"] = "Portal to Shal'Aran";
 
-	--Court of Stars
-
-	--Assault on VioletHold
-
-	--The Emerald Nightmare
+	-- The Emerald Nightmare
 	L["Nightmare Watcher"] = "Nightmare Watcher";
 	L["Malfurion Stormrage"] = "Malfurion Stormrage";
 	L["Teleport to Moonglade"] = "Teleport to Moonglade";
 
-	--The Nighthold
+	-- The Nighthold
 	L["Teleport to Tichondrius / Grand Magistrix Elisande"] = "Teleport to Tichondrius / Grand Magistrix Elisande";
+	
+	-- Vault of the Wardens
+	L["Fel-Ravaged Tome"] = "Fel-Ravaged Tome";
+	L["Drelanim Whisperwind"] = "Drelanim Whisperwind"; -- 103860
 
 end

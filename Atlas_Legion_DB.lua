@@ -283,6 +283,8 @@ local myDB = {
 	VaultoftheWardensC = {
 		{ "D", 10004, 271, 25 }; -- Connection
 		{  5, 1470, 246, 426 }; -- Cordana Felsong
+		{ "1'", 10005, 306, 150 }; -- Fel-Ravaged Tome
+		{ "2'", 10006, 228, 441 }; -- Drelanim Whisperwind
 	};
 };
 
