@@ -44,8 +44,10 @@ local myDB = {
 	};
 	BlackRookHoldA = {
 		{ "A", 10001, 115, 49, 280, 42, "Blue" }; -- Entrance
-		{ "B", 10002, 441, 408, 670, 560, "Blue" }; -- Connection
+		{ "B", 10002, 429, 415, 644, 568, "Blue" }; -- Connection
 		{   1,  1518, 219, 314, 383, 411 }; -- The Amalgam of Souls
+		{   1, 10003, 50, 211, 174, 250, "Orange" }; -- Lady Velandras Ravencrest
+		{   2, 10004, 462, 400, 699, 559, "Orange" }; -- Ancient Widow
 	};
 	BlackRookHoldB = {
 		{ "B", 10001, 69, 337, 107, 351, "Blue" }; -- Connection
@@ -53,14 +55,17 @@ local myDB = {
 		{ "C", 10001, 294, 478, 467, 623, "Blue" }; -- Connection
 		{ "D", 10001, 186, 320, 298, 325, "Blue" }; -- Connection
 		{ "D", 10001, 428, 319, 870, 512, "Blue" }; -- Connection
-		{ "E", 10001, 335, 298, 709, 479, "Blue" }; -- Connection
-		{ "F", 10001, 243,  26, 625,  43, "Blue" }; -- Connection
-		{ "G", 10001, 149, 135, 443, 214, "Blue" }; -- Connection
+		{ "E", 10001, 324, 292, 686, 445, "Blue" }; -- Connection
+		{ "E", 10001, 130, 142, 413, 222, "Blue" }; -- Connection
+		{ "F", 10001, 243,  26, 629, 36, "Blue" }; -- Connection
+		{ "G", 10001, 172, 162, 483, 261, "Blue" }; -- Connection
 		{  2, 1653, 251, 413, 394, 496 }; -- Illysanna Ravencrest
+		{  3, 10002, 139, 445, 192, 545, "Orange" }; -- Archmage Galeorn
+		{  4, 10003, 379, 194, 798, 277, "Orange" }; -- Kalyndras <Rook's Quartermaster>
+		{  5, 10004, 92, 156, 341, 244, "Orange" };-- Braxas the Fleshcarver
 	};
 	BlackRookHoldC = {
-		{ "E", 10001, 318, 103 }; -- Connection
-		{ "F", 10001, 299, 90 }; -- Connection
+		{ "F", 10001, 300, 107 }; -- Connection
 		{ "G", 10001, 203, 191 }; -- Connection
 		{  3, 1664, 351, 60 }; -- Smashspite the Hateful
 		{  4, 1672, 158, 171 }; -- Lord Kur'talos Ravencrest

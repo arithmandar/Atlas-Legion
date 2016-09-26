@@ -77,6 +77,8 @@ local myMaps = {
 		{ BLUE.." A) "..ALC["Entrance"], 10001 };
 		{ BLUE.." B) "..ALC["Connection"], 10002 };
 		{ WHIT.." 1) "..Atlas_GetBossName("The Amalgam of Souls", 1518), 1518 };
+		{ ORNG.." 1) "..L["Lady Velandras Ravencrest"], 10003 };
+		{ ORNG.." 2) "..L["Ancient Widow"], 10004 };
 	};
 	BlackRookHoldB = {
 		ZoneName = { BZ["Black Rook Hold"]..ALC["MapB"] };
@@ -91,6 +93,9 @@ local myMaps = {
 		LargeMap = "BlackRookHold2_";
 		{ BLUE.." B-G) "..ALC["Connection"], 10001 };
 		{ WHIT.." 2) "..Atlas_GetBossName("Illysanna Ravencrest", 1653), 1653 };
+		{ ORNG.." 3) "..L["Archmage Galeorn"], 10002 };
+		{ ORNG.." 4) "..L["Kalyndras <Rook's Quartermaster>"], 10003 };
+		{ ORNG.." 5) "..L["Braxas the Fleshcarver"], 10004 };
 	};
 	BlackRookHoldC = {
 		ZoneName = { BZ["Black Rook Hold"]..ALC["MapC"] };
@@ -102,7 +107,7 @@ local myMaps = {
 		DungeonLevel = "4";
 		JournalInstanceID = "740";
 		Module = "Atlas_Legion";
-		{ BLUE.." E-G) "..ALC["Connection"], 10001 };
+		{ BLUE.." F-G) "..ALC["Connection"], 10001 };
 		{ WHIT.." 3) "..Atlas_GetBossName("Smashspite the Hateful", 1664), 1664 };
 		{ WHIT.." 4) "..Atlas_GetBossName("Lord Kur'talos Ravencrest", 1672), 1672 };
 		{ INDENT..WHIT..L["Dantalionax"] };

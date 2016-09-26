@@ -36,6 +36,11 @@ if L then
 
 	--Black Rook Hold 
 	L["Dantalionax"] = "丹塔利翁斯";
+	L["Lady Velandras Ravencrest"] = "維蘭卓絲·黑雨女士";
+	--L["Ancient Widow"] = "Ancient Widow";
+	L["Archmage Galeorn"] = "大法師加里恩";
+	L["Kalyndras <Rook's Quartermaster>"] = "卡林達斯 <玄鴉堡軍需官>";
+	L["Braxas the Fleshcarver"] = "Braxas the Fleshcarver"; -- 111290
 
 	--Darkheart Thicket
 

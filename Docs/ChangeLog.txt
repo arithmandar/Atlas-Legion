@@ -17,6 +17,7 @@ v1.34.05 (Sep. XX, 2016)
 ------------------------
 - Fine-tuned Vault of the Wardens's MapC with better color background
 - Added quest item and NPC to Vault of the Wardens's MapC
+- Fine-tuned Black Rook Hold's marker positions; added 5 elite bosses (3 of them are part of world quests)
 
 v1.34.04 (Sep. 26, 2016)
 ------------------------
