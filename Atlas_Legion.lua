@@ -128,6 +128,8 @@ local myMaps = {
 		{ WHIT.." 2) "..Atlas_GetBossName("Talixae Flamewreath", 1719), 1719 };
 		{ WHIT.." 3) "..Atlas_GetBossName("Advisor Melandrus", 1720), 1720 };
 		{ GREN.." 1) "..L["Ly'leth Lunastre"], 10003 };
+		{ ORNG.." 1) "..L["Arcanist Malrodi"], 10004 };
+		{ ORNG.." 2) "..L["Velimar"], 10005 };
 	};
 	CourtofStarsB = {
 		ZoneName = { BZ["Court of Stars"]..ALC["MapB"] };
@@ -157,6 +159,8 @@ local myMaps = {
 		{ WHIT.." 2) "..Atlas_GetBossName("Oakheart", 1655), 1655 };
 		{ WHIT.." 3) "..Atlas_GetBossName("Dresaron", 1656), 1656 };
 		{ WHIT.." 4) "..Atlas_GetBossName("Shade of Xavius", 1657), 1657 };
+		{ ORNG.." 1) "..L["Rage Rot"], 10003 };
+		{ ORNG.." 2) "..L["Kudzilla"], 10004 };
 	};
 	EyeofAzshara = {
 		ZoneName = { BZ["Eye of Azshara"] };
@@ -175,6 +179,8 @@ local myMaps = {
 		{ WHIT.." 5) "..Atlas_GetBossName("Wrath of Azshara", 1492), 1492 };
 		{ GREN.."1') "..L["Crate of Corks"], 10002 };
 		{ INDENT..GREY..QUESTS_COLON..L["Put a Cork in It"] };
+		{ ORNG.." 1) "..L["Shellmaw"], 10003 };
+		{ ORNG.." 2) "..L["Gom Crabbar"], 10004 };
 	};
 	HallsofValorA = { 
 		ZoneName = { BZ["Halls of Valor"]..ALC["MapA"] };
@@ -191,6 +197,7 @@ local myMaps = {
 		{ BLUE.." C) "..ALC["Connection"], 10003 };
 		{ WHIT.." 1) "..Atlas_GetBossName("Hymdall", 1485), 1485 };
 		{ WHIT.." 2) "..Atlas_GetBossName("Hyrja", 1486), 1486 };
+		{ ORNG.." 1) "..L["Volynd Stormbringer"], 10004 };
 	};
 	HallsofValorB = { 
 		ZoneName = { BZ["Halls of Valor"]..ALC["MapB"] };
@@ -206,6 +213,8 @@ local myMaps = {
 		{ WHIT.." 3) "..Atlas_GetBossName("Fenryr", 1487), 1487 };
 		{ INDENT..WHIT.." 3') "..L["Fenryr's western spawn point"], 10003 };
 		{ INDENT..WHIT.." 3'') "..L["Fenryr's eastern spawn point"], 10004 };
+		{ ORNG.." 2) "..L["Arthfael"], 10005 };
+		{ ORNG.." 3) "..L["Earlnoc the Beastbreaker"], 10006 };
 	};
 	HallsofValorC = { 
 		ZoneName = { BZ["Halls of Valor"]..ALC["MapC"] };
@@ -270,6 +279,8 @@ local myMaps = {
 		{ WHIT.." 4) "..Atlas_GetBossName("Dargrul the Underking", 1687), 1687 };
 		{ GREN.." 1') "..L["Spiritwalker Ebonhorn"], 10003 }; -- 113526
 		{ GREN.." 2') "..L["Mushroom Merchant"], 10004 }; -- 111746
+		{ ORNG.." 1) "..L["Understone Lasher"], 10005 };
+		{ ORNG.." 2) "..L["Ragoul"], 10006 };
 	};
 	TheArcwayEnt = {
 		ZoneName = { BZ["The Arcway"]..ALC["L-Parenthesis"]..ALC["Entrance"]..ALC["R-Parenthesis"] };
@@ -302,6 +313,8 @@ local myMaps = {
 		{ WHIT.." 3) "..Atlas_GetBossName("General Xakal", 1499), 1499 };
 		{ WHIT.." 4) "..Atlas_GetBossName("Nal'tira", 1500), 1500 };
 		{ WHIT.." 5) "..Atlas_GetBossName("Advisor Vandros", 1501), 1501 };
+		{ ORNG.." 1) "..L["The Rat King"], 10002 };
+		{ ORNG.." 2) "..L["Sludge Face"], 10003 };
 	};
 	TheEmeraldNightmareA = {
 		ZoneName = { BZ["The Emerald Nightmare"]..ALC["MapA"] };

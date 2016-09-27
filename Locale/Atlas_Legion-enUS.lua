@@ -31,6 +31,8 @@ if L then
 	-- Assault on VioletHold
 
 	-- Court of Stars
+	L["Arcanist Malrodi"] = "Arcanist Malrodi"; -- 108796
+	L["Velimar"] = "Velimar"; -- 108740
 
 	-- Black Rook Hold 
 	L["Dantalionax"] = "Dantalionax";
@@ -41,10 +43,14 @@ if L then
 	L["Braxas the Fleshcarver"] = "Braxas the Fleshcarver"; -- 111290
 
 	-- Darkheart Thicket
+	L["Rage Rot"] = "Rage Rot"; -- 101660
+	L["Kudzilla"] = "Kudzilla"; -- 99362
 
 	-- Eye of Azshara
 	L["Crate of Corks"] = "Crate of Corks"; -- Alchemy quest - Put a Cork in It (39331)
 	L["Put a Cork in It"] = "Put a Cork in It";
+	L["Shellmaw"] = "Shellmaw"; -- 91788
+	L["Gom Crabbar"] = "Gom Crabbar"; -- 101411
 
 	-- Halls of Valor
 	L["Fenryr's western spawn point"] = "Fenryr's western spawn point";
@@ -53,16 +59,23 @@ if L then
 	L["King Bjorn"] = "King Bjorn"; -- 97081
 	L["King Haldor"] = "King Haldor"; -- 95843
 	L["King Ranulf"] = "King Ranulf"; -- 97083
+	L["Volynd Stormbringer"] = "Volynd Stormbringer"; -- 106320
+	L["Arthfael"] = "Arthfael"; -- 99802
+	L["Earlnoc the Beastbreaker"] = "Earlnoc the Beastbreaker"; -- 96647
 
 	-- Neltharion's Lair
 	L["Spiritwalker Ebonhorn"] = "Spiritwalker Ebonhorn"; -- 113526
 	L["Mushroom Merchant"] = "Mushroom Merchant"; -- 111746
+	L["Understone Lasher"] = "Understone Lasher"; -- 103597
+	L["Ragoul"] = "Ragoul"; -- 103199
 
 	-- Maw of Souls
 	L["Echoing Horn of the Damned"] = "Echoing Horn of the Damned";
 
 	-- The Arcway
 	L["Portal to Shal'Aran"] = "Portal to Shal'Aran";
+	L["The Rat King"] = "The Rat King"; -- 111057
+	L["Sludge Face"] = "Sludge Face"; -- 111021
 
 	-- The Emerald Nightmare
 	L["Nightmare Watcher"] = "Nightmare Watcher";
