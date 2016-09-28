@@ -13,7 +13,7 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
-v1.34.06 (Sep. XX, 2016)
+v1.34.06 (Sep. 28, 2016)
 ------------------------
 - Added world quest bosses to the following maps:
   - Darkheart Thicket
