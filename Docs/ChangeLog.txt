@@ -13,6 +13,17 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.34.08 (Oct. 07, 2016)
+------------------------
+- Translation added (NPC only): 
+  - French
+  - Spanish
+  - Italian
+  - Portuguese
+  - German
+  - Russian
+  - Traditional Chinese
+  
 v1.34.07 (Oct. 03, 2016)
 ------------------------
 - Localization update:
