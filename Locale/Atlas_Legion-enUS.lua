@@ -31,6 +31,7 @@ if L then
 	-- Assault on VioletHold
 
 	-- Court of Stars
+	L["Ly'leth Lunastre"] = "Ly'leth Lunastre"; -- 106468
 	L["Arcanist Malrodi"] = "Arcanist Malrodi"; -- 108796
 	L["Velimar"] = "Velimar"; -- 108740
 

@@ -46,7 +46,7 @@ if L then
 
 	--Darkheart Thicket
 	--L["Rage Rot"] = "Rage Rot"; -- 101660
-	--L["Kudzilla"] = "Kudzilla"; -- 99362
+	L["Kudzilla"] = "庫吉拉"; -- 99362
 
 	--Eye of Azshara
 	L["Crate of Corks"] = "一箱木栓"; -- Alchemy quest - Put a Cork in It (39331)
@@ -63,7 +63,7 @@ if L then
 	--L["King Ranulf"] = "King Ranulf"; -- 97083
 	L["Volynd Stormbringer"] = "沃林德風暴召喚者"; -- 106320
 	--L["Arthfael"] = "Arthfael"; -- 99802
-	--L["Earlnoc the Beastbreaker"] = "Earlnoc the Beastbreaker"; -- 96647
+	L["Earlnoc the Beastbreaker"] = "『降獸者』厄諾克"; -- 96647
 
 	--Neltharion's Lair
 	L["Spiritwalker Ebonhorn"] = "靈行者黯角";
@@ -81,7 +81,7 @@ if L then
 
 	--The Emerald Nightmare
 	--L["Nightmare Watcher"] = "Nightmare Watcher";
-	--L["Malfurion Stormrage"] = "Malfurion Stormrage";
+	L["Malfurion Stormrage"] = "瑪法里恩·怒風";
 	L["Teleport to Moonglade"] = "傳送到月光林地";
 
 	--The Nighthold
