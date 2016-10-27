@@ -86,6 +86,8 @@ if L then
 	-- The Nighthold
 	L["Teleport to Tichondrius / Grand Magistrix Elisande"] = "Teleport to Tichondrius / Grand Magistrix Elisande";
 	
+	-- Trial of Valor
+	
 	-- Vault of the Wardens
 	L["Fel-Ravaged Tome"] = "Fel-Ravaged Tome";
 	L["Drelanim Whisperwind"] = "Drelanim Whisperwind"; -- 103860

@@ -115,8 +115,8 @@ local myMaps = {
 	CourtofStarsA = {
 		ZoneName = { BZ["Court of Stars"]..ALC["MapA"] };
 		Location = { BZ["Suramar"] };
-		DungeonID = "1318";
-		DungeonHeroicID = "1319";
+		DungeonID = "1319";
+		DungeonHeroicID = "1318";
 		--Acronym = "";
 		WorldMapID = "1087";
 		DungeonLevel = "1";
@@ -134,8 +134,8 @@ local myMaps = {
 	CourtofStarsB = {
 		ZoneName = { BZ["Court of Stars"]..ALC["MapB"] };
 		Location = { BZ["Suramar"] };
-		DungeonID = "1318";
-		DungeonHeroicID = "1319";
+		DungeonID = "1319";
+		DungeonHeroicID = "1318";
 		--Acronym = "";
 		WorldMapID = "1087";
 		DungeonLevel = "2";
@@ -567,6 +567,33 @@ local myMaps = {
 		{ WHIT.." 10) "..Atlas_GetBossName("Gul'dan", 1737), 1737 };
 	};
 ]]
+	TrialofValorA = { 
+		ZoneName = { BZ["Trial of Valor"]..ALC["MapA"] };
+		Location = { BZ["Stormheim"] };
+		DungeonID = "1411";
+		--Acronym = "";
+		WorldMapID = "1114";
+		DungeonLevel = "2";
+		JournalInstanceID = "861";
+		Module = "Atlas_Legion";
+		{ BLUE.." A) "..ALC["Entrance"], 10101 };
+		{ WHIT.." 1) "..Atlas_GetBossName("Hymdall", 1485), 10001 };
+		{ WHIT.." 2) "..Atlas_GetBossName("Hyrja", 1486), 10002 };
+		{ WHIT.." 3) "..Atlas_GetBossName("Odyn", 1819), 1819 };
+	};
+	TrialofValorB = { 
+		ZoneName = { BZ["Trial of Valor"]..ALC["MapB"] };
+		Location = { BZ["Stormheim"] };
+		DungeonID = "1411";
+		--Acronym = "";
+		WorldMapID = "1114";
+		DungeonLevel = "3";
+		JournalInstanceID = "861";
+		Module = "Atlas_Legion";
+		{ BLUE.." A) "..ALC["Entrance"], 10101 };
+		{ WHIT.." 4) "..Atlas_GetBossName("Guarm", 1830), 1830 };
+		{ WHIT.." 5) "..Atlas_GetBossName("Helya", 1829), 1829 };
+	};
 	VaultoftheWardensA = {
 		ZoneName = { BZ["Vault of the Wardens"]..ALC["MapA"] };
 		Location = { BZ["Azsuna"] };

@@ -271,6 +271,17 @@ local myDB = {
 		{  10, 1737,  }; -- Gul'dan
 	};
 ]]
+	TrialofValorA = { 
+		{ " A", 10101, 249, 39 }; -- Entrance
+		{ " 1", 10001, 291, 321 }; -- Hymdall
+		{ " 2", 10002, 212, 321 }; -- Hyrja
+		{ " 3", 1819, 251, 427 }; -- Odyn
+	};
+	TrialofValorB = { 
+		{ " A", 10101, 348, 244 }; -- Entrance
+		{ " 4", 1830, 278, 196 }; -- Guarm
+		{ " 5", 1829, 172, 190 }; -- Helya
+	};
 	VaultoftheWardensA = {
 		{ "A", 10001, 483, 387 }; -- Entrance
 		{ "B", 10002, 62, 205 }; -- Connection

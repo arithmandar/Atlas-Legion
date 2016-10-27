@@ -13,6 +13,12 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.35.01 (Oct. 27, 2016)
+------------------------
+- Added Trial of Valor
+- Localization update:
+  - German (pas06)
+
 v1.35.00 (Oct. 27, 2016)
 ------------------------
 - Toc update to support WoW 7.1.0
