@@ -262,15 +262,9 @@ local myDB = {
 		{  9, 1743, 251, 249 }; -- Grand Magistrix Elisande
 		{  "I", 10001, 349, 154 }; -- Connection
 	};
-	-- Map TODO
---[[
-	TheNightholdD = {
-		{ WHIT.." 5) "..Atlas_GetBossName("Tichondrius") };
-		{  8, 1732,  }; -- Star Augur Etraeus
-		{  9, 1743,  }; -- Grand Magistrix Elisande
-		{  10, 1737,  }; -- Gul'dan
+	TheNightholdG = {
+		{  10, 1737, 250, 250 }; -- Gul'dan
 	};
-]]
 	TrialofValorA = { 
 		{ " A", 10101, 249, 39 }; -- Entrance
 		{ " 1", 10001, 291, 321 }; -- Hymdall

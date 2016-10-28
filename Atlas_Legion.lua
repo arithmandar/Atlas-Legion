@@ -551,8 +551,6 @@ local myMaps = {
 		{ BLUE.." H) "..ALC["Portal"], 10001 };
 		{ WHIT.." 9) "..Atlas_GetBossName("Grand Magistrix Elisande", 1743), 1743 };
 	};
-	-- Map TODO
---[[
 	TheNightholdG = {
 		ZoneName = { BZ["The Nighthold"]..ALC["MapG"] };
 		Location = { BZ["Suramar"] };
@@ -561,12 +559,12 @@ local myMaps = {
 		DungeonMythicID = "1353";
 		--Acronym = "";
 		WorldMapID = "1088";
+		DungeonLevel = "9";
 		JournalInstanceID = "786";
 		PlayerLimit = "10-30";
 		Module = "Atlas_Legion";
 		{ WHIT.." 10) "..Atlas_GetBossName("Gul'dan", 1737), 1737 };
 	};
-]]
 	TrialofValorA = { 
 		ZoneName = { BZ["Trial of Valor"]..ALC["MapA"] };
 		Location = { BZ["Stormheim"] };
