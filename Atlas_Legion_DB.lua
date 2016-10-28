@@ -194,15 +194,15 @@ local myDB = {
 	};
 	TheEmeraldNightmareC = {
 		{ "C", 10003, 424, 464 }; -- Entrance
-		{  2, 1744, 234, 206 }; -- Elerethe Renferal
+		{  2, 1738, 234, 206 }; -- Il'gynoth, Heart of Corruption
 	};
 	TheEmeraldNightmareD = {
 		{ "D", 10004, 418, 327 }; -- Entrance
-		{  3, 1738, 146, 251 }; -- Il'gynoth, Heart of Corruption
+		{  3, 1744, 146, 251 }; -- Elerethe Renferal
 	};
 	TheEmeraldNightmareE = {
 		{ "E", 10005, 96, 303 }; -- Entrance
-		{  4, 1672, 253, 155 }; -- Ursoc
+		{  4, 1667, 253, 155 }; -- Ursoc
 	};
 	TheEmeraldNightmareF = {
 		{ "F", 10006, 97, 382 }; -- Entrance
