@@ -2,7 +2,6 @@ $Id$
 Atlas, a World of Warcraft instance map browser
 Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 
-
 ==============
 = Change Log =
 ==============
