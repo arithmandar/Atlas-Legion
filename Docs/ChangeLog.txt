@@ -2,16 +2,17 @@ $Id$
 Atlas, a World of Warcraft instance map browser
 Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 
-================
-= Known Issues =
-================
-- The following boss / map is missing due to insufficient information
-  - The Nighthold: Gul'dan
-  - The Emerald Nightmare: Xavius
 
 ==============
 = Change Log =
 ==============
+
+v1.35.03 (Oct. 28, 2016)
+------------------------
+- Added Xavius to the Emerald Nightmare
+- Added dungeon level info to the Emerald Nightmare maps so that switching 
+  between Atlas and World Map will work well
+- Added minimum gear level to the Emerald Nightmare and the Nighthold
 
 v1.35.02 (Oct. 28, 2016)
 ------------------------
@@ -61,7 +62,8 @@ v1.34.05 (Sep. 27, 2016)
 ------------------------
 - Fine-tuned Vault of the Wardens's MapC with better color background
 - Added quest item and NPC to Vault of the Wardens's MapC
-- Fine-tuned Black Rook Hold's marker positions; added 5 elite bosses (3 of them are part of world quests)
+- Fine-tuned Black Rook Hold's marker positions; added 5 elite bosses 
+  (3 of them are part of world quests)
 - Translation added:
   - German (pas06)
 

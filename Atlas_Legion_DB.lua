@@ -212,6 +212,9 @@ local myDB = {
 		{ "G", 10007, 194, 407 }; -- Entrance
 		{  6, 1750, 297, 228 }; -- Cenarius
 	};
+	TheEmeraldNightmareH = {
+		{  7, 1726, 250, 250 }; -- Xavius
+	};
 	TheNightholdEnt = {
 		{ " A", 10001, 280, 107 }; -- The Grand Promenade
 		{ " B", 10002, 492, 348 }; -- Terrace of Order

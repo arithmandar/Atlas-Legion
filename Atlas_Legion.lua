@@ -282,6 +282,29 @@ local myMaps = {
 		{ ORNG.." 1) "..L["Understone Lasher"], 10005 };
 		{ ORNG.." 2) "..L["Ragoul"], 10006 };
 	};
+--[[
+	ReturntoKarazhan = {
+		ZoneName = { BZ["Return to Karazhan"] };
+		Location = { BZ["Deadwind Pass"] };
+		DungeonID = "";
+		DungeonHeroicID = "";
+		--Acronym = "";
+		WorldMapID = "1115";
+		JournalInstanceID = "860";
+		Module = "Atlas_Legion";
+		{ BLUE.." A) "..ALC["Entrance"], 10001 };
+		{ WHIT.." 1) "..Atlas_GetBossName("Opera Hall: Wikket", 1820), 1820 };
+		{ WHIT.." 2) "..Atlas_GetBossName("Opera Hall: Westfall Story", 1826), 1826 };
+		{ WHIT.." 3) "..Atlas_GetBossName("Opera Hall: Beautiful Beast", 1827), 1827 };
+		{ WHIT.." 4) "..Atlas_GetBossName("Maiden of Virtue", 1825), 1825 };
+		{ WHIT.." 5) "..Atlas_GetBossName("Attumen the Huntsman", 1835), 1835 };
+		{ WHIT.." 5) "..Atlas_GetBossName("Moroes", 1837), 1837 };
+		{ WHIT.." 6) "..Atlas_GetBossName("The Curator", 1836), 1836 };
+		{ WHIT.." 8) "..Atlas_GetBossName("Shade of Medivh", 1817), 1817 };
+		{ WHIT.." 9) "..Atlas_GetBossName("Mana Devourer", 1818), 1818 };
+		{ WHIT.."10) "..Atlas_GetBossName("Viz'aduum the Watcher", 1838), 1838 };
+	};
+]]
 	TheArcwayEnt = {
 		ZoneName = { BZ["The Arcway"]..ALC["L-Parenthesis"]..ALC["Entrance"]..ALC["R-Parenthesis"] };
 		Location = { BZ["Sanctum of Order"] };
@@ -324,8 +347,10 @@ local myMaps = {
 		DungeonMythicID = "1350";
 		--Acronym = "";
 		WorldMapID = "1094";
+		DungeonLevel = "1";
 		JournalInstanceID = "768";
 		PlayerLimit = "10-30";
+		MinGearLevel = "825";
 		Module = "Atlas_Legion";
 		{ BLUE.." A) "..ALC["Entrance"], 10001 };
 		{ BLUE.." B) "..ALC["Connection"], 10002 };
@@ -334,14 +359,16 @@ local myMaps = {
 	};
 	TheEmeraldNightmareB = {
 		ZoneName = { BZ["The Emerald Nightmare"]..ALC["MapB"] };
-		Location = { BZ["Un'Goro Crater"] };
+		Location = { BZ["Core of the Nightmare"] };
 		DungeonID = "1348";
 		DungeonHeroicID = "1349";
 		DungeonMythicID = "1350";
 		--Acronym = "";
 		WorldMapID = "1094";
+		DungeonLevel = "2";
 		JournalInstanceID = "768";
 		PlayerLimit = "10-30";
+		MinGearLevel = "825";
 		Module = "Atlas_Legion";
 		{ BLUE.." B) "..ALC["Connection"], 10002 };
 		{ BLUE.." C) "..ALC["Portal"]..ALC["Colon"]..BZ["Un'Goro Crater"], 10003 };
@@ -359,8 +386,10 @@ local myMaps = {
 		DungeonMythicID = "1350";
 		--Acronym = "";
 		WorldMapID = "1094";
+		DungeonLevel = "4";
 		JournalInstanceID = "768";
 		PlayerLimit = "10-30";
+		MinGearLevel = "825";
 		Module = "Atlas_Legion";
 		{ BLUE.." C) "..ALC["Portal"], 10003 };
 		{ WHIT.." 2) "..Atlas_GetBossName("Il'gynoth, Heart of Corruption", 1738), 1738 };
@@ -373,8 +402,10 @@ local myMaps = {
 		DungeonMythicID = "1350";
 		--Acronym = "";
 		WorldMapID = "1094";
+		DungeonLevel = "3";
 		JournalInstanceID = "768";
 		PlayerLimit = "10-30";
+		MinGearLevel = "825";
 		Module = "Atlas_Legion";
 		{ BLUE.." D) "..ALC["Portal"], 10004 };
 		{ WHIT.." 3) "..Atlas_GetBossName("Elerethe Renferal", 1744), 1744 };
@@ -387,8 +418,10 @@ local myMaps = {
 		DungeonMythicID = "1350";
 		--Acronym = "";
 		WorldMapID = "1094";
+		DungeonLevel = "10";
 		JournalInstanceID = "768";
 		PlayerLimit = "10-30";
+		MinGearLevel = "825";
 		Module = "Atlas_Legion";
 		{ BLUE.." E) "..ALC["Portal"], 10005 };
 		{ WHIT.." 4) "..Atlas_GetBossName("Ursoc", 1667), 1667 };
@@ -401,8 +434,10 @@ local myMaps = {
 		DungeonMythicID = "1350";
 		--Acronym = "";
 		WorldMapID = "1094";
+		DungeonLevel = "5";
 		JournalInstanceID = "768";
 		PlayerLimit = "10-30";
+		MinGearLevel = "825";
 		Module = "Atlas_Legion";
 		{ BLUE.." F) "..ALC["Portal"], 10006 };
 		{ WHIT.." 5) "..Atlas_GetBossName("Dragons of Nightmare", 1704), 1704 };
@@ -415,14 +450,14 @@ local myMaps = {
 		DungeonMythicID = "1350";
 		--Acronym = "";
 		WorldMapID = "1094";
+		DungeonLevel = "11";
 		JournalInstanceID = "768";
 		PlayerLimit = "10-30";
+		MinGearLevel = "825";
 		Module = "Atlas_Legion";
 		{ BLUE.." G) "..ALC["Portal"], 10007 };
 		{ WHIT.." 6) "..Atlas_GetBossName("Cenarius", 1750), 1750 };
 	};
-	-- Map TODO
---[[
 	TheEmeraldNightmareH = {
 		ZoneName = { BZ["The Emerald Nightmare"]..ALC["MapH"] };
 		Location = { BZ["Rift of Aln"] };
@@ -431,13 +466,13 @@ local myMaps = {
 		DungeonMythicID = "1350";
 		--Acronym = "";
 		WorldMapID = "1094";
+		DungeonLevel = "12";
 		JournalInstanceID = "768";
 		PlayerLimit = "10-30";
+		MinGearLevel = "825";
 		Module = "Atlas_Legion";
-		{ BLUE.." G) "..ALC["Portal"], 10007 };
 		{ WHIT.." 7) "..Atlas_GetBossName("Xavius", 1726), 1726 };
 	};
-]]
 	TheNightholdEnt = {
 		ZoneName = { BZ["The Nighthold"]..ALC["L-Parenthesis"]..ALC["Entrance"]..ALC["R-Parenthesis"] };
 		Location = { BZ["Sanctum of Order"] };
@@ -466,6 +501,7 @@ local myMaps = {
 		DungeonLevel = "1";
 		JournalInstanceID = "786";
 		PlayerLimit = "10-30";
+		MinGearLevel = "835";
 		Module = "Atlas_Legion";
 		{ BLUE.." A) "..ALC["Entrance"], 10001 };
 		{ BLUE.." B) "..ALC["Connection"], 10002 };
@@ -484,6 +520,7 @@ local myMaps = {
 		DungeonLevel = "1";
 		JournalInstanceID = "786";
 		PlayerLimit = "10-30";
+		MinGearLevel = "835";
 		Module = "Atlas_Legion";
 		{ BLUE.." B-D) "..ALC["Connection"], 10001 };
 		{ WHIT.." 2) "..Atlas_GetBossName("Chronomatic Anomaly", 1725)..ALC["L-Parenthesis"]..ALC["Wanders"]..ALC["R-Parenthesis"], 1725 };
@@ -500,6 +537,7 @@ local myMaps = {
 		DungeonLevel = "3";
 		JournalInstanceID = "786";
 		PlayerLimit = "10-30";
+		MinGearLevel = "835";
 		Module = "Atlas_Legion";
 		{ BLUE.." D-H) "..ALC["Connection"], 10001 };
 		{ WHIT.." 4) "..Atlas_GetBossName("Spellblade Aluriel", 1751)..ALC["L-Parenthesis"]..ALC["Wanders"]..ALC["R-Parenthesis"], 1751 };
@@ -517,6 +555,7 @@ local myMaps = {
 		DungeonLevel = "5";
 		JournalInstanceID = "786";
 		PlayerLimit = "10-30";
+		MinGearLevel = "835";
 		Module = "Atlas_Legion";
 		{ BLUE.." E) "..ALC["Connection"], 10001 };
 		{ WHIT.." 5) "..Atlas_GetBossName("Tichondrius", 1762), 1762 };
@@ -532,6 +571,7 @@ local myMaps = {
 		DungeonLevel = "6";
 		JournalInstanceID = "786";
 		PlayerLimit = "10-30";
+		MinGearLevel = "835";
 		Module = "Atlas_Legion";
 		{ BLUE.." E-G) "..ALC["Connection"], 10001 };
 		{ WHIT.." 8) "..Atlas_GetBossName("Star Augur Etraeus", 1732), 1732 };
@@ -547,6 +587,7 @@ local myMaps = {
 		DungeonLevel = "7";
 		JournalInstanceID = "786";
 		PlayerLimit = "10-30";
+		MinGearLevel = "835";
 		Module = "Atlas_Legion";
 		{ BLUE.." H) "..ALC["Portal"], 10001 };
 		{ WHIT.." 9) "..Atlas_GetBossName("Grand Magistrix Elisande", 1743), 1743 };
@@ -562,6 +603,7 @@ local myMaps = {
 		DungeonLevel = "9";
 		JournalInstanceID = "786";
 		PlayerLimit = "10-30";
+		MinGearLevel = "835";
 		Module = "Atlas_Legion";
 		{ WHIT.." 10) "..Atlas_GetBossName("Gul'dan", 1737), 1737 };
 	};
@@ -643,276 +685,3 @@ local myMaps = {
 for k, v in pairs(myMaps) do
 	AtlasMaps[k] = v;
 end
---@do-not-package@
---[[
-local myDropDownLayouts_Order = {
-	[ATLAS_DDL_CONTINENT] = {
-		[1] = ATLAS_DDL_CONTINENT_BROKENISLES;
-	};
-	[ATLAS_DDL_LEVEL] = {
-		[1] = ATLAS_DDL_LEVEL_110PLUS;
-	};
-	[ATLAS_DDL_EXPANSION] = {
-		[1] = ATLAS_DDL_EXPANSION_LEGION;
-	};
-};
-
-for k1, v1 in pairs(myDropDownLayouts_Order) do
-	for k2, v2 in pairs(myDropDownLayouts_Order[k1]) do
-		local isEntryExist = false;
-		for ka, va in pairs(Atlas_DropDownLayouts_Order[k1]) do
-			if (va == v2) then
-				isEntryExist = true;
-			end
-		end
-		if (not isEntryExist) then
-			table.insert(Atlas_DropDownLayouts_Order[k1], v2);
-		end
-	end
-end
-
-local myDropDownLayouts = {
-	[ATLAS_DDL_CONTINENT] = {
-		[ATLAS_DDL_CONTINENT_BROKENISLES] = {
-			"HallsofValorA",
-			"HallsofValorB",
-			"HallsofValorC",
-			"BlackRookHoldA",
-			"BlackRookHoldB",
-			"BlackRookHoldC",
-			"VaultoftheWardensA",
-			"VaultoftheWardensB",
-			"VaultoftheWardensC",
-			"EyeofAzshara",
-			"DarkheartThicket",
-			"NeltharionsLair",
-			"MawofSoulsA",
-			"MawofSoulsB",
-			"TheArcwayEnt",
-			"TheArcway",
-			"CourtofStarsA",
-			"CourtofStarsB",
-			"AssaultonVioletHold",
-			"TheEmeraldNightmareA",
-			"TheEmeraldNightmareB",
-			"TheEmeraldNightmareC",
-			"TheEmeraldNightmareD",
-			"TheEmeraldNightmareE",
-			"TheEmeraldNightmareF",
-			"TheEmeraldNightmareG",
-			"TheNightholdA",
-			"TheNightholdB",
-			"TheNightholdC",
-			"TheNightholdD",
-			"TheNightholdE",
-			"TheNightholdF",
-			-- "TheNightholdG",
-		},
-	},
-	[ATLAS_DDL_LEVEL] = {
-		[ATLAS_DDL_LEVEL_100TO110] = {
-			"AssaultonVioletHold",	-- Legion
-			"DarkheartThicket",	-- Legion
-			"EyeofAzshara",		-- Legion
-			"HallsofValorA",	-- Legion
-			"HallsofValorB",	-- Legion
-			"HallsofValorC",	-- Legion
-			"NeltharionsLair",	-- Legion
-		},
-		[ATLAS_DDL_LEVEL_110PLUS] = {
-			"BlackRookHoldA",
-			"BlackRookHoldB",
-			"BlackRookHoldC",
-			"VaultoftheWardensA",
-			"VaultoftheWardensB",
-			"VaultoftheWardensC",
-			"MawofSoulsA",
-			"MawofSoulsB",
-			"TheArcwayEnt",
-			"TheArcway",
-			"CourtofStarsA",
-			"CourtofStarsB",
-			"TheEmeraldNightmareA",
-			"TheEmeraldNightmareB",
-			"TheEmeraldNightmareC",
-			"TheEmeraldNightmareD",
-			"TheEmeraldNightmareE",
-			"TheEmeraldNightmareF",
-			"TheEmeraldNightmareG",
-			"TheNightholdA",
-			"TheNightholdB",
-			"TheNightholdC",
-			"TheNightholdD",
-			"TheNightholdE",
-			"TheNightholdF",
-			-- "TheNightholdG",
-		},
-	},
-	[ATLAS_DDL_PARTYSIZE] = {
-		[ATLAS_DDL_PARTYSIZE_5_AE] = {
-			"BlackRookHoldA",		-- Legion
-			"BlackRookHoldB",		-- Legion
-			"BlackRookHoldC",		-- Legion
-			"TheArcwayEnt",			-- Legion
-			"TheArcway",			-- Legion
-			"AssaultonVioletHold",		-- Legion
-			"CourtofStarsA",		-- Legion
-			"CourtofStarsB",		-- Legion
-			"DarkheartThicket",		-- Legion
-			"EyeofAzshara",			-- Legion
-		},
-		[ATLAS_DDL_PARTYSIZE_5_FS] = {
-			"HallsofValorA",	-- Legion
-			"HallsofValorB",	-- Legion
-			"HallsofValorC",	-- Legion
-			"MawofSoulsA",		-- Legion
-			"MawofSoulsB",		-- Legion
-			"NeltharionsLair",	-- Legion
-		},
-		[ATLAS_DDL_PARTYSIZE_5_TZ] = {
-			"VaultoftheWardensA",			-- Legion
-			"VaultoftheWardensB",			-- Legion
-			"VaultoftheWardensC",			-- Legion
-		},
-		[ATLAS_DDL_PARTYSIZE_10_AN] = {
-			"TheEmeraldNightmareA",		-- Legion
-			"TheEmeraldNightmareB",		-- Legion
-			"TheEmeraldNightmareC",		-- Legion
-			"TheEmeraldNightmareD",		-- Legion
-			"TheEmeraldNightmareE",		-- Legion
-			"TheEmeraldNightmareF",		-- Legion
-			"TheEmeraldNightmareG",		-- Legion
-			"TheNightholdA",		-- Legion
-			"TheNightholdB",		-- Legion
-			"TheNightholdC",		-- Legion
-			"TheNightholdD",		-- Legion
-			"TheNightholdE",		-- Legion
-			"TheNightholdF",		-- Legion
-			-- "TheNightholdG",		-- Legion
-		},
-		[ATLAS_DDL_PARTYSIZE_20TO40AH] = {
-			"TheEmeraldNightmareA",		-- Legion
-			"TheEmeraldNightmareB",		-- Legion
-			"TheEmeraldNightmareC",		-- Legion
-			"TheEmeraldNightmareD",		-- Legion
-			"TheEmeraldNightmareE",		-- Legion
-			"TheEmeraldNightmareF",		-- Legion
-			"TheEmeraldNightmareG",		-- Legion
-		},
-		[ATLAS_DDL_PARTYSIZE_20TO40IZ] = {
-			"TheNightholdA",		-- Legion
-			"TheNightholdB",		-- Legion
-			"TheNightholdC",		-- Legion
-			"TheNightholdD",		-- Legion
-			"TheNightholdE",		-- Legion
-			"TheNightholdF",		-- Legion
-			-- "TheNightholdG",		-- Legion
-		},
-	},
-	[ATLAS_DDL_EXPANSION] = {
-		[ATLAS_DDL_EXPANSION_LEGION] = {
-			"HallsofValorA",
-			"HallsofValorB",
-			"HallsofValorC",
-			"BlackRookHoldA",
-			"BlackRookHoldB",
-			"BlackRookHoldC",
-			"VaultoftheWardensA",
-			"VaultoftheWardensB",
-			"VaultoftheWardensC",
-			"EyeofAzshara",
-			"DarkheartThicket",
-			"NeltharionsLair",
-			"MawofSoulsA",
-			"MawofSoulsB",
-			"TheArcwayEnt",
-			"TheArcway",
-			"CourtofStarsA",
-			"CourtofStarsB",
-			"AssaultonVioletHold",
-			"TheEmeraldNightmareA",
-			"TheEmeraldNightmareB",
-			"TheEmeraldNightmareC",
-			"TheEmeraldNightmareD",
-			"TheEmeraldNightmareE",
-			"TheEmeraldNightmareF",
-			"TheEmeraldNightmareG",
-			"TheNightholdA",
-			"TheNightholdB",
-			"TheNightholdC",
-			"TheNightholdD",
-			"TheNightholdE",
-			"TheNightholdF",
-			-- "TheNightholdG",
-		},
-	},
-	[ATLAS_DDL_TYPE] = {
-		[ATLAS_DDL_TYPE_INSTANCE_AB] = {
-			"TheArcwayEnt",			-- Legion
-			"TheArcway",			-- Legion
-			"AssaultonVioletHold",		-- Legion
-			"BlackRookHoldA",		-- Legion
-			"BlackRookHoldB",		-- Legion
-			"BlackRookHoldC",		-- Legion
-		},
-		[ATLAS_DDL_TYPE_INSTANCE_CF] = {
-			"CourtofStarsA",		-- Legion
-			"CourtofStarsB",		-- Legion
-			"DarkheartThicket",		-- Legion
-			"TheEmeraldNightmareA",		-- Legion
-			"TheEmeraldNightmareB",		-- Legion
-			"TheEmeraldNightmareC",		-- Legion
-			"TheEmeraldNightmareD",		-- Legion
-			"TheEmeraldNightmareE",		-- Legion
-			"TheEmeraldNightmareF",		-- Legion
-			"TheEmeraldNightmareG",		-- Legion
-			"EyeofAzshara",			-- Legion
-		},
-		[ATLAS_DDL_TYPE_INSTANCE_GM] = {
-			"HallsofValorA",	-- Legion
-			"HallsofValorB",	-- Legion
-			"HallsofValorC",	-- Legion
-			"MawofSoulsA",			-- Legion
-			"MawofSoulsB",			-- Legion
-		},
-		[ATLAS_DDL_TYPE_INSTANCE_NS] = {
-			"NeltharionsLair",		-- Legion
-			"TheNightholdA",		-- Legion
-			"TheNightholdB",		-- Legion
-			"TheNightholdC",		-- Legion
-			"TheNightholdD",		-- Legion
-			"TheNightholdE",		-- Legion
-			"TheNightholdF",		-- Legion
-			-- "TheNightholdG",		-- Legion
-		},
-		[ATLAS_DDL_TYPE_INSTANCE_TZ] = {
-			"VaultoftheWardensA",		-- Legion
-			"VaultoftheWardensB",		-- Legion
-			"VaultoftheWardensC",		-- Legion
-		},
-		[ATLAS_DDL_TYPE_ENTRANCE] = {
-			"TheArcwayEnt",			-- Legion
-		},
-	},
-};
-
-for k1, v1 in pairs(myDropDownLayouts) do
-	for k2, v2 in pairs(myDropDownLayouts[k1]) do
-		if (Atlas_DropDownLayouts[k1][k2] == nil) then
-			Atlas_DropDownLayouts[k1][k2] = { };
-		end
-		for k3, v3 in pairs(myDropDownLayouts[k1][k2]) do
-			local isEntryExist = false;
-			for ka, va in pairs(Atlas_DropDownLayouts[k1][k2]) do
-				if (va == v3) then
-					isEntryExist = true;
-				end
-			end
-			if (not isEntryExist) then
-				table.insert(Atlas_DropDownLayouts[k1][k2], v3);
-			end
-		end
-	end
-end
-]]
---@end-do-not-package@
