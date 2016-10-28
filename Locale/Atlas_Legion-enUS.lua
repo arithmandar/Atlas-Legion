@@ -73,6 +73,8 @@ if L then
 	-- Maw of Souls
 	L["Echoing Horn of the Damned"] = "Echoing Horn of the Damned";
 
+	-- Return to Karazhan
+	
 	-- The Arcway
 	L["Portal to Shal'Aran"] = "Portal to Shal'Aran";
 	L["The Rat King"] = "The Rat King"; -- 111057
