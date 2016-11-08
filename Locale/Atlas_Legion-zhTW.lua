@@ -57,12 +57,12 @@ if L then
 	--Halls of Valor
 	L["Fenryr's western spawn point"] = "芬里爾的西邊出現點";
 	L["Fenryr's eastern spawn point"] = "芬里爾的東邊出現點";
-	--L["King Tor"] = "King Tor"; -- 97084
-	--L["King Bjorn"] = "King Bjorn"; -- 97081
-	--L["King Haldor"] = "King Haldor"; -- 95843
-	--L["King Ranulf"] = "King Ranulf"; -- 97083
+	L["King Tor"] = "托爾王"; -- 97084
+	L["King Bjorn"] = "畢雍王"; -- 97081
+	L["King Haldor"] = "海多爾王"; -- 95843
+	L["King Ranulf"] = "拉努夫王"; -- 97083
 	L["Volynd Stormbringer"] = "沃林德風暴召喚者"; -- 106320
-	--L["Arthfael"] = "Arthfael"; -- 99802
+	L["Arthfael"] = "阿斯菲爾"; -- 99802
 	L["Earlnoc the Beastbreaker"] = "『降獸者』厄諾克"; -- 96647
 
 	--Neltharion's Lair
@@ -90,6 +90,8 @@ if L then
 	--Vault of the Wardens
 	L["Fel-Ravaged Tome"] = "燒壞的秘典";
 	L["Drelanim Whisperwind"] = "蕾拉妮·語風"; -- 103860
+	L["Grimoira"] = "葛摩菈"; -- 105824
+	L["Requires Skaggldrynk"] = "需要斯卡格藥劑";
 
 --@end-do-not-package@
 

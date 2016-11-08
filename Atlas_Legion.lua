@@ -659,11 +659,12 @@ local myMaps = {
 		DungeonLevel = "2";
 		JournalInstanceID = "707";
 		Module = "Atlas_Legion";
-		{ BLUE.." C) "..ALC["Elevator"], 10003 };
-		{ BLUE.." D) "..ALC["Connection"], 10004 };
+		{ BLUE.." C-D) "..ALC["Elevator"], 10003 };
 		{ WHIT.." 2) "..Atlas_GetBossName("Inquisitor Tormentorum", 1695), 1695 };
 		{ WHIT.." 3) "..Atlas_GetBossName("Ash'golm", 1468), 1468 };
 		{ WHIT.." 4) "..Atlas_GetBossName("Glazer", 1469), 1469 };
+		{ ORNG.." 1) "..L["Grimoira"], 105824 };
+		{ INDENT..GREY..ALC["L-Parenthesis"]..L["Requires Skaggldrynk"]..ALC["R-Parenthesis"] };
 	};
 	VaultoftheWardensC = {
 		ZoneName = { BZ["Vault of the Wardens"]..ALC["MapC"] };
@@ -675,7 +676,7 @@ local myMaps = {
 		DungeonLevel = "3";
 		JournalInstanceID = "707";
 		Module = "Atlas_Legion";
-		{ BLUE.." D) "..ALC["Connection"], 10004 };
+		{ BLUE.." D) "..ALC["Elevator"], 10004 };
 		{ WHIT.." 5) "..Atlas_GetBossName("Cordana Felsong", 1470), 1470 };
 		{ GREN.." 1') "..L["Fel-Ravaged Tome"], 10005};
 		{ GREN.." 2') "..L["Drelanim Whisperwind"], 10006 };

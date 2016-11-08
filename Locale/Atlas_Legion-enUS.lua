@@ -93,5 +93,7 @@ if L then
 	-- Vault of the Wardens
 	L["Fel-Ravaged Tome"] = "Fel-Ravaged Tome";
 	L["Drelanim Whisperwind"] = "Drelanim Whisperwind"; -- 103860
+	L["Grimoira"] = "Grimoira"; -- 105824
+	L["Requires Skaggldrynk"] = "Requires Skaggldrynk";
 
 end

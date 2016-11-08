@@ -252,46 +252,47 @@ local myDB = {
 		{ "H", 10001, 261, 134 }; -- Connection
 	};
 	TheNightholdD = {
-		{ 5, 1762, 175, 320 }; -- Tichondrius
+		{   5, 1762, 175, 320 }; -- Tichondrius
 		{ "E", 10001, 199, 165 }; -- Connection
 	};
 	TheNightholdE = {
-		{  8, 1732, 152, 95 }; -- Star Augur Etraeus
+		{   8, 1732, 152, 95 }; -- Star Augur Etraeus
 		{ "F", 10001, 186, 295 }; -- Connection
 		{ "G", 10001, 169, 466 }; -- Connection
 		{ "H", 10001, 412, 221 }; -- Connection
 	};
 	TheNightholdF = {
-		{  9, 1743, 251, 249 }; -- Grand Magistrix Elisande
-		{  "I", 10001, 349, 154 }; -- Connection
+		{   9, 1743, 251, 249 }; -- Grand Magistrix Elisande
+		{ "I", 10001, 349, 154 }; -- Connection
 	};
 	TheNightholdG = {
 		{  10, 1737, 250, 250 }; -- Gul'dan
 	};
 	TrialofValorA = { 
-		{ " A", 10101, 249, 39 }; -- Entrance
-		{ " 1", 10001, 291, 321 }; -- Hymdall
-		{ " 2", 10002, 212, 321 }; -- Hyrja
-		{ " 3", 1819, 251, 427 }; -- Odyn
+		{ "A", 10101, 249, 39 }; -- Entrance
+		{   1, 10001, 291, 321 }; -- Hymdall
+		{   2, 10002, 212, 321 }; -- Hyrja
+		{   3, 1819, 251, 427 }; -- Odyn
 	};
 	TrialofValorB = { 
-		{ " A", 10101, 348, 244 }; -- Entrance
-		{ " 4", 1830, 278, 196 }; -- Guarm
-		{ " 5", 1829, 172, 190 }; -- Helya
+		{ "A", 10101, 348, 244 }; -- Entrance
+		{   4, 1830, 278, 196 }; -- Guarm
+		{   5, 1829, 172, 190 }; -- Helya
 	};
 	VaultoftheWardensA = {
-		{ "A", 10001, 483, 387 }; -- Entrance
-		{ "B", 10002, 62, 205 }; -- Connection
-		{ "B", 10002, 131, 205 }; -- Connection
-		{ "C", 10003, 97, 116 }; -- Elevator
-		{  1, 1467, 96, 282 }; -- Tirathon Saltheril
+		{ "A", 10001, 480, 384 }; -- Entrance
+		{ "B", 10002,  68, 206 }; -- Connection
+		{ "B", 10002, 137, 206 }; -- Connection
+		{ "C", 10003, 104, 116 }; -- Elevator
+		{  1, 1467, 103, 283 }; -- Tirathon Saltheril
 	};
 	VaultoftheWardensB = {
-		{ "C", 10003, 168, 157 }; -- Elevator
-		{ "D", 10004, 34, 154 }; -- Connection
-		{  2, 1695, 116, 153 }; -- Inquisitor Tormentorum
-		{  3, 1468, 163, 380 }; -- Ash'golm
-		{  4, 1469, 403, 156 }; -- Glazer
+		{ "C", 10003, 197, 241 }; -- Elevator
+		{ "D", 10003,  91, 241 }; -- Elevator
+		{  2, 1695, 139, 241 }; -- Inquisitor Tormentorum
+		{  3, 1468, 191, 412 }; -- Ash'golm
+		{  4, 1469, 373, 239 }; -- Glazer
+		{ "1", 105824, 197, 73 }; -- Grimoira
 	};
 	VaultoftheWardensC = {
 		{ "D", 10004, 271, 25 }; -- Connection

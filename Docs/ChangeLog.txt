@@ -6,6 +6,16 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.35.05 (Nov. XX, 2016)
+------------------------
+- Map revamped:
+  - Halls of Valor - Map A & B
+  - The Nighthold - Map C
+  - Vault of the Wardens
+- Added Grimoira to Vault of the Wardens
+- Localization update:
+  Traditional Chinese
+
 v1.35.04 (Oct. 29, 2016)
 ------------------------
 - Fixed boss link in the Emerald Nightmare:
