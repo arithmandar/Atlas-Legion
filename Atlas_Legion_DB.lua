@@ -151,10 +151,11 @@ local myDB = {
 		{  2, 1665, 227, 269 }; -- Ularogg Cragshaper
 		{  3, 1673, 150, 200 }; -- Naraxas
 		{  4, 1687, 48, 327 }; -- Dargrul the Underking
-		{ "1'", 10003, 486, 224 }; -- Spiritwalker Ebonhorn
-		{ "2'", 10004, 489, 201 }; -- Mushroom Merchant
-		{  1, 10005, 284, 381 }; -- Understone Lasher
-		{  2, 10006, 165, 376 }; -- Ragoul
+		{ "1'", 113526, 486, 224 }; -- Spiritwalker Ebonhorn
+		{ "2'", 111746, 489, 201 }; -- Mushroom Merchant
+		{  1, 103597, 284, 381 }; -- Understone Lasher
+		{  2, 103199, 165, 376 }; -- Ragoul
+		{  3, 103271, 221,  89 }; -- Kraxa <Mother of Gnashers>
 	};
 	TheArcwayEnt = {
 		{ " A", 10001, 280, 107 }; -- The Grand Promenade

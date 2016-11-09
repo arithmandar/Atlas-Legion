@@ -6,6 +6,10 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.35.06 (Nov. XX, 2016)
+------------------------
+- Added Kraxa to Neltharion's Lair
+
 v1.35.05 (Nov. 09, 2016)
 ------------------------
 - Map revamped:

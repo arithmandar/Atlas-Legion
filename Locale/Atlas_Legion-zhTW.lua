@@ -70,6 +70,7 @@ if L then
 	L["Mushroom Merchant"] = "蘑菇商人";
 	--L["Understone Lasher"] = "Understone Lasher"; -- 103597
 	--L["Ragoul"] = "Ragoul"; -- 103199
+	L["Kraxa <Mother of Gnashers>"] = "夸克薩 <銳齒蜥之母>";
 
 	--Maw of Souls
 	L["Echoing Horn of the Damned"] = "遭譴者回音號角";
