@@ -277,11 +277,12 @@ local myMaps = {
 		{ WHIT.." 2) "..Atlas_GetBossName("Ularogg Cragshaper", 1665), 1665 };
 		{ WHIT.." 3) "..Atlas_GetBossName("Naraxas", 1673), 1673 };
 		{ WHIT.." 4) "..Atlas_GetBossName("Dargrul the Underking", 1687), 1687 };
-		{ GREN.." 1') "..L["Spiritwalker Ebonhorn"], 113526 }; -- 113526
-		{ GREN.." 2') "..L["Mushroom Merchant"], 111746 }; -- 111746
-		{ ORNG.." 1) "..L["Understone Lasher"], 103597 };
-		{ ORNG.." 2) "..L["Ragoul"], 103199 };
-		{ ORNG.." 3) "..L["Kraxa <Mother of Gnashers>"], 103271 };
+		{ GREN.." 1') "..L["Spiritwalker Ebonhorn"], 113526 };
+		{ GREN.." 2') "..L["Mushroom Merchant"], 111746 };
+		{ ORNG.." 1) "..L["Ultanok"], 103247 };
+		{ ORNG.." 2) "..L["Understone Lasher"], 103597 };
+		{ ORNG.." 3) "..L["Ragoul"], 103199 };
+		{ ORNG.." 4) "..L["Kraxa <Mother of Gnashers>"], 103271 };
 	};
 --[[
 	ReturntoKarazhan = {

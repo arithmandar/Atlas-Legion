@@ -153,9 +153,10 @@ local myDB = {
 		{  4, 1687, 48, 327 }; -- Dargrul the Underking
 		{ "1'", 113526, 486, 224 }; -- Spiritwalker Ebonhorn
 		{ "2'", 111746, 489, 201 }; -- Mushroom Merchant
-		{  1, 103597, 284, 381 }; -- Understone Lasher
-		{  2, 103199, 165, 376 }; -- Ragoul
-		{  3, 103271, 221,  89 }; -- Kraxa <Mother of Gnashers>
+		{  1, 103247, 374, 404 }; -- Ultanok
+		{  2, 103597, 284, 381 }; -- Understone Lasher
+		{  3, 103199, 165, 376 }; -- Ragoul
+		{  4, 103271, 221,  89 }; -- Kraxa <Mother of Gnashers>
 	};
 	TheArcwayEnt = {
 		{ " A", 10001, 280, 107 }; -- The Grand Promenade

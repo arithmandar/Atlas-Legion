@@ -70,6 +70,7 @@ if L then
 	L["Understone Lasher"] = "Understone Lasher"; -- 103597
 	L["Ragoul"] = "Ragoul"; -- 103199
 	L["Kraxa <Mother of Gnashers>"] = "Kraxa <Mother of Gnashers>"; -- 103271
+	L["Ultanok"] = "Ultanok"; -- 103247
 
 	-- Maw of Souls
 	L["Echoing Horn of the Damned"] = "Echoing Horn of the Damned";
