@@ -9,6 +9,9 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 v1.35.06 (Nov. XX, 2016)
 ------------------------
 - Added Kraxa and Ultanok to Neltharion's Lair
+- Changed The Arcway and Court of Stars to mythic only
+- Localization update:
+  Simplified Chinese
 
 v1.35.05 (Nov. 09, 2016)
 ------------------------
