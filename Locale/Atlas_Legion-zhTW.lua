@@ -4,7 +4,7 @@
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 ~ 2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
 	Copyright 2010 - Lothaer <lothayer@gmail.com>, Atlas Team
-	Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
+	Copyright 2011 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 
 	This file is part of Atlas.
 
@@ -33,7 +33,8 @@ if L then
 	--Assault on VioletHold
 
 	--Court of Stars
-	--L["Arcanist Malrodi"] = "Arcanist Malrodi"; -- 108796
+	L["Ly'leth Lunastre"] = "Ly'leth Lunastre"; -- 106468
+	L["Arcanist Malrodi"] = "秘法師瑪洛蒂"; -- 108796
 	--L["Velimar"] = "Velimar"; -- 108740
 
 	--Black Rook Hold 
@@ -71,6 +72,7 @@ if L then
 	--L["Understone Lasher"] = "Understone Lasher"; -- 103597
 	--L["Ragoul"] = "Ragoul"; -- 103199
 	L["Kraxa <Mother of Gnashers>"] = "夸克薩 <銳齒蜥之母>";
+	L["Ultanok"] = "烏塔諾克"; -- 103247
 
 	--Maw of Souls
 	L["Echoing Horn of the Damned"] = "遭譴者回音號角";

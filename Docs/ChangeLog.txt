@@ -6,6 +6,11 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.36.00 (Jan. 11, 2016)
+------------------------
+- Localization update:
+  Traditional Chinese
+
 v1.35.06 (Nov. 15, 2016)
 ------------------------
 - Added Kraxa and Ultanok to Neltharion's Lair

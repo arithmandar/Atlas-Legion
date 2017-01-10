@@ -26,12 +26,12 @@
 #@debug@
 ## Title: Atlas |r|cFF0099FF[Legion]|r
 ## Title-zhCN: Atlas |r|cFF0099FF[军团再临]|r
-## Title-zhTW: |r|cFF0099FF[地圖]|rAtlas 君臨天下
+## Title-zhTW: |r|cFF0099FF[地圖]|rAtlas 軍臨天下
 ## Notes: Legion Instances' Maps
 ## Notes-zhCN: 军团再临副本地图
-## Notes-zhTW: 君臨天下副本地圖模組
+## Notes-zhTW: 軍臨天下副本地圖模組
 #@end-debug@
-## Version: 1.35.06
+## Version: 1.36.00
 ## Author: arith
 ## X-Date: @project-date-iso@
 ## X-Email: atlas.addon at gmail.com
