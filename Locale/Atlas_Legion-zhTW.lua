@@ -2,9 +2,7 @@
 --[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 ~ 2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
-	Copyright 2010 - Lothaer <lothayer@gmail.com>, Atlas Team
-	Copyright 2011 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
+	Copyright 2016 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 
 	This file is part of Atlas.
 
@@ -40,19 +38,20 @@ if L then
 	--Black Rook Hold 
 	L["Dantalionax"] = "丹塔利翁斯";
 	L["Lady Velandras Ravencrest"] = "維蘭卓絲·黑雨女士";
-	--L["Ancient Widow"] = "Ancient Widow";
+	-- L["Ancient Widow"] = "Ancient Widow";
 	L["Archmage Galeorn"] = "大法師加里恩";
 	L["Kalyndras <Rook's Quartermaster>"] = "卡林達斯 <玄鴉堡軍需官>";
-	L["Braxas the Fleshcarver"] = "Braxas the Fleshcarver"; -- 111290
+	-- L["Braxas the Fleshcarver"] = "Braxas the Fleshcarver"; -- 111290
 
 	--Darkheart Thicket
-	--L["Rage Rot"] = "Rage Rot"; -- 101660
+	-- L["Rage Rot"] = "Rage Rot"; -- 101660
 	L["Kudzilla"] = "庫吉拉"; -- 99362
+	-- L["Mythana"] = "Mythana"; -- 101641
 
 	--Eye of Azshara
 	L["Crate of Corks"] = "一箱木栓"; -- Alchemy quest - Put a Cork in It (39331)
 	L["Put a Cork in It"] = "塞進木栓";
-	--L["Shellmaw"] = "Shellmaw"; -- 91788
+	-- L["Shellmaw"] = "Shellmaw"; -- 91788
 	L["Gom Crabbar"] = "戈姆·蟹巴"; -- 101411
 
 	--Halls of Valor
@@ -69,8 +68,8 @@ if L then
 	--Neltharion's Lair
 	L["Spiritwalker Ebonhorn"] = "靈行者黯角";
 	L["Mushroom Merchant"] = "蘑菇商人";
-	--L["Understone Lasher"] = "Understone Lasher"; -- 103597
-	--L["Ragoul"] = "Ragoul"; -- 103199
+	-- L["Understone Lasher"] = "Understone Lasher"; -- 103597
+	-- L["Ragoul"] = "Ragoul"; -- 103199
 	L["Kraxa <Mother of Gnashers>"] = "夸克薩 <銳齒蜥之母>";
 	L["Ultanok"] = "烏塔諾克"; -- 103247
 

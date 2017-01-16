@@ -2,7 +2,7 @@
 --[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2011 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
+	Copyright 2016 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 
 	This file is part of Atlas.
 
@@ -74,6 +74,7 @@ local myMaps = {
 		JournalInstanceID = "740";
 		Module = "Atlas_Legion";
 		LargeMap = "BlackRookHold1_";
+		NextMap = "BlackRookHoldB";
 		{ BLUE.." A) "..ALC["Entrance"], 10001 };
 		{ BLUE.." B) "..ALC["Connection"], 10002 };
 		{ WHIT.." 1) "..Atlas_GetBossName("The Amalgam of Souls", 1518), 1518 };
@@ -91,6 +92,8 @@ local myMaps = {
 		JournalInstanceID = "740";
 		Module = "Atlas_Legion";
 		LargeMap = "BlackRookHold2_";
+		PrevMap = "BlackRookHoldA";
+		NextMap = "BlackRookHoldC";
 		{ BLUE.." B-G) "..ALC["Connection"], 10001 };
 		{ WHIT.." 2) "..Atlas_GetBossName("Illysanna Ravencrest", 1653), 1653 };
 		{ ORNG.." 3) "..L["Archmage Galeorn"], 10002 };
@@ -107,6 +110,7 @@ local myMaps = {
 		DungeonLevel = "4";
 		JournalInstanceID = "740";
 		Module = "Atlas_Legion";
+		PrevMap = "BlackRookHoldB";
 		{ BLUE.." F-G) "..ALC["Connection"], 10001 };
 		{ WHIT.." 3) "..Atlas_GetBossName("Smashspite the Hateful", 1664), 1664 };
 		{ WHIT.." 4) "..Atlas_GetBossName("Lord Kur'talos Ravencrest", 1672), 1672 };
@@ -122,6 +126,7 @@ local myMaps = {
 		DungeonLevel = "1";
 		JournalInstanceID = "800";
 		Module = "Atlas_Legion";
+		NextMap = "CourtofStarsB";
 		{ BLUE.." A) "..ALC["Entrance"], 10001 };
 		{ BLUE.." B-C) "..ALC["Connection"], 10002 };
 		{ WHIT.." 1) "..Atlas_GetBossName("Patrol Captain Gerdo", 1718), 1718 };
@@ -141,6 +146,7 @@ local myMaps = {
 		DungeonLevel = "2";
 		JournalInstanceID = "800";
 		Module = "Atlas_Legion";
+		PrevMap = "CourtofStarsA";
 		{ BLUE.." B-C) "..ALC["Connection"], 10002 };
 	};
 	DarkheartThicket = {
@@ -192,6 +198,7 @@ local myMaps = {
 		DungeonLevel = "2";
 		JournalInstanceID = "721";
 		Module = "Atlas_Legion";
+		NextMap = "HallsofValorB";
 		{ BLUE.." A) "..ALC["Entrance"], 10001 };
 		{ BLUE.." B) "..ALC["Portal"], 10002 };
 		{ BLUE.." C) "..ALC["Connection"], 10003 };
@@ -209,6 +216,8 @@ local myMaps = {
 		DungeonLevel = "1";
 		JournalInstanceID = "721";
 		Module = "Atlas_Legion";
+		PrevMap = "HallsofValorA";
+		NextMap = "HallsofValorC";
 		{ BLUE.." B) "..ALC["Portal"], 10002 };
 		{ WHIT.." 3) "..Atlas_GetBossName("Fenryr", 1487), 1487 };
 		{ INDENT..WHIT.." 3') "..L["Fenryr's western spawn point"], 10003 };
@@ -226,6 +235,7 @@ local myMaps = {
 		DungeonLevel = "3";
 		JournalInstanceID = "721";
 		Module = "Atlas_Legion";
+		PrevMap = "HallsofValorB";
 		{ BLUE.." C) "..ALC["Connection"], 10003 };
 		{ WHIT.." 4) "..Atlas_GetBossName("God-King Skovald", 1488), 1488 };
 		{ WHIT.." 5) "..Atlas_GetBossName("Odyn", 1489), 1489 };
@@ -244,6 +254,7 @@ local myMaps = {
 		DungeonLevel = "1";
 		JournalInstanceID = "727";
 		Module = "Atlas_Legion";
+		NextMap = "MawofSoulsB";
 		{ BLUE.." A) "..ALC["Entrance"], 10001 };
 		{ BLUE.." B) "..ALC["Transport"]..ALC["Hyphen"]..L["Echoing Horn of the Damned"], 10002 };
 		{ WHIT.." 1) "..Atlas_GetBossName("Ymiron, the Fallen King", 1502), 1502 };
@@ -258,6 +269,7 @@ local myMaps = {
 		DungeonLevel = "3";
 		JournalInstanceID = "727";
 		Module = "Atlas_Legion";
+		PrevMap = "MawofSoulsA";
 		{ BLUE.." B-C) "..ALC["Connection"], 10001 };
 		{ WHIT.." 2) "..Atlas_GetBossName("Harbaron", 1512), 1512 };
 		{ WHIT.." 3) "..Atlas_GetBossName("Helya", 1663), 1663 };		
@@ -315,6 +327,7 @@ local myMaps = {
 		--Acronym = "";
 		JournalInstanceID = "726";
 		Module = "Atlas_Legion";
+		NextMap = "TheArcway";
 		{ BLUE.." A) "..BZ["The Grand Promenade"], 10001 };
 		{ BLUE.." B) "..BZ["Terrace of Order"], 10002 };
 		{ BLUE.." C) "..BZ["The Arcway"], 10003 };
@@ -332,6 +345,7 @@ local myMaps = {
 		WorldMapID = "1079";
 		JournalInstanceID = "726";
 		Module = "Atlas_Legion";
+		PrevMap = "TheArcwayEnt";
 		{ BLUE.." A) "..ALC["Entrance"], 10001 };
 		{ WHIT.." 1) "..Atlas_GetBossName("Ivanyr", 1497), 1497 };
 		{ WHIT.." 2) "..Atlas_GetBossName("Corstilax", 1498), 1498 };
@@ -354,6 +368,7 @@ local myMaps = {
 		PlayerLimit = "10-30";
 		MinGearLevel = "825";
 		Module = "Atlas_Legion";
+		NextMap = "TheEmeraldNightmareB";
 		{ BLUE.." A) "..ALC["Entrance"], 10001 };
 		{ BLUE.." B) "..ALC["Connection"], 10002 };
 		{ WHIT.." 1) "..Atlas_GetBossName("Nythendra", 1703), 1703 };
@@ -372,6 +387,8 @@ local myMaps = {
 		PlayerLimit = "10-30";
 		MinGearLevel = "825";
 		Module = "Atlas_Legion";
+		PrevMap = "TheEmeraldNightmareA";
+		NextMap = "TheEmeraldNightmareC";
 		{ BLUE.." B) "..ALC["Connection"], 10002 };
 		{ BLUE.." C) "..ALC["Portal"]..ALC["Colon"]..BZ["Un'Goro Crater"], 10003 };
 		{ BLUE.." D) "..ALC["Portal"]..ALC["Colon"]..BZ["Mulgore"], 10004 };
@@ -393,6 +410,8 @@ local myMaps = {
 		PlayerLimit = "10-30";
 		MinGearLevel = "825";
 		Module = "Atlas_Legion";
+		PrevMap = "TheEmeraldNightmareB";
+		NextMap = "TheEmeraldNightmareD";
 		{ BLUE.." C) "..ALC["Portal"], 10003 };
 		{ WHIT.." 2) "..Atlas_GetBossName("Il'gynoth, Heart of Corruption", 1738), 1738 };
 	};
@@ -409,6 +428,8 @@ local myMaps = {
 		PlayerLimit = "10-30";
 		MinGearLevel = "825";
 		Module = "Atlas_Legion";
+		PrevMap = "TheEmeraldNightmareC";
+		NextMap = "TheEmeraldNightmareE";
 		{ BLUE.." D) "..ALC["Portal"], 10004 };
 		{ WHIT.." 3) "..Atlas_GetBossName("Elerethe Renferal", 1744), 1744 };
 	};
@@ -425,6 +446,8 @@ local myMaps = {
 		PlayerLimit = "10-30";
 		MinGearLevel = "825";
 		Module = "Atlas_Legion";
+		PrevMap = "TheEmeraldNightmareD";
+		NextMap = "TheEmeraldNightmareF";
 		{ BLUE.." E) "..ALC["Portal"], 10005 };
 		{ WHIT.." 4) "..Atlas_GetBossName("Ursoc", 1667), 1667 };
 	};
@@ -441,6 +464,8 @@ local myMaps = {
 		PlayerLimit = "10-30";
 		MinGearLevel = "825";
 		Module = "Atlas_Legion";
+		PrevMap = "TheEmeraldNightmareE";
+		NextMap = "TheEmeraldNightmareG";
 		{ BLUE.." F) "..ALC["Portal"], 10006 };
 		{ WHIT.." 5) "..Atlas_GetBossName("Dragons of Nightmare", 1704), 1704 };
 	};
@@ -457,6 +482,8 @@ local myMaps = {
 		PlayerLimit = "10-30";
 		MinGearLevel = "825";
 		Module = "Atlas_Legion";
+		PrevMap = "TheEmeraldNightmareF";
+		NextMap = "TheEmeraldNightmareH";
 		{ BLUE.." G) "..ALC["Portal"], 10007 };
 		{ WHIT.." 6) "..Atlas_GetBossName("Cenarius", 1750), 1750 };
 	};
@@ -473,6 +500,7 @@ local myMaps = {
 		PlayerLimit = "10-30";
 		MinGearLevel = "825";
 		Module = "Atlas_Legion";
+		PrevMap = "TheEmeraldNightmareG";
 		{ WHIT.." 7) "..Atlas_GetBossName("Xavius", 1726), 1726 };
 	};
 	TheNightholdEnt = {
@@ -484,6 +512,7 @@ local myMaps = {
 		JournalInstanceID = "786";
 		PlayerLimit = "10-30";
 		Module = "Atlas_Legion";
+		NextMap = "TheNightholdA";
 		{ BLUE.." A) "..BZ["The Grand Promenade"], 10001 };
 		{ BLUE.." B) "..BZ["Terrace of Order"], 10002 };
 		{ BLUE.." C) "..BZ["The Arcway"], 10003 };
@@ -505,6 +534,8 @@ local myMaps = {
 		PlayerLimit = "10-30";
 		MinGearLevel = "835";
 		Module = "Atlas_Legion";
+		PrevMap = "TheNightholdEnt";
+		NextMap = "TheNightholdB";
 		{ BLUE.." A) "..ALC["Entrance"], 10001 };
 		{ BLUE.." B) "..ALC["Connection"], 10002 };
 		{ WHIT.." 1) "..Atlas_GetBossName("Skorpyron", 1706), 1706 };
@@ -524,6 +555,8 @@ local myMaps = {
 		PlayerLimit = "10-30";
 		MinGearLevel = "835";
 		Module = "Atlas_Legion";
+		PrevMap = "TheNightholdA";
+		NextMap = "TheNightholdC";
 		{ BLUE.." B-D) "..ALC["Connection"], 10001 };
 		{ WHIT.." 2) "..Atlas_GetBossName("Chronomatic Anomaly", 1725)..ALC["L-Parenthesis"]..ALC["Wanders"]..ALC["R-Parenthesis"], 1725 };
 		{ WHIT.." 3) "..Atlas_GetBossName("Trilliax", 1731), 1731 };
@@ -541,6 +574,8 @@ local myMaps = {
 		PlayerLimit = "10-30";
 		MinGearLevel = "835";
 		Module = "Atlas_Legion";
+		PrevMap = "TheNightholdB";
+		NextMap = "TheNightholdD";
 		{ BLUE.." D-H) "..ALC["Connection"], 10001 };
 		{ WHIT.." 4) "..Atlas_GetBossName("Spellblade Aluriel", 1751)..ALC["L-Parenthesis"]..ALC["Wanders"]..ALC["R-Parenthesis"], 1751 };
 		{ WHIT.." 6) "..Atlas_GetBossName("Krosus", 1713), 1713 };
@@ -559,6 +594,8 @@ local myMaps = {
 		PlayerLimit = "10-30";
 		MinGearLevel = "835";
 		Module = "Atlas_Legion";
+		PrevMap = "TheNightholdC";
+		NextMap = "TheNightholdE";
 		{ BLUE.." E) "..ALC["Connection"], 10001 };
 		{ WHIT.." 5) "..Atlas_GetBossName("Tichondrius", 1762), 1762 };
 	};
@@ -575,6 +612,8 @@ local myMaps = {
 		PlayerLimit = "10-30";
 		MinGearLevel = "835";
 		Module = "Atlas_Legion";
+		PrevMap = "TheNightholdD";
+		NextMap = "TheNightholdF";
 		{ BLUE.." E-G) "..ALC["Connection"], 10001 };
 		{ WHIT.." 8) "..Atlas_GetBossName("Star Augur Etraeus", 1732), 1732 };
 	};
@@ -591,6 +630,8 @@ local myMaps = {
 		PlayerLimit = "10-30";
 		MinGearLevel = "835";
 		Module = "Atlas_Legion";
+		PrevMap = "TheNightholdE";
+		NextMap = "TheNightholdG";
 		{ BLUE.." H) "..ALC["Portal"], 10001 };
 		{ WHIT.." 9) "..Atlas_GetBossName("Grand Magistrix Elisande", 1743), 1743 };
 	};
@@ -607,6 +648,7 @@ local myMaps = {
 		PlayerLimit = "10-30";
 		MinGearLevel = "835";
 		Module = "Atlas_Legion";
+		PrevMap = "TheNightholdF";
 		{ WHIT.." 10) "..Atlas_GetBossName("Gul'dan", 1737), 1737 };
 	};
 	TrialofValorA = { 
@@ -618,6 +660,7 @@ local myMaps = {
 		DungeonLevel = "2";
 		JournalInstanceID = "861";
 		Module = "Atlas_Legion";
+		NextMap = "TrialofValorB";
 		{ BLUE.." A) "..ALC["Entrance"], 10101 };
 		{ WHIT.." 1) "..Atlas_GetBossName("Hymdall", 1485), 10001 };
 		{ WHIT.." 2) "..Atlas_GetBossName("Hyrja", 1486), 10002 };
@@ -632,6 +675,7 @@ local myMaps = {
 		DungeonLevel = "3";
 		JournalInstanceID = "861";
 		Module = "Atlas_Legion";
+		PrevMap = "TrialofValorA";
 		{ BLUE.." A) "..ALC["Entrance"], 10101 };
 		{ WHIT.." 4) "..Atlas_GetBossName("Guarm", 1830), 1830 };
 		{ WHIT.." 5) "..Atlas_GetBossName("Helya", 1829), 1829 };
@@ -646,6 +690,7 @@ local myMaps = {
 		DungeonLevel = "1";
 		JournalInstanceID = "707";
 		Module = "Atlas_Legion";
+		NextMap = "VaultoftheWardensB";
 		{ BLUE.." A) "..ALC["Entrance"], 10001 };
 		{ BLUE.." B) "..ALC["Connection"], 10002 };
 		{ BLUE.." C) "..ALC["Elevator"], 10003 };
@@ -661,6 +706,8 @@ local myMaps = {
 		DungeonLevel = "2";
 		JournalInstanceID = "707";
 		Module = "Atlas_Legion";
+		PrevMap = "VaultoftheWardensA";
+		NextMap = "VaultoftheWardensC";
 		{ BLUE.." C-D) "..ALC["Elevator"], 10003 };
 		{ WHIT.." 2) "..Atlas_GetBossName("Inquisitor Tormentorum", 1695), 1695 };
 		{ WHIT.." 3) "..Atlas_GetBossName("Ash'golm", 1468), 1468 };
@@ -678,6 +725,7 @@ local myMaps = {
 		DungeonLevel = "3";
 		JournalInstanceID = "707";
 		Module = "Atlas_Legion";
+		PrevMap = "VaultoftheWardensB";
 		{ BLUE.." D) "..ALC["Elevator"], 10004 };
 		{ WHIT.." 5) "..Atlas_GetBossName("Cordana Felsong", 1470), 1470 };
 		{ GREN.." 1') "..L["Fel-Ravaged Tome"], 10005};

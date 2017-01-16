@@ -1,12 +1,19 @@
 $Id$
 Atlas, a World of Warcraft instance map browser
-Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
+Copyright 2016 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 
 ==============
 = Change Log =
 ==============
 
-v1.36.00 (Jan. 11, 2016)
+v1.36.01 (Jan. 16, 2017)
+------------------------
+- Localization update:
+  - German (pas06)
+- Added to support quick map switching by clicking the Next or 
+  Previous map button
+  
+v1.36.00 (Jan. 11, 2017)
 ------------------------
 - Localization update:
   Traditional Chinese

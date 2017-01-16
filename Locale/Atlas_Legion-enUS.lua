@@ -2,9 +2,7 @@
 --[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2005 ~ 2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
-	Copyright 2010 - Lothaer <lothayer@gmail.com>, Atlas Team
-	Copyright 2011 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
+	Copyright 2016 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 
 	This file is part of Atlas.
 
@@ -46,6 +44,7 @@ if L then
 	-- Darkheart Thicket
 	L["Rage Rot"] = "Rage Rot"; -- 101660
 	L["Kudzilla"] = "Kudzilla"; -- 99362
+	L["Mythana"] = "Mythana"; -- 101641
 
 	-- Eye of Azshara
 	L["Crate of Corks"] = "Crate of Corks"; -- Alchemy quest - Put a Cork in It (39331)
