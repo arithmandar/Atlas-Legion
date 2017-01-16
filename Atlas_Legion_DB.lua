@@ -93,8 +93,9 @@ local myDB = {
 		{   2,  1655, 209, 201, 427, 297 }; -- Oakheart
 		{   3,  1656, 326, 196, 649, 299 }; -- Dresaron
 		{   4,  1657, 418, 357, 802, 553 }; -- Shade of Xavius
-		{   1, 10003, 70, 111, 171, 126, "Orange" }; -- Rage Rot
-		{   2, 10004, 179, 349, 378, 569, "Orange" };-- Kudzilla
+		{   1, 101660, 70, 111, 171, 126, "Orange" }; -- Rage Rot
+		{   2, 101641, 127, 175, 283, 248, "Orange" }; -- Mythana
+		{   3, 99362, 179, 349, 378, 569, "Orange" }; -- Kudzilla
 	};
 	EyeofAzshara = {
 		{ "A", 10001, 247, 491 }; -- Entrance

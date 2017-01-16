@@ -46,7 +46,7 @@ if L then
 	--Darkheart Thicket
 	-- L["Rage Rot"] = "Rage Rot"; -- 101660
 	L["Kudzilla"] = "庫吉拉"; -- 99362
-	-- L["Mythana"] = "Mythana"; -- 101641
+	L["Mythana"] = "秘薩納"; -- 101641
 
 	--Eye of Azshara
 	L["Crate of Corks"] = "一箱木栓"; -- Alchemy quest - Put a Cork in It (39331)

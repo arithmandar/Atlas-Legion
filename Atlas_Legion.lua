@@ -165,8 +165,9 @@ local myMaps = {
 		{ WHIT.." 2) "..Atlas_GetBossName("Oakheart", 1655), 1655 };
 		{ WHIT.." 3) "..Atlas_GetBossName("Dresaron", 1656), 1656 };
 		{ WHIT.." 4) "..Atlas_GetBossName("Shade of Xavius", 1657), 1657 };
-		{ ORNG.." 1) "..L["Rage Rot"], 10003 };
-		{ ORNG.." 2) "..L["Kudzilla"], 10004 };
+		{ ORNG.." 1) "..L["Rage Rot"], 101660 };
+		{ ORNG.." 2) "..L["Mythana"], 101641 };
+		{ ORNG.." 3) "..L["Kudzilla"], 99362 };
 	};
 	EyeofAzshara = {
 		ZoneName = { BZ["Eye of Azshara"] };
