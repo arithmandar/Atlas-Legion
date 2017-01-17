@@ -41,7 +41,7 @@ if L then
 	-- L["Ancient Widow"] = "Ancient Widow";
 	L["Archmage Galeorn"] = "大法師加里恩";
 	L["Kalyndras <Rook's Quartermaster>"] = "卡林達斯 <玄鴉堡軍需官>";
-	-- L["Braxas the Fleshcarver"] = "Braxas the Fleshcarver"; -- 111290
+	L["Braxas the Fleshcarver"] = "『刻肉者』布拉薩斯"; -- 111290
 
 	--Darkheart Thicket
 	-- L["Rage Rot"] = "Rage Rot"; -- 101660
