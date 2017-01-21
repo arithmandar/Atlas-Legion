@@ -51,6 +51,8 @@ if L then
 	L["Put a Cork in It"] = "Put a Cork in It";
 	L["Shellmaw"] = "Shellmaw"; -- 91788
 	L["Gom Crabbar"] = "Gom Crabbar"; -- 101411
+	L["Jaggen-Ra"] = "Jaggen-Ra"; -- 101467
+	L["Dread Captain Thedon"] = "Dread Captain Thedon"; -- 108543
 
 	-- Halls of Valor
 	L["Fenryr's western spawn point"] = "Fenryr's western spawn point";

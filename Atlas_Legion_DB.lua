@@ -75,7 +75,7 @@ local myDB = {
 		{ "B", 10002, 300, 319 }; -- Connection
 		{ "C", 10002, 411, 429 }; -- Connection
 		{  1, 1718, 109, 152 }; -- Patrol Captain Gerdo
-		{  2, 1719, 283, 299 }; -- Talixae Flamewreath
+		{  2, 1719, 277, 294 }; -- Talixae Flamewreath
 		{  3, 1720, 429, 446 }; -- Advisor Melandrus
 		{ "1", 10003, 292, 310 }; -- Ly'leth Lunastre
 		{  1, 10004, 186, 200 }; -- Arcanist Malrodi
@@ -98,15 +98,17 @@ local myDB = {
 		{   3, 99362, 179, 349, 378, 569, "Orange" }; -- Kudzilla
 	};
 	EyeofAzshara = {
-		{ "A", 10001, 247, 491 }; -- Entrance
-		{   1,  1480, 296, 379 }; -- Warlord Parjesh
-		{   2,  1490, 220, 279 }; -- Lady Hatecoil
-		{   3,  1491, 405, 287 }; -- King Deepbeard
-		{   4,  1479, 307, 200 }; -- Serpentrix
-		{   5,  1492, 307, 301 }; -- Wrath of Azshara
-		{ "1'", 10002, 360, 324 }; -- Crate of Corks, Alchemy quest - Put a Cork in It (39331)
-		{   1, 10003, 138, 258 }; -- Shellmaw
-		{   2, 10004, 172, 166 }; -- Gom Crabbar
+		{ "A", 10001, 172, 432 }; -- Entrance
+		{   1,  1480, 222, 322 }; -- Warlord Parjesh
+		{   2,  1490, 148, 228 }; -- Lady Hatecoil
+		{   3,  1479, 226, 153 }; -- Serpentrix
+		{   4,  1491, 322, 236 }; -- King Deepbeard
+		{   5,  1492, 232, 250 }; -- Wrath of Azshara
+		{ "1'", 10002, 285, 270 }; -- Crate of Corks, Alchemy quest - Put a Cork in It (39331)
+		{   1, 91788,   70, 220 }; -- Shellmaw
+		{   2, 108543,  41, 190 }; -- Dread Captain Thedon
+		{   3, 101411, 108, 120 }; -- Gom Crabbar
+		{   4, 101467, 489, 150 }; -- Jaggen-Ra
 	};
 	HallsofValorA = { 
 		{ "A", 10001, 249, 12 }; -- Entrance

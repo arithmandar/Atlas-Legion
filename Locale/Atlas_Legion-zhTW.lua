@@ -31,7 +31,7 @@ if L then
 	--Assault on VioletHold
 
 	--Court of Stars
-	L["Ly'leth Lunastre"] = "Ly'leth Lunastre"; -- 106468
+	L["Ly'leth Lunastre"] = "黎利斯·路納斯特"; -- 106468
 	L["Arcanist Malrodi"] = "秘法師瑪洛蒂"; -- 108796
 	--L["Velimar"] = "Velimar"; -- 108740
 
@@ -53,6 +53,8 @@ if L then
 	L["Put a Cork in It"] = "塞進木栓";
 	-- L["Shellmaw"] = "Shellmaw"; -- 91788
 	L["Gom Crabbar"] = "戈姆·蟹巴"; -- 101411
+	L["Jaggen-Ra"] = "迦耿拉"; 
+	-- L["Dread Captain Thedon"] = "Dread Captain Thedon";
 
 	--Halls of Valor
 	L["Fenryr's western spawn point"] = "芬里爾的西邊出現點";
