@@ -6,13 +6,13 @@ Copyright 2016 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
-v1.37.00 (Jan. XX, 2017)
+v1.37.00 (Jan. 22, 2017)
 ------------------------
 - Added Mythana to Darkheart Thicket
 - Eye of Azshara map revamped;
   - added Jaggen-Ra and Dread Captain Thedon
   - switch boss order of King Deepbeard and Serpentrix
-- Added instance's achivements
+- Added instance's achievements
 
 v1.36.01 (Jan. 16, 2017)
 ------------------------
