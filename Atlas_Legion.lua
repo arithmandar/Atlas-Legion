@@ -484,6 +484,7 @@ local myMaps = {
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ "Darkbough", "ac=10818" };
+		{ "Buggy Fight", "ac=10555" };
 		{ "Mythic: Nythendra", "ac=10821" };
 		{ "The Emerald Nightmare Guild Run", "ac=10866" };
 	};
@@ -530,6 +531,7 @@ local myMaps = {
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ "Darkbough", "ac=10818" };
+		{ "Took the Red Eye Down", "ac=10830" };
 		{ "Mythic: Il'gynoth", "ac=10823" };
 		{ "The Emerald Nightmare Guild Run", "ac=10866" };
 	};
@@ -553,6 +555,7 @@ local myMaps = {
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ "Darkbough", "ac=10818" };
+		{ "Webbing Crashers", "ac=10771" };
 		{ "Mythic: Elerethe Renferal", "ac=10822" };
 		{ "The Emerald Nightmare Guild Run", "ac=10866" };
 	};
@@ -576,6 +579,7 @@ local myMaps = {
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ "Tormented Guardians", "ac=10819" };
+		{ "Scare Bear", "ac=10753" };
 		{ "Mythic: Ursoc", "ac=10824" };
 		{ "The Emerald Nightmare Guild Run", "ac=10866" };
 	};
@@ -599,6 +603,7 @@ local myMaps = {
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ "Tormented Guardians", "ac=10819" };
+		{ "Imagined Dragons World Tour", "ac=10663" };
 		{ "Mythic: Dragons of Nightmare", "ac=10825" };
 		{ "The Emerald Nightmare Guild Run", "ac=10866" };
 	};
@@ -623,6 +628,7 @@ local myMaps = {
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ "Tormented Guardians", "ac=10819" };
 		{ "Use the Force(s)", "ac=10772" };
+		{ "I Attack the Darkness", "ac=10755" };
 		{ "Mythic: Cenarius", "ac=10826" };
 		{ "The Emerald Nightmare Guild Run", "ac=10866" };
 	};
@@ -690,6 +696,7 @@ local myMaps = {
 		{ GREY..INDENT..L["Teleport to Tichondrius / Grand Magistrix Elisande"] };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
+		{ "Cage Rematch", "ac=10678" };
 		{ "Arcing Aqueducts", "ac=10829" };
 		{ "Mythic: Skorpyron", "ac=10840" };
 		{ "The Nighthold Guild Run", "ac=10868" };
@@ -714,8 +721,9 @@ local myMaps = {
 		{ WHIT.." 3) "..Atlas_GetBossName("Trilliax", 1731), 1731 };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
-		{ "Arcing Aqueducts", "ac=10829" };
 		{ "Grand Opening", "ac=10697" };
+		{ "Gluten Free", "ac=10742" };
+		{ "Arcing Aqueducts", "ac=10829" };
 		{ "Mythic: Chronomatic Anomaly", "ac=10842" };
 		{ "Mythic: Trilliax", "ac=10843" };
 		{ "The Nighthold Guild Run", "ac=10868" };
@@ -741,6 +749,8 @@ local myMaps = {
 		{ WHIT.." 7) "..Atlas_GetBossName("High Botanist Tel'arn", 1761), 1761 };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
+		{ "A Change In Scenery", "ac=10817" };
+		{ "Burning Bridges", "ac=10575" };
 		{ "Fruit of All Evil", "ac=10754" };
 		{ "Nightspire", "ac=10838" };
 		{ "Royal Athenaeum", "ac=10837" };
@@ -792,6 +802,7 @@ local myMaps = {
 		{ WHIT.." 8) "..Atlas_GetBossName("Star Augur Etraeus", 1732), 1732 };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
+		{ "Elementalry!", "ac=10851" };
 		{ "Royal Athenaeum", "ac=10837" };
 		{ "Mythic: Star Augur Etraeus", "ac=10845" };
 		{ "The Nighthold Guild Run", "ac=10868" };
@@ -815,6 +826,7 @@ local myMaps = {
 		{ WHIT.." 9) "..Atlas_GetBossName("Grand Magistrix Elisande", 1743), 1743 };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
+		{ "Infinitesimal", "ac=10699" };
 		{ "Nightspire", "ac=10838" };
 		{ "Mythic: Grand Magistrix Elisande", "ac=10849" };
 		{ "The Nighthold Guild Run", "ac=10868" };
@@ -836,12 +848,13 @@ local myMaps = {
 		{ WHIT.." 10) "..Atlas_GetBossName("Gul'dan", 1737), 1737 };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
-		{ "Cutting Edge: Gul'dan", "ac=11192" };
-		{ "Ahead of the Curve: Gul'dan", "ac=11195" };
 		{ "Betrayer's Rise", "ac=10839" };
+		{ "I've Got My Eyes On You", "ac=10696" };
 		{ "Mythic: Gul'dan", "ac=10850" };
 		{ "Mythic: Gul'dan Guild Run", "ac=11239" };
 		{ "The Nighthold Guild Run", "ac=10868" };
+		{ "Cutting Edge: Gul'dan", "ac=11192" };
+		{ "Ahead of the Curve: Gul'dan", "ac=11195" };
 	};
 	TrialofValorA = { 
 		ZoneName = { BZ["Trial of Valor"]..ALC["MapA"] };
@@ -883,10 +896,11 @@ local myMaps = {
 		{ "Cutting Edge: Helya", "ac=11580" };
 		{ "Ahead of the Curve: Helya", "ac=11581" };
 		{ "Patient Zero", "ac=11377" };
+		{ "The Chosen", "ac=11387" };
+		{ "Boneafide Tri Tip", "ac=11386" };
 		{ "Mythic: Guarm", "ac=11397" };
 		{ "Mythic: Helya", "ac=11398" };
 		{ "Realm First! Helya", "ac=11405" };
-		{ "The Chosen", "ac=11387" };
 		{ "Mythic: Helya Guild Run", "ac=11404" };
 		{ "Trial of Valor", "ac=11394" };
 		{ "Trial of Valor Guild Run", "ac=11403" };

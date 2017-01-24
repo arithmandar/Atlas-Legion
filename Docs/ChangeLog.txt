@@ -6,6 +6,12 @@ Copyright 2016 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
+v1.37.01 (Jan. 24, 2017)
+------------------------
+- Added more raid's achievements
+- Localization update:
+  - German (pas06)
+
 v1.37.00 (Jan. 22, 2017)
 ------------------------
 - Added Mythana to Darkheart Thicket
