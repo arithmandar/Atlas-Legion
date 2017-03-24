@@ -78,6 +78,13 @@ if L then
 	--Maw of Souls
 	L["Echoing Horn of the Damned"] = "遭譴者回音號角";
 
+	L["Charred Bone Fragment"] = "燒焦的白骨碎片";
+	L["Archmage Leryda"] = "大法師利瑞達";
+	--L["Lydia Accoste"] = "Lydia Accoste";
+	L["Barnes"] = "巴奈斯"; -- 114339
+	--L["Soul Fragment"] = "Soul Fragment";
+	L["Koren"] = "卡爾侖"; -- 114815
+	--L["Medivh's Footlocker"] = "Medivh's Footlocker"; -- object: 266826
 	--The Arcway
 	L["Portal to Shal'Aran"] = "沙亞蘭傳送門";
 	--L["The Rat King"] = "The Rat King"; -- 111057
