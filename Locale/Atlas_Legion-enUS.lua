@@ -77,6 +77,13 @@ if L then
 	L["Echoing Horn of the Damned"] = "Echoing Horn of the Damned";
 
 	-- Return to Karazhan
+	L["Charred Bone Fragment"] = "Charred Bone Fragment";
+	L["Archmage Leryda"] = "Archmage Leryda";
+	L["Lydia Accoste"] = "Lydia Accoste";
+	L["Barnes"] = "Barnes"; -- 114339
+	L["Soul Fragment"] = "Soul Fragment";
+	L["Koren"] = "Koren"; -- 114815
+	L["Medivh's Footlocker"] = "Medivh's Footlocker"; -- object: 266826
 	
 	-- The Arcway
 	L["Portal to Shal'Aran"] = "Portal to Shal'Aran";
