@@ -28,6 +28,8 @@ local L = AceLocale:NewLocale("Atlas_Legion", "enUS", true, true);
 if L then
 	-- Assault on VioletHold
 
+	-- Cathedral of Eternal Night
+
 	-- Court of Stars
 	L["Ly'leth Lunastre"] = "Ly'leth Lunastre"; -- 106468
 	L["Arcanist Malrodi"] = "Arcanist Malrodi"; -- 108796
@@ -47,8 +49,8 @@ if L then
 	L["Mythana"] = "Mythana"; -- 101641
 
 	-- Eye of Azshara
-	L["Crate of Corks"] = "Crate of Corks"; -- Alchemy quest - Put a Cork in It (39331)
-	L["Put a Cork in It"] = "Put a Cork in It";
+	L["Crate of Corks"] = "Crate of Corks"; -- object=248930, Alchemy quest - Put a Cork in It (39331)
+	L["Put a Cork in It"] = "Put a Cork in It"; -- quest=39331
 	L["Shellmaw"] = "Shellmaw"; -- 91788
 	L["Gom Crabbar"] = "Gom Crabbar"; -- 101411
 	L["Jaggen-Ra"] = "Jaggen-Ra"; -- 101467
@@ -84,6 +86,7 @@ if L then
 	L["Soul Fragment"] = "Soul Fragment";
 	L["Koren"] = "Koren"; -- 114815
 	L["Medivh's Footlocker"] = "Medivh's Footlocker"; -- object: 266826
+	L["Archmage Khadgar"] = "Archmage Khadgar"; -- 115497
 	
 	-- The Arcway
 	L["Portal to Shal'Aran"] = "Portal to Shal'Aran";

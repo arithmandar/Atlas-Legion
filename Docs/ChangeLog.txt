@@ -6,6 +6,11 @@ Copyright 2016 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
+v1.39.00 (Mar. 28, 2017)
+------------------------
+- Toc update to support WoW 7.2
+- Added WoW 7.2 new dungeon and raid's map data (Cathedral of Eternal Night & Tomb of Sargeras)
+
 v1.38.00 (Mar. 24, 2017)
 ------------------------
 - Added maps of Return to Karazhan

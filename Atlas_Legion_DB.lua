@@ -70,6 +70,28 @@ local myDB = {
 		{  3, 1664, 351, 60 }; -- Smashspite the Hateful
 		{  4, 1672, 158, 171 }; -- Lord Kur'talos Ravencrest
 	};
+	CathedralofEternalNightA = {
+		{ "A", 10001, 249, 487 }; -- Entrance
+		{ "B", 10002, 249, 106 }; -- Stairs
+	};
+	CathedralofEternalNightB = {
+		{ "B", 10001, 249, 89 }; -- Stairs
+		{ "C", 10001, 249, 390 }; -- Stairs
+		{ 1, 1905, 342, 250 }; -- Agronox
+	};
+	CathedralofEternalNightC = {
+		{ "C", 10001, 130, 385 }; -- Stairs
+		{ "D", 10001, 130, 141 }; -- Stairs
+		{ "D", 10001, 372, 123 }; -- Stairs
+		{ "E", 10001, 372, 361 }; -- Stairs
+		{ 2, 1906, 130, 249 }; -- Thrashbite the Scornful
+	};
+	CathedralofEternalNightD = {
+		{ "E", 10001, 250, 442 }; -- Stairs
+		{ "1'", 129207, 250, 251 }; -- Aegis of Aggramar
+		{ 3, 1904, 235, 205 }; -- Domatrax
+		{ 4, 1878, 264, 205 }; -- Mephistroth
+	};
 	CourtofStarsA = {
 		{ "A", 10001, 198, 377 }; -- Entrance
 		{ "B", 10002, 300, 319 }; -- Connection
@@ -235,6 +257,36 @@ local myDB = {
 		{ "M", 10001, 282, 271 }; -- Connection
 		{ 10, 1838, 248, 291 }; -- Viz'aduum the Watcher
 		{ "9'", 115497, 196, 375 }; -- Archmage Khadgar
+	};
+	TombofSargerasA = {
+		{ "A", 10001, 200, 492 }; -- Entrance
+		{ "B", 10002, 283, 263 }; -- Connection
+		{ 1, 1862, 202, 297 }; -- Goroth
+		{ 2, 1867, 200, 26}; -- Demonic Inquisition
+	};
+	TombofSargerasB = {
+		{ "B", 10001, 159, 323 }; -- Connection
+		{ "C", 10001, 303, 492 }; -- Connection
+		{ 4, 1903, 250, 288 }; -- Sisters of the Moon
+		{ 6, 1896, 304, 100 }; -- The Desolate Host
+	};
+	TombofSargerasC = {
+		{ "C", 10001, 313, 230 }; -- Connection
+		{ "D", 10001, 373, 281 }; -- Connection
+		{ 3, 1856, 195, 267 }; -- Harjatan
+	};
+	TombofSargerasD = {
+		{ "D", 10001, 79, 101 }; -- Connection
+		{ 5, 1861, 235, 231 }; -- Mistress Sassz'ine
+	};
+	TombofSargerasE = {
+		{ 7, 1897, 250, 157 }; -- Maiden of Vigilance
+	};
+	TombofSargerasF = {
+		{ 8, 1873, 250, 182 }; -- Fallen Avatar
+	};
+	TombofSargerasG = {
+		{ 9, 1898, 378, 249 };
 	};
 	TheArcwayEnt = {
 		{ " A", 10001, 280, 107 }; -- The Grand Promenade

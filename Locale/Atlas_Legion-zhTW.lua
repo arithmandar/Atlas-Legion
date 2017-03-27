@@ -85,6 +85,8 @@ if L then
 	--L["Soul Fragment"] = "Soul Fragment";
 	L["Koren"] = "卡爾侖"; -- 114815
 	--L["Medivh's Footlocker"] = "Medivh's Footlocker"; -- object: 266826
+	L["Archmage Khadgar"] = "大法師卡德加"; -- 115497
+
 	--The Arcway
 	L["Portal to Shal'Aran"] = "沙亞蘭傳送門";
 	--L["The Rat King"] = "The Rat King"; -- 111057
@@ -98,6 +100,8 @@ if L then
 	--The Nighthold
 	L["Teleport to Tichondrius / Grand Magistrix Elisande"] = "傳送到提克迪奧斯／大博學者艾莉珊德處";
 
+	-- Trial of Valor
+	
 	--Vault of the Wardens
 	L["Fel-Ravaged Tome"] = "燒壞的秘典";
 	L["Drelanim Whisperwind"] = "蕾拉妮·語風"; -- 103860
