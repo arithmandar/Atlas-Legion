@@ -79,6 +79,7 @@ if L then
 	L["Echoing Horn of the Damned"] = "Echoing Horn of the Damned";
 
 	-- Return to Karazhan
+	L["Mage Darius"] = "Mage Darius";
 	L["Charred Bone Fragment"] = "Charred Bone Fragment";
 	L["Archmage Leryda"] = "Archmage Leryda";
 	L["Lydia Accoste"] = "Lydia Accoste";

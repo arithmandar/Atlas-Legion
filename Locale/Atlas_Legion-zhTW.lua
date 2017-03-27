@@ -44,7 +44,7 @@ if L then
 	L["Braxas the Fleshcarver"] = "『刻肉者』布拉薩斯"; -- 111290
 
 	--Darkheart Thicket
-	-- L["Rage Rot"] = "Rage Rot"; -- 101660
+	L["Rage Rot"] = "怒朽"; -- 101660
 	L["Kudzilla"] = "庫吉拉"; -- 99362
 	L["Mythana"] = "秘薩納"; -- 101641
 
@@ -78,9 +78,11 @@ if L then
 	--Maw of Souls
 	L["Echoing Horn of the Damned"] = "遭譴者回音號角";
 
+	-- Return to Karazhan
+	L["Mage Darius"] = "法師達瑞亞斯";
 	L["Charred Bone Fragment"] = "燒焦的白骨碎片";
 	L["Archmage Leryda"] = "大法師利瑞達";
-	--L["Lydia Accoste"] = "Lydia Accoste";
+	L["Lydia Accoste"] = "黎蒂雅·艾柯斯塔";
 	L["Barnes"] = "巴奈斯"; -- 114339
 	--L["Soul Fragment"] = "Soul Fragment";
 	L["Koren"] = "卡爾侖"; -- 114815
