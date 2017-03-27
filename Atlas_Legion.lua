@@ -664,8 +664,8 @@ local myMaps = {
 		NextMap = "ReturntoKarazhanJ";
 		{ BLUE.." L) "..ALC["Entrance"], 10001 };
 		{ BLUE.." M) "..ALC["Connection"], 10002 };
-		{ BLUE.." N) "..format(ALC["Portal to %s"], ALC["Entrance"]).."\n"..INDENT..GREY..L["Upper floor"], 10003 };
-		{ INDENT..GREY..L["Upper floor"] };
+		{ BLUE.." N) "..format(ALC["Portal to %s"], ALC["Entrance"]).."\n"..INDENT..GREY..ALC["Upper floor"], 10003 };
+		{ INDENT..GREY..ALC["Upper floor"] };
 	};
 	ReturntoKarazhanJ = {
 		ZoneName = { BZ["Return to Karazhan"]..ALC["MapJ"] };
