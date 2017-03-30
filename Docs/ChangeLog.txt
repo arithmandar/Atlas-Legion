@@ -6,6 +6,10 @@ Copyright 2016 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
+v1.40.00 (Apr. 01, 2017)
+------------------------
+- Re-organized maps of Return to Karazhan (combine MapA and MapB to one single map)
+
 v1.39.00 (Mar. 28, 2017)
 ------------------------
 - Toc update to support WoW 7.2
