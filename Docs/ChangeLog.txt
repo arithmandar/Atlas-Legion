@@ -6,6 +6,9 @@ Copyright 2016 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
+v1.40.02 (Apr. xx, 2017)
+------------------------
+
 v1.40.01 (Apr. 07, 2017)
 ------------------------
 - Nighthold maps revamped and re-organized
