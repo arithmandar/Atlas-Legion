@@ -287,16 +287,17 @@ local myDB = {
 		{ 9, 1898, 378, 249 };
 	};
 	TheArcwayEnt = {
-		{ " A", 10001, 280, 107 }; -- The Grand Promenade
-		{ " B", 10002, 492, 348 }; -- Terrace of Order
-		{ " C", 10003, 113, 377 }; -- The Arcway
-		{ " D", 10004, 263, 201 }; -- The Nighthold
-		{ " A", 10005, 356,  51 }; -- Transport
-		{ " A", 10005, 356, 165 }; -- Transport
-		{ " A", 10005, 356, 293 }; -- Transport
-		{ " A", 10005, 356, 408 }; -- Transport
-		{ " B", 10006, 236, 267 }; -- Portal to Shal'Aran
-		{ " 1", 10007, 197, 337 }; -- Meeting Stone
+		{ " A", 10001, 382, 50 }; -- The Grand Promenade
+		{ " B", 10002, 470, 460 }; -- Terrace of Order
+		{ " C", 10003, 126, 297 }; -- The Arcway
+		{ " D", 10004, 350, 219 }; -- The Nighthold
+		{ " A", 10005, 471, 36 }; -- Transport
+		{ " A", 10005, 415, 136 }; -- Transport
+		{ " A", 10005, 383, 345 }; -- Transport
+		{ " A", 10005, 325, 444 }; -- Transport
+		{ " B", 10006, 292, 267 }; -- Portal to Shal'Aran
+		{ " 1", 10007, 220, 295 }; -- Meeting Stone
+		{ "1'", 115366, 348, 240 }; -- First Arcanist Thalyssra
 	};
 	TheArcway = {
 		{ "A", 10001, 267, 81 }; -- Entrance
@@ -346,57 +347,52 @@ local myDB = {
 		{  7, 1726, 250, 250 }; -- Xavius
 	};
 	TheNightholdEnt = {
-		{ " A", 10001, 280, 107 }; -- The Grand Promenade
-		{ " B", 10002, 492, 348 }; -- Terrace of Order
-		{ " C", 10003, 113, 377 }; -- The Arcway
-		{ " D", 10004, 263, 201 }; -- The Nighthold
-		{ " A", 10005, 356,  51 }; -- Transport
-		{ " A", 10005, 356, 165 }; -- Transport
-		{ " A", 10005, 356, 293 }; -- Transport
-		{ " A", 10005, 356, 408 }; -- Transport
-		{ " B", 10006, 236, 267 }; -- Portal to Shal'Aran
-		{ " 1", 10007, 197, 337 }; -- Meeting Stone
+		{ " A", 10001, 382, 50 }; -- The Grand Promenade
+		{ " B", 10002, 470, 460 }; -- Terrace of Order
+		{ " C", 10003, 126, 297 }; -- The Arcway
+		{ " D", 10004, 350, 219 }; -- The Nighthold
+		{ " A", 10005, 471, 36 }; -- Transport
+		{ " A", 10005, 415, 136 }; -- Transport
+		{ " A", 10005, 383, 345 }; -- Transport
+		{ " A", 10005, 325, 444 }; -- Transport
+		{ " B", 10006, 292, 267 }; -- Portal to Shal'Aran
+		{ " 1", 10007, 220, 295 }; -- Meeting Stone
+		{ "1'", 115366, 348, 240 }; -- First Arcanist Thalyssra
 	};
 	TheNightholdA = {
-		{ "A", 10001, 155, 376 }; -- Entrance
-		{ "B", 10002, 427, 57 }; -- Connection
-		{  1, 1706, 245, 71 }; -- Skorpyron
-		{ "1'", 10003, 130, 350 }; -- Palace Watcher
+		{ "A", 10001, 147, 442 }; -- Portal
+		{ "B", 10002, 228, 51 }; -- Connection
+		{ "B", 10002, 64, 91 }; -- Connection
+		{ "C", 10002, 160, 21 }; -- Connection
+		{  1, 1706, 188, 290 }; -- Skorpyron
+		{  2, 1725, 356, 204 }; -- Chronomatic Anomaly
+		{  3, 1731, 264, 70 }; -- Trilliax
+		{ "1'", 110791, 136, 434 }; -- First Arcanist Thalyssra
 	};
 	TheNightholdB = {
-		{ "B", 10001, 158, 466 }; -- Connection
-		{ "C", 10001, 99, 199 }; -- Connection
-		{ "C", 10001, 327, 130 }; -- Connection
-		{ "D", 10001, 467, 9 }; -- Connection
-		{  2, 1725, 271, 338 }; -- Chronomatic Anomaly
-		{  3, 1731, 105, 114 }; -- Trilliax
+		{  4, 1751, 159, 235 }; -- Spellblade Aluriel
+		{  6, 1761, 408, 64 }; -- High Botanist Tel'arn
+		{  8, 1713, 387, 487 }; -- Krosus
+		{  10, 1737, 203, 279 }; -- Gul'dan
+		{ "A", 10001, 50, 129 }; -- Portal
+		{ "C", 10002, 163, 150 }; -- Connection
+		{ "D", 10002, 180, 179 }; -- Connection
+		{ "E", 10002, 228, 128 }; -- Connection
+		{ "F", 10002, 215, 180 }; -- Connection
+		{ "2'", 117085, 80, 280 }; -- Ly'leth Lunastre
 	};
 	TheNightholdC = {
-		{  4, 1751, 197, 229 }; -- Spellblade Aluriel
-		{  6, 1713, 407, 466 }; -- Krosus
-		{  7, 1761, 416, 83 }; -- High Botanist Tel'arn
-		{ "D", 10001, 210, 129 }; -- Connection
-		{ "E", 10001, 118, 277 }; -- Connection
-		{ "F", 10001, 223, 153 }; -- Connection
-		{ "G", 10001, 216, 175 }; -- Connection
-		{ "H", 10001, 261, 134 }; -- Connection
+		{   6, 1732, 152, 95 }; -- Star Augur Etraeus
+		{ "D", 10001, 169, 466 }; -- Connection
+		{ "E", 10001, 412, 221 }; -- Connection
+		{ "F", 10001, 341, 429 }; -- Connection
 	};
 	TheNightholdD = {
-		{   5, 1762, 175, 320 }; -- Tichondrius
-		{ "E", 10001, 199, 165 }; -- Connection
+		{   7, 1762, 175, 320 }; -- Tichondrius
 	};
 	TheNightholdE = {
-		{   8, 1732, 152, 95 }; -- Star Augur Etraeus
-		{ "F", 10001, 186, 295 }; -- Connection
-		{ "G", 10001, 169, 466 }; -- Connection
-		{ "H", 10001, 412, 221 }; -- Connection
-	};
-	TheNightholdF = {
 		{   9, 1743, 251, 249 }; -- Grand Magistrix Elisande
-		{ "I", 10001, 349, 154 }; -- Connection
-	};
-	TheNightholdG = {
-		{  10, 1737, 250, 250 }; -- Gul'dan
+--		{ "H", 10001, 349, 154 }; -- Connection
 	};
 	TrialofValorA = { 
 		{ "A", 10101, 249, 39 }; -- Entrance

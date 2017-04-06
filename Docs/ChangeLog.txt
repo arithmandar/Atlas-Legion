@@ -6,8 +6,14 @@ Copyright 2016 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
-v1.40.01 (Apr. xx, 2017)
+v1.40.01 (Apr. 07, 2017)
 ------------------------
+- Nighthold maps revamped and re-organized
+  - Combine the original Map A and Map B into one single map
+  - Switch the original Map C and Map D
+  - Revamped map of Captain's Quarters (Tichondrius)
+  - Corrected Gul'dan's location and remove the original MapG
+- Change the boss order in Nighthold to better match with the LFR
 
 v1.40.00 (Mar. 31, 2017)
 ------------------------

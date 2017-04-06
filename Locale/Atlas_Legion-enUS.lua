@@ -101,6 +101,7 @@ if L then
 
 	-- The Nighthold
 	L["Teleport to Tichondrius / Grand Magistrix Elisande"] = "Teleport to Tichondrius / Grand Magistrix Elisande";
+	L["First Arcanist Thalyssra"] = "First Arcanist Thalyssra"; -- 110791
 	
 	-- Trial of Valor
 	
