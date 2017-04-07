@@ -159,6 +159,14 @@ local myMaps = {
 		NextMap = "CathedralofEternalNightB";
 		{ BLUE.." A) "..ALC["Entrance"], 10001 };
 		{ BLUE.." B) "..ALC["Stairs"], 10002 };
+		{ "" };
+		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
+		{ "Boom Bloom", "ac=11768" };
+		{ "A Steamy Romance Saga", "ac=11769" };
+		{ "Master of Shadows", "ac=11703" };
+		{ "Cathedral of Eternal Night", "ac=11700" };
+		{ "Heroic: Cathedral of Eternal Night", "ac=11701" };
+		{ "Mythic: Cathedral of Eternal Night", "ac=11702" };
 	};
 	CathedralofEternalNightB = {
 		ZoneName = { BZ["Cathedral of Eternal Night"]..ALC["MapB"] };
@@ -174,6 +182,14 @@ local myMaps = {
 		NextMap = "CathedralofEternalNightC";
 		{ BLUE.." B-C) "..ALC["Stairs"], 10001 };
 		{ WHIT.." 1) "..Atlas_GetBossName("Agronox", 1905), 1905 };
+		{ "" };
+		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
+		{ "Boom Bloom", "ac=11768" };
+		{ "A Steamy Romance Saga", "ac=11769" };
+		{ "Master of Shadows", "ac=11703" };
+		{ "Cathedral of Eternal Night", "ac=11700" };
+		{ "Heroic: Cathedral of Eternal Night", "ac=11701" };
+		{ "Mythic: Cathedral of Eternal Night", "ac=11702" };
 	};
 	CathedralofEternalNightC = {
 		ZoneName = { BZ["Cathedral of Eternal Night"]..ALC["MapC"] };
@@ -189,6 +205,14 @@ local myMaps = {
 		NextMap = "CathedralofEternalNightD";
 		{ BLUE.." C-E) "..ALC["Stairs"], 10001 };
 		{ WHIT.." 2) "..Atlas_GetBossName("Thrashbite the Scornful", 1906), 1906 };
+		{ "" };
+		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
+		{ "Boom Bloom", "ac=11768" };
+		{ "A Steamy Romance Saga", "ac=11769" };
+		{ "Master of Shadows", "ac=11703" };
+		{ "Cathedral of Eternal Night", "ac=11700" };
+		{ "Heroic: Cathedral of Eternal Night", "ac=11701" };
+		{ "Mythic: Cathedral of Eternal Night", "ac=11702" };
 	};
 	CathedralofEternalNightD = {
 		ZoneName = { BZ["Cathedral of Eternal Night"]..ALC["MapD"] };
@@ -205,6 +229,14 @@ local myMaps = {
 		{ GREN.." 1') ", 129207, "item", "Aegis of Aggramar" }; -- Aegis of Aggramar
 		{ WHIT.." 3) "..Atlas_GetBossName("Domatrax", 1904), 1904 };
 		{ WHIT.." 4) "..Atlas_GetBossName("Mephistroth", 1878), 1878 };
+		{ "" };
+		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
+		{ "Boom Bloom", "ac=11768" };
+		{ "A Steamy Romance Saga", "ac=11769" };
+		{ "Master of Shadows", "ac=11703" };
+		{ "Cathedral of Eternal Night", "ac=11700" };
+		{ "Heroic: Cathedral of Eternal Night", "ac=11701" };
+		{ "Mythic: Cathedral of Eternal Night", "ac=11702" };
 	};
 	CourtofStarsA = {
 		ZoneName = { BZ["Court of Stars"]..ALC["MapA"] };
@@ -701,6 +733,7 @@ local myMaps = {
 		JournalInstanceID = "726";
 		Module = "Atlas_Legion";
 		PrevMap = "TheArcwayEnt";
+		LargeMap = "TheArcway";
 		{ BLUE.." A) "..ALC["Entrance"], 10001 };
 		{ WHIT.." 1) "..Atlas_GetBossName("Ivanyr", 1497), 1497 };
 		{ WHIT.." 2) "..Atlas_GetBossName("Corstilax", 1498), 1498 };
@@ -709,6 +742,7 @@ local myMaps = {
 		{ WHIT.." 5) "..Atlas_GetBossName("Advisor Vandros", 1501), 1501 };
 		{ ORNG.." 1) "..L["The Rat King"], 10002 };
 		{ ORNG.." 2) "..L["Sludge Face"], 10003 };
+		{ GREN.." 1') "..L["Suramar Leyline Map"], 10004 };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ "Arcanic Cling", "ac=10773" };
@@ -1095,6 +1129,14 @@ local myMaps = {
 		{ BLUE.." B) "..ALC["Connection"], 10002 };
 		{ WHIT.." 1) "..Atlas_GetBossName("Goroth", 1862), 1862 };
 		{ WHIT.." 2) "..Atlas_GetBossName("Demonic Inquisition", 1867), 1867 };
+		{ "" };
+		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
+		{ "The Gates of Hell", "ac=11787" };
+		{ "Wailing Halls", "ac=11788" };
+		{ "Mythic: Goroth", "ac=11767" };
+		{ "Mythic: Demonic Inquisition", "ac=11774" };
+		{ "Tomb of Sargeras Guild Run", "ac=11782" };
+		{ "Mythic: Kil'jaeden Guild Run", "ac=11784" };
 	};
 	TombofSargerasB = {
 		ZoneName = { BZ["Tomb of Sargeras"]..ALC["MapB"], BZ["Tomb of Sargeras"] };
@@ -1114,6 +1156,13 @@ local myMaps = {
 		{ BLUE.." B-C) "..ALC["Connection"], 10001 };
 		{ WHIT.." 4) "..Atlas_GetBossName("Sisters of the Moon", 1903), 1903 };
 		{ WHIT.." 6) "..Atlas_GetBossName("The Desolate Host", 1896), 1896 };
+		{ "" };
+		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
+		{ "Wailing Halls", "ac=11788" };
+		{ "Mythic: Sisters of the Moon", "ac=11777" };
+		{ "Mythic: The Desolate Host", "ac=11778" };
+		{ "Tomb of Sargeras Guild Run", "ac=11782" };
+		{ "Mythic: Kil'jaeden Guild Run", "ac=11784" };
 	};
 	TombofSargerasC = {
 		ZoneName = { BZ["Tomb of Sargeras"]..ALC["MapC"], BZ["Tomb of Sargeras"] };
@@ -1132,6 +1181,13 @@ local myMaps = {
 		NextMap = "TombofSargerasD";
 		{ BLUE.." C-D) "..ALC["Connection"], 10001 };
 		{ WHIT.." 3) "..Atlas_GetBossName("Harjatan", 1856), 1856 };
+		{ "" };
+		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
+		{ "The Gates of Hell", "ac=11787" };
+		{ "Grand Fin-ale", "ac=11699" };
+		{ "Mythic: Harjatan", "ac=11775" };
+		{ "Tomb of Sargeras Guild Run", "ac=11782" };
+		{ "Mythic: Kil'jaeden Guild Run", "ac=11784" };
 	};
 	TombofSargerasD = {
 		ZoneName = { BZ["Tomb of Sargeras"]..ALC["MapD"], BZ["Tomb of Sargeras"] };
@@ -1150,6 +1206,12 @@ local myMaps = {
 		NextMap = "TombofSargerasE";
 		{ BLUE.." D) "..ALC["Connection"], 10001 };
 		{ WHIT.." 5) "..Atlas_GetBossName("Mistress Sassz'ine", 1861), 1861 };
+		{ "" };
+		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
+		{ "The Gates of Hell", "ac=11787" };
+		{ "Mythic: Mistress Sassz'ine", "ac=11776" };
+		{ "Tomb of Sargeras Guild Run", "ac=11782" };
+		{ "Mythic: Kil'jaeden Guild Run", "ac=11784" };
 	};
 	TombofSargerasE = {
 		ZoneName = { BZ["Tomb of Sargeras"]..ALC["MapE"], BZ["Tomb of Sargeras"] };
@@ -1167,6 +1229,12 @@ local myMaps = {
 		MinGearLevel = "840";
 		NextMap = "TombofSargerasF";
 		{ WHIT.." 7) "..Atlas_GetBossName("Maiden of Vigilance", 1897), 1897 };
+		{ "" };
+		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
+		{ "Chamber of the Avatar", "ac=11789" };
+		{ "Mythic: Maiden of Vigilance", "ac=11779" };
+		{ "Tomb of Sargeras Guild Run", "ac=11782" };
+		{ "Mythic: Kil'jaeden Guild Run", "ac=11784" };
 	};
 	TombofSargerasF = {
 		ZoneName = { BZ["Tomb of Sargeras"]..ALC["MapF"], BZ["Tomb of Sargeras"] };
@@ -1184,6 +1252,12 @@ local myMaps = {
 		MinGearLevel = "840";
 		NextMap = "TombofSargerasG";
 		{ WHIT.." 8) "..Atlas_GetBossName("Fallen Avatar", 1873), 1873 };
+		{ "" };
+		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
+		{ "Chamber of the Avatar", "ac=11789" };
+		{ "Mythic: Fallen Avatar", "ac=11780" };
+		{ "Tomb of Sargeras Guild Run", "ac=11782" };
+		{ "Mythic: Kil'jaeden Guild Run", "ac=11784" };
 	};
 	TombofSargerasG = {
 		ZoneName = { BZ["Tomb of Sargeras"]..ALC["MapG"], BZ["Tomb of Sargeras"] };
@@ -1200,6 +1274,13 @@ local myMaps = {
 		MinGearLevel = "840";
 		PrevMap = "TombofSargerasF";
 		{ WHIT.." 9) "..Atlas_GetBossName("Kil'jaeden", 1898), 1898 };
+		{ "" };
+		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
+		{ "Deceiver's Fall", "ac=11790" };
+		{ "Dark Souls", "ac=11770" };
+		{ "Mythic: Kil'jaeden", "ac=11781" };
+		{ "Tomb of Sargeras Guild Run", "ac=11782" };
+		{ "Mythic: Kil'jaeden Guild Run", "ac=11784" };
 	};
 	TrialofValorA = { 
 		ZoneName = { BZ["Trial of Valor"]..ALC["MapA"] };

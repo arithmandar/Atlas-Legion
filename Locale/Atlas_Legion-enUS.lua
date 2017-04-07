@@ -93,6 +93,7 @@ if L then
 	L["Portal to Shal'Aran"] = "Portal to Shal'Aran";
 	L["The Rat King"] = "The Rat King"; -- 111057
 	L["Sludge Face"] = "Sludge Face"; -- 111021
+	L["Suramar Leyline Map"] = "Suramar Leyline Map"; -- object: 251641
 
 	-- The Emerald Nightmare
 	L["Nightmare Watcher"] = "Nightmare Watcher";

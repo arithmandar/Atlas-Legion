@@ -6,8 +6,11 @@ Copyright 2016 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
-v1.40.02 (Apr. xx, 2017)
+v1.40.02 (Apr. 08, 2017)
 ------------------------
+- Added achievements of Cathedral of Eternal Night and Tomb of Sargeras
+- The Arcway map revamped
+- Added large map for the Arcway
 
 v1.40.01 (Apr. 07, 2017)
 ------------------------

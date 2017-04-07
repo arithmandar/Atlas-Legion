@@ -300,14 +300,15 @@ local myDB = {
 		{ "1'", 115366, 348, 240 }; -- First Arcanist Thalyssra
 	};
 	TheArcway = {
-		{ "A", 10001, 267, 81 }; -- Entrance
-		{  1, 1497, 61, 350 }; -- Ivanyr
-		{  2, 1498, 211, 360 }; -- Corstilax
-		{  3, 1499, 455, 234 }; -- General Xakal
-		{  4, 1500, 363, 349 }; -- Nal'tira
-		{  5, 1501, 270, 178 }; -- Advisor Vandros
-		{  1, 10002, 203, 232 }; -- The Rat King
-		{  2, 10003, 270, 395 }; -- Sludge Face
+		{ "A", 10001, 267,  81, 491, 71, "Blue" }; -- Entrance
+		{  1, 1497,    61, 350, 156, 504 }; -- Ivanyr
+		{  2, 1498,   211, 360, 404, 500 }; -- Corstilax
+		{  3, 1499,   455, 234, 793, 319 }; -- General Xakal
+		{  4, 1500,   363, 349, 643, 504 }; -- Nal'tira
+		{  5, 1501,   270, 178, 491, 252 }; -- Advisor Vandros
+		{ "1", 10002, 203, 232, 382, 317, "Orange" }; -- The Rat King
+		{ "2", 10003, 270, 395, 491, 564, "Orange" }; -- Sludge Face
+		{ "1'", 10004, 92, 304, 211, 425, "Green" }; -- Suramar Leyline Map
 	};
 	TheEmeraldNightmareA = {
 		{ "A", 10001, 122, 344 }; -- Entrance

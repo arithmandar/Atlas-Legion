@@ -91,8 +91,9 @@ if L then
 
 	--The Arcway
 	L["Portal to Shal'Aran"] = "沙亞蘭傳送門";
-	--L["The Rat King"] = "The Rat King"; -- 111057
+	L["The Rat King"] = "鼠王"; -- 111057
 	--L["Sludge Face"] = "Sludge Face"; -- 111021
+	L["Suramar Leyline Map"] = "蘇拉瑪爾地脈地圖"; -- object: 251641
 
 	--The Emerald Nightmare
 	--L["Nightmare Watcher"] = "Nightmare Watcher";
