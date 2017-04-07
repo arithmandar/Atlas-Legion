@@ -6,6 +6,9 @@ Copyright 2016 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
+v1.40.03 (Apr. xx, 2017)
+------------------------
+
 v1.40.02 (Apr. 08, 2017)
 ------------------------
 - Added achievements of Cathedral of Eternal Night and Tomb of Sargeras
