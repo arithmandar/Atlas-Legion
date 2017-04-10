@@ -71,26 +71,26 @@ local myDB = {
 		{  4, 1672, 158, 171 }; -- Lord Kur'talos Ravencrest
 	};
 	CathedralofEternalNightA = {
-		{ "A", 10001, 249, 487 }; -- Entrance
-		{ "B", 10002, 249, 106 }; -- Stairs
+		{ "A", 10001, 249, 487, 456, 620, "Blue" }; -- Entrance
+		{ "B", 10002, 249, 106, 456, 124, "Blue" }; -- Stairs
 	};
 	CathedralofEternalNightB = {
-		{ "B", 10001, 249, 89 }; -- Stairs
-		{ "C", 10001, 249, 390 }; -- Stairs
-		{ 1, 1905, 342, 250 }; -- Agronox
+		{ "B", 10001, 249,  89, 456, 108, "Blue" }; -- Stairs
+		{ "C", 10001, 249, 390, 456, 498, "Blue" }; -- Stairs
+		{   1,  1905, 342, 250, 573, 313 }; -- Agronox
 	};
 	CathedralofEternalNightC = {
-		{ "C", 10001, 130, 385 }; -- Stairs
-		{ "D", 10001, 130, 141 }; -- Stairs
-		{ "D", 10001, 372, 123 }; -- Stairs
-		{ "E", 10001, 372, 361 }; -- Stairs
-		{ 2, 1906, 130, 249 }; -- Thrashbite the Scornful
+		{ "C", 10001, 130, 385, 278, 526, "Blue" }; -- Stairs
+		{ "D", 10001, 130, 141, 278, 155, "Blue" }; -- Stairs
+		{ "D", 10001, 372, 123, 691, 136, "Blue" }; -- Stairs
+		{ "E", 10001, 372, 361, 691, 495, "Blue" }; -- Stairs
+		{ 2, 1906, 130, 249, 277, 323 }; -- Thrashbite the Scornful
 	};
 	CathedralofEternalNightD = {
-		{ "E", 10001, 250, 442 }; -- Stairs
-		{ "1'", 129207, 250, 251 }; -- Aegis of Aggramar
-		{ 3, 1904, 235, 205 }; -- Domatrax
-		{ 4, 1878, 264, 205 }; -- Mephistroth
+		{   "E", 10001, 250, 442, 491, 632, "Blue" }; -- Stairs
+		{ "1'", 129207, 250, 251, 491, 324, "Green" }; -- Aegis of Aggramar
+		{    3,   1904, 235, 205, 460, 256 }; -- Domatrax
+		{    4,   1878, 264, 205, 534, 256 }; -- Mephistroth
 	};
 	CourtofStarsA = {
 		{ "A", 10001, 198, 377 }; -- Entrance
@@ -361,39 +361,45 @@ local myDB = {
 		{ "1'", 115366, 348, 240 }; -- First Arcanist Thalyssra
 	};
 	TheNightholdA = {
-		{ "A", 10001, 147, 442 }; -- Portal
-		{ "B", 10002, 228, 51 }; -- Connection
-		{ "B", 10002, 64, 91 }; -- Connection
-		{ "C", 10002, 160, 21 }; -- Connection
-		{  1, 1706, 188, 290 }; -- Skorpyron
-		{  2, 1725, 356, 204 }; -- Chronomatic Anomaly
-		{  3, 1731, 264, 70 }; -- Trilliax
-		{ "1'", 110791, 136, 434 }; -- First Arcanist Thalyssra
+		{ "A", 10001, 147, 442, 401, 579, "Blue" }; -- Portal
+		{ "B", 10002, 228,  51, 499,  65, "Blue" }; -- Connection
+		{ "B", 10002,  64,  91, 283, 124, "Blue" }; -- Connection
+		{ "C", 10002, 160,  21, 406, 28, "Blue" }; -- Connection
+		{    1, 1706, 188, 290, 446, 379 }; -- Skorpyron
+		{    2, 1725, 356, 204, 668, 259 }; -- Chronomatic Anomaly
+		{    3, 1731, 264,  70, 551,  93 }; -- Trilliax
+		{ "1'", 110791, 136, 434, 381, 564 }; -- First Arcanist Thalyssra
 	};
 	TheNightholdB = {
-		{  4, 1751, 159, 235 }; -- Spellblade Aluriel
-		{  6, 1761, 408, 64 }; -- High Botanist Tel'arn
-		{  8, 1713, 387, 487 }; -- Krosus
-		{  10, 1737, 203, 279 }; -- Gul'dan
-		{ "A", 10001, 50, 129 }; -- Portal
-		{ "C", 10002, 163, 150 }; -- Connection
-		{ "D", 10002, 180, 179 }; -- Connection
-		{ "E", 10002, 228, 128 }; -- Connection
-		{ "F", 10002, 215, 180 }; -- Connection
-		{ "2'", 117085, 80, 280 }; -- Ly'leth Lunastre
+		{   4,  1751, 159, 235, 460, 302 }; -- Spellblade Aluriel
+		{   6,  1761, 408,  64, 781, 77 }; -- High Botanist Tel'arn
+		{   8,  1713, 387, 487, 761, 637 }; -- Krosus
+		{  10,  1737, 203, 279, 516, 358 }; -- Gul'dan
+		{ "A", 10001,  50, 129, 311, 158, "Blue" }; -- Portal
+		{ "C", 10002, 163, 150, 468, 179, "Blue" }; -- Connection
+		{ "D", 10002, 180, 179, 487, 234, "Blue" }; -- Connection
+		{ "E", 10002, 228, 128, 554, 165, "Blue" }; -- Connection
+		{ "F", 10002, 215, 180, 537, 235, "Blue" }; -- Connection
+		{ "G", 10002,  62, 275, 331, 354, "Blue" }; -- Connection
+		{ "G", 10002,  86, 298, 362, 386, "Blue" }; -- Connection
+		{ "H", 10002, 106, 290, 393, 382, "Blue" }; -- Connection
+		{ "1", 112712, 89, 126, 369, 162, "Orange" }; -- Gilded Guardian
+		{ "2'", 117085, 80, 280, 358, 360, "Green" }; -- Ly'leth Lunastre
 	};
 	TheNightholdC = {
-		{   6, 1732, 152, 95 }; -- Star Augur Etraeus
-		{ "D", 10001, 169, 466 }; -- Connection
-		{ "E", 10001, 412, 221 }; -- Connection
-		{ "F", 10001, 341, 429 }; -- Connection
+		{   5,  1732, 152,  95, 345, 109 }; -- Star Augur Etraeus
+		{ "D", 10001, 169, 466, 378, 620, "Blue" }; -- Connection
+		{ "E", 10001, 412, 221, 708, 291, "Blue" }; -- Connection
+		{ "F", 10002, 346, 453, 611, 607, "Blue" }; -- Connection
 	};
 	TheNightholdD = {
+		{ "G", 10002, 146, 177, 341, 230, "Blue" }; -- Connection
+		{ "G", 10002, 325, 353, 581, 472, "Blue" }; -- Connection
+		{ "H", 10002, 406, 256, 695, 340, "Blue" }; -- Connection
 		{   7, 1762, 175, 320 }; -- Tichondrius
 	};
 	TheNightholdE = {
-		{   9, 1743, 251, 249 }; -- Grand Magistrix Elisande
---		{ "H", 10001, 349, 154 }; -- Connection
+		{   9, 1743, 251, 249, 486, 342 }; -- Grand Magistrix Elisande
 	};
 	TrialofValorA = { 
 		{ "A", 10101, 249, 39 }; -- Entrance

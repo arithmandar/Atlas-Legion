@@ -157,6 +157,7 @@ local myMaps = {
 		JournalInstanceID = "900";
 		Module = "Atlas_Legion";
 		NextMap = "CathedralofEternalNightB";
+		LargeMap = "CathedralofEternalNightA";
 		{ BLUE.." A) "..ALC["Entrance"], 10001 };
 		{ BLUE.." B) "..ALC["Stairs"], 10002 };
 		{ "" };
@@ -180,6 +181,7 @@ local myMaps = {
 		Module = "Atlas_Legion";
 		PrevMap = "CathedralofEternalNightA";
 		NextMap = "CathedralofEternalNightC";
+		LargeMap = "CathedralofEternalNightB";
 		{ BLUE.." B-C) "..ALC["Stairs"], 10001 };
 		{ WHIT.." 1) "..Atlas_GetBossName("Agronox", 1905), 1905 };
 		{ "" };
@@ -203,6 +205,7 @@ local myMaps = {
 		Module = "Atlas_Legion";
 		PrevMap = "CathedralofEternalNightB";
 		NextMap = "CathedralofEternalNightD";
+		LargeMap = "CathedralofEternalNightC";
 		{ BLUE.." C-E) "..ALC["Stairs"], 10001 };
 		{ WHIT.." 2) "..Atlas_GetBossName("Thrashbite the Scornful", 1906), 1906 };
 		{ "" };
@@ -225,6 +228,7 @@ local myMaps = {
 		JournalInstanceID = "900";
 		Module = "Atlas_Legion";
 		PrevMap = "CathedralofEternalNightC";
+		LargeMap = "CathedralofEternalNightD";
 		{ BLUE.." E) "..ALC["Stairs"], 10001 };
 		{ GREN.." 1') ", 129207, "item", "Aegis of Aggramar" }; -- Aegis of Aggramar
 		{ WHIT.." 3) "..Atlas_GetBossName("Domatrax", 1904), 1904 };
@@ -982,6 +986,7 @@ local myMaps = {
 		Module = "Atlas_Legion";
 		PrevMap = "TheNightholdEnt";
 		NextMap = "TheNightholdB";
+		LargeMap = "TheNightholdA";
 		{ BLUE.." A) "..ALC["Entrance"], 10001 };
 		{ BLUE.." B-C) "..ALC["Connection"], 10002 };
 		{ WHIT.." 1) "..Atlas_GetBossName("Skorpyron", 1706), 1706 };
@@ -1002,7 +1007,7 @@ local myMaps = {
 		{ "The Nighthold Guild Run", "ac=10868" };
 	};
 	TheNightholdB = {
-		ZoneName = { BZ["The Nighthold"]..ALC["MapC"] };
+		ZoneName = { BZ["The Nighthold"]..ALC["MapB"] };
 		Location = { BZ["Suramar"] };
 		DungeonID = "1351";
 		DungeonHeroicID = "1352";
@@ -1016,12 +1021,14 @@ local myMaps = {
 		Module = "Atlas_Legion";
 		PrevMap = "TheNightholdA";
 		NextMap = "TheNightholdC";
+		LargeMap = "TheNightholdB";
 		{ BLUE.." A) "..ALC["Entrance"], 10001 };
-		{ BLUE.." C-F) "..ALC["Connection"], 10002 };
+		{ BLUE.." C-H) "..ALC["Connection"], 10002 };
 		{ WHIT.." 4) "..Atlas_GetBossName("Spellblade Aluriel", 1751)..ALC["L-Parenthesis"]..ALC["Wanders"]..ALC["R-Parenthesis"], 1751 };
 		{ WHIT.." 6) "..Atlas_GetBossName("High Botanist Tel'arn", 1761), 1761 };
 		{ WHIT.." 8) "..Atlas_GetBossName("Krosus", 1713), 1713 };
 		{ WHIT.." 10) "..Atlas_GetBossName("Gul'dan", 1737)..ALC["L-Parenthesis"]..ALC["Upper"]..ALC["R-Parenthesis"], 1737 };
+		{ ORNG.." 1) "..L["Gilded Guardian"]..ALC["L-Parenthesis"]..ALC["Wanders"]..ALC["R-Parenthesis"], 112712 };
 		{ GREN.." 2') "..L["Ly'leth Lunastre"], 117085 };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
@@ -1042,7 +1049,7 @@ local myMaps = {
 		{ "The Nighthold Guild Run", "ac=10868" };
 	};
 	TheNightholdC = {
-		ZoneName = { BZ["The Nighthold"]..ALC["MapE"] };
+		ZoneName = { BZ["The Nighthold"]..ALC["MapC"] };
 		Location = { BZ["Suramar"] };
 		DungeonID = "1351";
 		DungeonHeroicID = "1352";
@@ -1056,7 +1063,9 @@ local myMaps = {
 		Module = "Atlas_Legion";
 		PrevMap = "TheNightholdB";
 		NextMap = "TheNightholdD";
-		{ BLUE.." D-F) "..ALC["Connection"], 10001 };
+		LargeMap = "TheNightholdC";
+		{ BLUE.." D-E) "..ALC["Connection"], 10001 };
+		{ BLUE.." F) "..ALC["Connection"]..ALC["L-Parenthesis"]..ALC["Upper"]..ALC["R-Parenthesis"], 10002 };
 		{ WHIT.." 5) "..Atlas_GetBossName("Star Augur Etraeus", 1732), 1732 };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
@@ -1080,6 +1089,8 @@ local myMaps = {
 		Module = "Atlas_Legion";
 		PrevMap = "TheNightholdC";
 		NextMap = "TheNightholdE";
+		LargeMap = "TheNightholdD";
+		{ BLUE.." G-H) "..ALC["Connection"], 10002 };
 		{ WHIT.." 7) "..Atlas_GetBossName("Tichondrius", 1762), 1762 };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
@@ -1089,7 +1100,7 @@ local myMaps = {
 		{ "The Nighthold Guild Run", "ac=10868" };
 	};
 	TheNightholdE = {
-		ZoneName = { BZ["The Nighthold"]..ALC["MapF"] };
+		ZoneName = { BZ["The Nighthold"]..ALC["MapE"] };
 		Location = { BZ["Suramar"] };
 		DungeonID = "1351";
 		DungeonHeroicID = "1352";
@@ -1102,7 +1113,7 @@ local myMaps = {
 		MinGearLevel = "835";
 		Module = "Atlas_Legion";
 		PrevMap = "TheNightholdD";
---		{ BLUE.." G) "..ALC["Portal"], 10001 };
+		LargeMap = "TheNightholdE";
 		{ WHIT.." 9) "..Atlas_GetBossName("Grand Magistrix Elisande", 1743), 1743 };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
