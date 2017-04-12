@@ -6,7 +6,14 @@ Copyright 2016 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
-v1.40.03 (Apr. xx, 2017)
+v1.40.04 (Apr. 13, 2017)
+------------------------
+- Localization update:
+  - German (pas06)
+  - Simplified Chinese (ananhaid)
+  - Traditional Chinese
+
+v1.40.03 (Apr. 10, 2017)
 ------------------------
 - Added large maps for the Nighthold
 - Added location of world quest boss - Gilded Guardian in the Nighthold

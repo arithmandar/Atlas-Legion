@@ -103,6 +103,7 @@ if L then
 	--The Nighthold
 	L["Teleport to Tichondrius / Grand Magistrix Elisande"] = "傳送到提克迪奧斯／大博學者艾莉珊德處";
 	L["First Arcanist Thalyssra"] = "首席秘法師薩莉瑟拉"; -- 110791
+	L["Gilded Guardian"] = "金輝守護者"; -- 112712
 	
 	-- Trial of Valor
 	
