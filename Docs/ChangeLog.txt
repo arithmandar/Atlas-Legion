@@ -6,6 +6,10 @@ Copyright 2016 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
+v1.41.00 (Apr. 14, 2017)
+------------------------
+- Added world boss - Flightmaster Volnath in the Nighthold
+
 v1.40.04 (Apr. 13, 2017)
 ------------------------
 - Localization update:

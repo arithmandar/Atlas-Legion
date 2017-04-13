@@ -104,6 +104,7 @@ if L then
 	L["Teleport to Tichondrius / Grand Magistrix Elisande"] = "Teleport to Tichondrius / Grand Magistrix Elisande";
 	L["First Arcanist Thalyssra"] = "First Arcanist Thalyssra"; -- 110791
 	L["Gilded Guardian"] = "Gilded Guardian"; -- 112712
+	L["Flightmaster Volnath"] = "Flightmaster Volnath"; -- 116004
 	
 	-- Trial of Valor
 	

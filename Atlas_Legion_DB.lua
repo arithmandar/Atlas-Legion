@@ -365,9 +365,9 @@ local myDB = {
 		{ "B", 10002, 228,  51, 499,  65, "Blue" }; -- Connection
 		{ "B", 10002,  64,  91, 283, 124, "Blue" }; -- Connection
 		{ "C", 10002, 160,  21, 406, 28, "Blue" }; -- Connection
-		{    1, 1706, 188, 290, 446, 379 }; -- Skorpyron
-		{    2, 1725, 356, 204, 668, 259 }; -- Chronomatic Anomaly
-		{    3, 1731, 264,  70, 551,  93 }; -- Trilliax
+		{   1,  1706, 188, 290, 446, 379 }; -- Skorpyron
+		{   2,  1725, 356, 204, 668, 259 }; -- Chronomatic Anomaly
+		{   3,  1731, 264,  70, 551,  93 }; -- Trilliax
 		{ "1'", 110791, 136, 434, 381, 564 }; -- First Arcanist Thalyssra
 	};
 	TheNightholdB = {
@@ -383,7 +383,8 @@ local myDB = {
 		{ "G", 10002,  62, 275, 331, 354, "Blue" }; -- Connection
 		{ "G", 10002,  86, 298, 362, 386, "Blue" }; -- Connection
 		{ "H", 10002, 106, 290, 393, 382, "Blue" }; -- Connection
-		{ "1", 112712, 89, 126, 369, 162, "Orange" }; -- Gilded Guardian
+		{ "1", 112712,  89, 126, 369, 162, "Orange" }; -- Gilded Guardian
+		{ "2", 116004,  47, 309, 315, 403, "Orange" }; -- Flightmaster Volnath
 		{ "2'", 117085, 80, 280, 358, 360, "Green" }; -- Ly'leth Lunastre
 	};
 	TheNightholdC = {

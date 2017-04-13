@@ -1029,6 +1029,7 @@ local myMaps = {
 		{ WHIT.." 8) "..Atlas_GetBossName("Krosus", 1713), 1713 };
 		{ WHIT.." 10) "..Atlas_GetBossName("Gul'dan", 1737)..ALC["L-Parenthesis"]..ALC["Upper"]..ALC["R-Parenthesis"], 1737 };
 		{ ORNG.." 1) "..L["Gilded Guardian"]..ALC["L-Parenthesis"]..ALC["Wanders"]..ALC["R-Parenthesis"], 112712 };
+		{ ORNG.." 2) "..L["Flightmaster Volnath"], 116004 };
 		{ GREN.." 2') "..L["Ly'leth Lunastre"], 117085 };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
