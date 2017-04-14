@@ -6,6 +6,15 @@ Copyright 2016 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
+v1.41.01 (Apr. 15, 2017)
+------------------------
+- Added Mana Focus position to map of Return to Karazhan (Map H)
+- Slightly adjusted the entrance A and connection C's positions 
+  in Return to Karazhan (Map A)
+- Slightly adjusted the connection G's position in the Nighthold (Map B)
+- Added portal locations in Nighthold's maps
+- Added 1st floor of the Nightspire map to the Nighthold
+
 v1.41.00 (Apr. 14, 2017)
 ------------------------
 - Added world boss - Flightmaster Volnath in the Nighthold

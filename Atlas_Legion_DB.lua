@@ -196,9 +196,9 @@ local myDB = {
 		{ "7'", 66255, 93, 328 }; -- Lydia Accoste
 	};
 	ReturntoKarazhanA = {
-		{ "A", 10001, 365, 288 }; -- Entrance
+		{ "A", 10001, 425, 321 }; -- Entrance
 		{ "B", 10002, 228, 25 }; -- Connection
-		{ "C", 10002, 461, 358 }; -- Connection
+		{ "C", 10002, 462, 348 }; -- Connection
 		{ "B", 10002, 231, 303 }; -- Connection
 		{ "D", 10002, 306, 397 }; -- Connection
 		{ 1, 1820, 80, 346 }; -- Opera Hall: Wikket
@@ -249,7 +249,8 @@ local myDB = {
 	ReturntoKarazhanH = {
 		{ "L", 10001, 21, 41 }; -- Entrance
 		{ "M", 10002, 192, 487 }; -- Connection
-		{ "N", 10003, 14, 60 }; -- Portal
+		{ "N", 10003, 29, 65 }; -- Portal
+		{ "9'", 143537, 34, 43 }; -- Mana Focus
 	};
 	ReturntoKarazhanI = {
 		{ "M", 10001, 282, 271 }; -- Connection
@@ -371,7 +372,7 @@ local myDB = {
 		{ "1'", 110791, 136, 434, 381, 564 }; -- First Arcanist Thalyssra
 	};
 	TheNightholdB = {
-		{   4,  1751, 159, 235, 460, 302 }; -- Spellblade Aluriel
+		{   4,  1751, 155, 233, 460, 302 }; -- Spellblade Aluriel
 		{   6,  1761, 408,  64, 781, 77 }; -- High Botanist Tel'arn
 		{   8,  1713, 387, 487, 761, 637 }; -- Krosus
 		{  10,  1737, 203, 279, 516, 358 }; -- Gul'dan
@@ -380,9 +381,13 @@ local myDB = {
 		{ "D", 10002, 180, 179, 487, 234, "Blue" }; -- Connection
 		{ "E", 10002, 228, 128, 554, 165, "Blue" }; -- Connection
 		{ "F", 10002, 215, 180, 537, 235, "Blue" }; -- Connection
-		{ "G", 10002,  62, 275, 331, 354, "Blue" }; -- Connection
-		{ "G", 10002,  86, 298, 362, 386, "Blue" }; -- Connection
+		{ "G", 10002,  82, 267, 354, 341, "Blue" }; -- Connection
+		{ "G", 10002,  94, 281, 376, 362, "Blue" }; -- Connection
 		{ "H", 10002, 106, 290, 393, 382, "Blue" }; -- Connection
+		{ "I", 10002, 177, 251, 474, 318, "Blue" }; -- Connection
+		{ "J", 10002, 229, 300, 553, 397, "Blue" }; -- Connection
+		{ "K", 10003, 147, 331, 442, 431, "Blue" }; -- Portal
+		{ "K", 10003, 257, 221, 587, 284, "Blue" }; -- Portal
 		{ "1", 112712,  89, 126, 369, 162, "Orange" }; -- Gilded Guardian
 		{ "2", 116004,  47, 309, 315, 403, "Orange" }; -- Flightmaster Volnath
 		{ "2'", 117085, 80, 280, 358, 360, "Green" }; -- Ly'leth Lunastre
@@ -400,6 +405,15 @@ local myDB = {
 		{   7, 1762, 175, 320 }; -- Tichondrius
 	};
 	TheNightholdE = {
+		{ "I", 10001, 152, 150 }; -- Connection
+		{ "J", 10001, 349, 348 }; -- Connection
+		{ "K", 10002, 319, 181 }; -- Portal
+		{ "K", 10002, 184, 318 }; -- Portal
+	};
+	TheNightholdF = {
+		{ "K", 10002, 48, 446 }; -- Portal
+		{ "K", 10002, 464, 48 }; -- Portal
+		{ "K", 10002, 142, 144 }; -- Portal
 		{   9, 1743, 251, 249, 486, 342 }; -- Grand Magistrix Elisande
 	};
 	TrialofValorA = { 
