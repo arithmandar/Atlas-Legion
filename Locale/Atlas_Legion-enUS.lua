@@ -29,6 +29,7 @@ if L then
 	-- Assault on VioletHold
 
 	-- Cathedral of Eternal Night
+	L["Raga'yut"] = "Raga'yut" -- 120715
 
 	-- Court of Stars
 	L["Ly'leth Lunastre"] = "Ly'leth Lunastre"; -- 106468

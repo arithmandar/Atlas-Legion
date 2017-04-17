@@ -6,6 +6,10 @@ Copyright 2016 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
+v1.41.02 (Apr. 17, 2017)
+------------------------
+- Added Cathedral of Eternal Night's WQ boss - Raga'yut
+
 v1.41.01 (Apr. 15, 2017)
 ------------------------
 - Added Mana Focus position to map of Return to Karazhan (Map H)

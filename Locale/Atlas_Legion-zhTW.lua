@@ -30,6 +30,9 @@ if L then
 --@do-not-package@
 	--Assault on VioletHold
 
+	-- Cathedral of Eternal Night
+	L["Raga'yut"] = "蕾佳雅特" -- 120715
+
 	--Court of Stars
 	L["Ly'leth Lunastre"] = "黎利斯·路納斯特"; -- 106468
 	L["Arcanist Malrodi"] = "秘法師瑪洛蒂"; -- 108796

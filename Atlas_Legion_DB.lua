@@ -73,6 +73,7 @@ local myDB = {
 	CathedralofEternalNightA = {
 		{ "A", 10001, 249, 487, 456, 620, "Blue" }; -- Entrance
 		{ "B", 10002, 249, 106, 456, 124, "Blue" }; -- Stairs
+		{ "1", 120715, 358, 78, 600, 78, "Orange" }; -- Raga'yut
 	};
 	CathedralofEternalNightB = {
 		{ "B", 10001, 249,  89, 456, 108, "Blue" }; -- Stairs
