@@ -6,6 +6,11 @@ Copyright 2016 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
+v1.41.03 (Apr. 18, 2017)
+------------------------
+- Added map of Gul'dan's chamber
+- Changed to use Atlas' get creature name feature to get the non-encounter's name
+
 v1.41.02 (Apr. 17, 2017)
 ------------------------
 - Added Cathedral of Eternal Night's WQ boss - Raga'yut

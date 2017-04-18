@@ -46,8 +46,8 @@ local myDB = {
 		{ "A", 10001, 115, 49, 280, 42, "Blue" }; -- Entrance
 		{ "B", 10002, 429, 415, 644, 568, "Blue" }; -- Connection
 		{   1,  1518, 219, 314, 383, 411 }; -- The Amalgam of Souls
-		{   1, 10003, 50, 211, 174, 250, "Orange" }; -- Lady Velandras Ravencrest
-		{   2, 10004, 462, 400, 699, 559, "Orange" }; -- Ancient Widow
+		{   1, 98538, 50, 211, 174, 250, "Orange" }; -- Lady Velandras Ravencrest
+		{   2, 98637, 462, 400, 699, 559, "Orange" }; -- Ancient Widow
 	};
 	BlackRookHoldB = {
 		{ "B", 10001, 69, 337, 107, 351, "Blue" }; -- Connection
@@ -60,9 +60,9 @@ local myDB = {
 		{ "F", 10001, 243,  26, 629, 36, "Blue" }; -- Connection
 		{ "G", 10001, 172, 162, 483, 261, "Blue" }; -- Connection
 		{  2, 1653, 251, 413, 394, 496 }; -- Illysanna Ravencrest
-		{  3, 10002, 139, 445, 192, 545, "Orange" }; -- Archmage Galeorn
-		{  4, 10003, 379, 194, 798, 277, "Orange" }; -- Kalyndras <Rook's Quartermaster>
-		{  5, 10004, 92, 156, 341, 244, "Orange" };-- Braxas the Fleshcarver
+		{  3, 111068, 139, 445, 192, 545, "Orange" }; -- Archmage Galeorn
+		{  4, 112725, 379, 194, 798, 277, "Orange" }; -- Kalyndras <Rook's Quartermaster>
+		{  5, 111290, 92, 156, 341, 244, "Orange" };-- Braxas the Fleshcarver
 	};
 	BlackRookHoldC = {
 		{ "F", 10001, 300, 107 }; -- Connection
@@ -100,9 +100,9 @@ local myDB = {
 		{  1, 1718, 109, 152 }; -- Patrol Captain Gerdo
 		{  2, 1719, 277, 294 }; -- Talixae Flamewreath
 		{  3, 1720, 429, 446 }; -- Advisor Melandrus
-		{ "1", 10003, 292, 310 }; -- Ly'leth Lunastre
-		{  1, 10004, 186, 200 }; -- Arcanist Malrodi
-		{  2, 10005, 286, 392 }; -- Velimar
+		{ "1", 106468, 292, 310 }; -- Ly'leth Lunastre
+		{  1, 108796, 186, 200 }; -- Arcanist Malrodi
+		{  2, 108740, 286, 392 }; -- Velimar
 	};
 	CourtofStarsB = {
 		{ "B", 10002, 170, 157 }; -- Connection
@@ -127,7 +127,7 @@ local myDB = {
 		{   3,  1479, 226, 153 }; -- Serpentrix
 		{   4,  1491, 322, 236 }; -- King Deepbeard
 		{   5,  1492, 232, 250 }; -- Wrath of Azshara
-		{ "1'", 10002, 285, 270 }; -- Crate of Corks, Alchemy quest - Put a Cork in It (39331)
+		{ "1'", 248930, 285, 270 }; -- Crate of Corks, Alchemy quest - Put a Cork in It (39331)
 		{   1, 91788,   70, 220 }; -- Shellmaw
 		{   2, 108543,  41, 190 }; -- Dread Captain Thedon
 		{   3, 101411, 108, 120 }; -- Gom Crabbar
@@ -139,24 +139,24 @@ local myDB = {
 		{ "C", 10003, 249, 489 }; -- Connection
 		{  1, 1485, 249, 87 }; -- Hymdall
 		{  2, 1486, 343, 272 }; -- Hyrja
-		{  1, 10004, 248, 209 }; -- Volynd Stormbringer
+		{  1, 106320, 248, 209 }; -- Volynd Stormbringer
 	};
 	HallsofValorB = { 
 		{ "B", 10002, 435, 104 }; -- Portal
 		{  3, 1487, 109, 345 }; -- Fenryr
 		{ "3'",  10003, 175, 144 }; -- Fenryr's western spawn point
 		{ "3''", 10004, 344, 287 }; -- Fenryr's eastern spawn point
-		{  2, 10005, 372, 271 };-- Arthfael
-		{  3, 10006, 71, 309 }; -- Earlnoc the Beastbreaker
+		{  2, 99802, 372, 271 };-- Arthfael
+		{  3, 96647, 71, 309 }; -- Earlnoc the Beastbreaker
 	};
 	HallsofValorC = { 
 		{ "C", 10003, 250, 36 }; -- Connection
 		{  4, 1488, 251, 300 }; -- God-King Skovald
 		{  5, 1489, 251, 425 }; -- Odyn
-		{ "1", 10004, 201, 275 }; -- King Tor
-		{ "2", 10005, 220, 309 }; -- King Bjorn
-		{ "3", 10006, 282, 308 }; -- King Haldor
-		{ "4", 10007, 299, 276 }; -- King Ranulf
+		{ "1", 97084, 201, 275 }; -- King Tor
+		{ "2", 97081, 220, 309 }; -- King Bjorn
+		{ "3", 95843, 282, 308 }; -- King Haldor
+		{ "4", 97083, 299, 276 }; -- King Ranulf
 	};
 	MawofSoulsA = {
 		{ "A", 10001, 201, 233 }; -- Entrance
@@ -308,9 +308,9 @@ local myDB = {
 		{  3, 1499,   455, 234, 793, 319 }; -- General Xakal
 		{  4, 1500,   363, 349, 643, 504 }; -- Nal'tira
 		{  5, 1501,   270, 178, 491, 252 }; -- Advisor Vandros
-		{ "1", 10002, 203, 232, 382, 317, "Orange" }; -- The Rat King
-		{ "2", 10003, 270, 395, 491, 564, "Orange" }; -- Sludge Face
-		{ "1'", 10004, 92, 304, 211, 425, "Green" }; -- Suramar Leyline Map
+		{ "1", 111057, 203, 232, 382, 317, "Orange" }; -- The Rat King
+		{ "2", 111021, 270, 395, 491, 564, "Orange" }; -- Sludge Face
+		{ "1'", 251641, 92, 304, 211, 425, "Green" }; -- Suramar Leyline Map
 	};
 	TheEmeraldNightmareA = {
 		{ "A", 10001, 122, 344 }; -- Entrance
@@ -324,7 +324,7 @@ local myDB = {
 		{ "D",  10004, 399, 225 }; -- Mulgore
 		{ "E",  10005, 343, 158 }; -- Grizzly Hills
 		{ "F",  10006, 396, 159 }; -- The Emerald Dreamway
-		{ "1'", 10010, 366, 202 }; -- Malfurion Stormrage
+		{ "1'", 106482, 366, 202 }; -- Malfurion Stormrage
 	};
 	TheEmeraldNightmareC = {
 		{ "C", 10003, 424, 464 }; -- Entrance
@@ -417,6 +417,9 @@ local myDB = {
 		{ "K", 10002, 142, 144 }; -- Portal
 		{   9, 1743, 251, 249, 486, 342 }; -- Grand Magistrix Elisande
 	};
+	TheNightholdG = {
+		{ 10, 1737, 250, 251, 491, 346 }; -- Gul'dan
+	};
 	TrialofValorA = { 
 		{ "A", 10101, 249, 39 }; -- Entrance
 		{   1, 10001, 291, 321 }; -- Hymdall
@@ -446,8 +449,8 @@ local myDB = {
 	VaultoftheWardensC = {
 		{ "D", 10004, 271, 25 }; -- Connection
 		{  5, 1470, 246, 426 }; -- Cordana Felsong
-		{ "1'", 10005, 306, 150 }; -- Fel-Ravaged Tome
-		{ "2'", 10006, 228, 441 }; -- Drelanim Whisperwind
+		{ "1'", 258979, 306, 150 }; -- Fel-Ravaged Tome
+		{ "2'", 103860, 228, 441 }; -- Drelanim Whisperwind
 	};
 };
 

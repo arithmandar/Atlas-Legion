@@ -26,5 +26,18 @@ local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local L = AceLocale:NewLocale("Atlas_Legion", "koKR", false);
 
 if L then
+--@do-not-package@
+L["Dantalionax"] = "단탈리오낙스"
+L["Drelanim Whisperwind"] = "드렐라님 위스퍼윈드"
+L["King Bjorn"] = "왕 비요른"
+L["King Haldor"] = "왕 할도르"
+L["King Ranulf"] = "왕 라눌프"
+L["King Tor"] = "왕 토르"
+L["Malfurion Stormrage"] = "말퓨리온 스톰레이지"
+L["Mushroom Merchant"] = "버섯 상인"
+L["Portal to Shal'Aran"] = "샬아란행 포탈"
+L["Teleport to Moonglade"] = "달숲으로 순간이동"
+L["Teleport to Tichondrius / Grand Magistrix Elisande"] = "티콘드리우스 / 대마법학자 엘리산드로 순간이동"
+--@end-do-not-package@
 --@localization(locale="koKR", format="lua_additive_table")@
 end

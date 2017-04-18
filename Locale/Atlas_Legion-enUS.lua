@@ -37,7 +37,7 @@ if L then
 	L["Velimar"] = "Velimar"; -- 108740
 
 	-- Black Rook Hold 
-	L["Dantalionax"] = "Dantalionax";
+	L["Dantalionax"] = "Dantalionax"; -- 99611
 	L["Lady Velandras Ravencrest"] = "Lady Velandras Ravencrest"; -- 98538
 	L["Ancient Widow"] = "Ancient Widow"; --98637
 	L["Archmage Galeorn"] = "Archmage Galeorn"; -- 111068
@@ -98,7 +98,7 @@ if L then
 
 	-- The Emerald Nightmare
 	L["Nightmare Watcher"] = "Nightmare Watcher";
-	L["Malfurion Stormrage"] = "Malfurion Stormrage";
+	L["Malfurion Stormrage"] = "Malfurion Stormrage"; -- 106482
 	L["Teleport to Moonglade"] = "Teleport to Moonglade";
 
 	-- The Nighthold
@@ -110,7 +110,7 @@ if L then
 	-- Trial of Valor
 	
 	-- Vault of the Wardens
-	L["Fel-Ravaged Tome"] = "Fel-Ravaged Tome";
+	L["Fel-Ravaged Tome"] = "Fel-Ravaged Tome"; -- object=258979
 	L["Drelanim Whisperwind"] = "Drelanim Whisperwind"; -- 103860
 	L["Grimoira"] = "Grimoira"; -- 105824
 	L["Requires Skaggldrynk"] = "Requires Skaggldrynk";

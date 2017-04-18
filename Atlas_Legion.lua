@@ -85,8 +85,8 @@ local myMaps = {
 		{ BLUE.." A) "..ALC["Entrance"], 10001 };
 		{ BLUE.." B) "..ALC["Connection"], 10002 };
 		{ WHIT.." 1) "..Atlas:GetBossName("The Amalgam of Souls", 1518), 1518 };
-		{ ORNG.." 1) "..L["Lady Velandras Ravencrest"], 10003 };
-		{ ORNG.." 2) "..L["Ancient Widow"], 10004 };
+		{ ORNG.." 1) "..Atlas:GetCreatureName(L["Lady Velandras Ravencrest"], 98538), 98538 };
+		{ ORNG.." 2) "..Atlas:GetCreatureName(L["Ancient Widow"], 98637), 98637 };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ "Black Rook Moan", "ac=10710" };
@@ -111,9 +111,9 @@ local myMaps = {
 		NextMap = "BlackRookHoldC";
 		{ BLUE.." B-G) "..ALC["Connection"], 10001 };
 		{ WHIT.." 2) "..Atlas:GetBossName("Illysanna Ravencrest", 1653), 1653 };
-		{ ORNG.." 3) "..L["Archmage Galeorn"], 10002 };
-		{ ORNG.." 4) "..L["Kalyndras <Rook's Quartermaster>"], 10003 };
-		{ ORNG.." 5) "..L["Braxas the Fleshcarver"], 10004 };
+		{ ORNG.." 3) "..Atlas:GetCreatureName(L["Archmage Galeorn"], 111068), 111068 };
+		{ ORNG.." 4) "..Atlas:GetCreatureName(L["Kalyndras <Rook's Quartermaster>"], 112725), 112725 };
+		{ ORNG.." 5) "..Atlas:GetCreatureName(L["Braxas the Fleshcarver"], 111290), 111290 };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ "Adds? More Like Bads", "ac=10711" };
@@ -137,7 +137,7 @@ local myMaps = {
 		{ BLUE.." F-G) "..ALC["Connection"], 10001 };
 		{ WHIT.." 3) "..Atlas:GetBossName("Smashspite the Hateful", 1664), 1664 };
 		{ WHIT.." 4) "..Atlas:GetBossName("Lord Kur'talos Ravencrest", 1672), 1672 };
-		{ INDENT..WHIT..L["Dantalionax"] };
+		{ INDENT..WHIT..Atlas:GetCreatureName(L["Dantalionax"], 99611), 99611 };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ "You Used to Scrawl Me In Your Fel Tome", "ac=10709" };
@@ -160,7 +160,7 @@ local myMaps = {
 		LargeMap = "CathedralofEternalNightA";
 		{ BLUE.." A) "..ALC["Entrance"], 10001 };
 		{ BLUE.." B) "..ALC["Stairs"], 10002 };
-		{ ORNG.." 1) "..L["Raga'yut"], 120715 };
+		{ ORNG.." 1) "..Atlas:GetCreatureName(L["Raga'yut"], 120715), 120715 };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ "Boom Bloom", "ac=11768" };
@@ -259,9 +259,9 @@ local myMaps = {
 		{ WHIT.." 1) "..Atlas:GetBossName("Patrol Captain Gerdo", 1718), 1718 };
 		{ WHIT.." 2) "..Atlas:GetBossName("Talixae Flamewreath", 1719), 1719 };
 		{ WHIT.." 3) "..Atlas:GetBossName("Advisor Melandrus", 1720), 1720 };
-		{ GREN.." 1) "..L["Ly'leth Lunastre"], 10003 };
-		{ ORNG.." 1) "..L["Arcanist Malrodi"], 10004 };
-		{ ORNG.." 2) "..L["Velimar"], 10005 };
+		{ GREN.." 1) "..Atlas:GetCreatureName(L["Ly'leth Lunastre"], 106468), 106468 };
+		{ ORNG.." 1) "..Atlas:GetCreatureName(L["Arcanist Malrodi"], 108796), 108796 };
+		{ ORNG.." 2) "..Atlas:GetCreatureName(L["Velimar"], 108740), 108740 };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ "Waiting for Gerdo", "ac=10610" };
@@ -298,9 +298,9 @@ local myMaps = {
 		{ WHIT.." 2) "..Atlas:GetBossName("Oakheart", 1655), 1655 };
 		{ WHIT.." 3) "..Atlas:GetBossName("Dresaron", 1656), 1656 };
 		{ WHIT.." 4) "..Atlas:GetBossName("Shade of Xavius", 1657), 1657 };
-		{ ORNG.." 1) "..L["Rage Rot"], 101660 };
-		{ ORNG.." 2) "..L["Mythana"], 101641 };
-		{ ORNG.." 3) "..L["Kudzilla"], 99362 };
+		{ ORNG.." 1) "..Atlas:GetCreatureName(L["Rage Rot"], 101660), 101660 };
+		{ ORNG.." 2) "..Atlas:GetCreatureName(L["Mythana"], 101641), 101641 };
+		{ ORNG.." 3) "..Atlas:GetCreatureName(L["Kudzilla"], 99362), 99362 };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ "Egg-cellent!", "ac=10766" };
@@ -325,12 +325,12 @@ local myMaps = {
 		{ WHIT.." 3) "..Atlas:GetBossName("Serpentrix", 1479), 1479 };
 		{ WHIT.." 4) "..Atlas:GetBossName("King Deepbeard", 1491), 1491 };
 		{ WHIT.." 5) "..Atlas:GetBossName("Wrath of Azshara", 1492), 1492 };
-		{ GREN.."1') "..L["Crate of Corks"], 10002 };
+		{ GREN.."1') "..L["Crate of Corks"], 248930 }; -- object
 		{ INDENT..GREY..QUESTS_COLON..L["Put a Cork in It"] };
-		{ ORNG.." 1) "..L["Shellmaw"], 91788 };
-		{ ORNG.." 2) "..L["Dread Captain Thedon"], 108543 };
-		{ ORNG.." 2) "..L["Gom Crabbar"], 101411 };
-		{ ORNG.." 3) "..L["Jaggen-Ra"], 101467 };
+		{ ORNG.." 1) "..Atlas:GetCreatureName(L["Shellmaw"], 91788), 91788 };
+		{ ORNG.." 2) "..Atlas:GetCreatureName(L["Dread Captain Thedon"], 108543), 108543 };
+		{ ORNG.." 2) "..Atlas:GetCreatureName(L["Gom Crabbar"], 101411), 101411 };
+		{ ORNG.." 3) "..Atlas:GetCreatureName(L["Jaggen-Ra"], 101467), 101467 };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ "But You Say He's Just a Friend", "ac=10456" };
@@ -357,7 +357,7 @@ local myMaps = {
 		{ BLUE.." C) "..ALC["Connection"], 10003 };
 		{ WHIT.." 1) "..Atlas:GetBossName("Hymdall", 1485), 1485 };
 		{ WHIT.." 2) "..Atlas:GetBossName("Hyrja", 1486), 1486 };
-		{ ORNG.." 1) "..L["Volynd Stormbringer"], 10004 };
+		{ ORNG.." 1) "..Atlas:GetCreatureName(L["Volynd Stormbringer"], 106320), 106320 };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ "Halls of Valor", "ac=10786" };
@@ -381,8 +381,8 @@ local myMaps = {
 		{ WHIT.." 3) "..Atlas:GetBossName("Fenryr", 1487), 1487 };
 		{ INDENT..WHIT.." 3') "..L["Fenryr's western spawn point"], 10003 };
 		{ INDENT..WHIT.." 3'') "..L["Fenryr's eastern spawn point"], 10004 };
-		{ ORNG.." 2) "..L["Arthfael"], 10005 };
-		{ ORNG.." 3) "..L["Earlnoc the Beastbreaker"], 10006 };
+		{ ORNG.." 2) "..Atlas:GetCreatureName(L["Arthfael"], 99802), 99802 };
+		{ ORNG.." 3) "..Atlas:GetCreatureName(L["Earlnoc the Beastbreaker"], 96647), 96647 };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ "Halls of Valor", "ac=10786" };
@@ -404,10 +404,10 @@ local myMaps = {
 		{ BLUE.." C) "..ALC["Connection"], 10003 };
 		{ WHIT.." 4) "..Atlas:GetBossName("God-King Skovald", 1488), 1488 };
 		{ WHIT.." 5) "..Atlas:GetBossName("Odyn", 1489), 1489 };
-		{ ORNG.." 1) "..L["King Tor"], 10004 };
-		{ ORNG.." 2) "..L["King Bjorn"], 10005 };
-		{ ORNG.." 3) "..L["King Haldor"], 10006 };
-		{ ORNG.." 4) "..L["King Ranulf"], 10007 };
+		{ ORNG.." 1) "..Atlas:GetCreatureName(L["King Tor"], 97084), 97084 };
+		{ ORNG.." 2) "..Atlas:GetCreatureName(L["King Bjorn"], 97081), 97081 };
+		{ ORNG.." 3) "..Atlas:GetCreatureName(L["King Haldor"], 95843), 95843 };
+		{ ORNG.." 4) "..Atlas:GetCreatureName(L["King Ranulf"], 97083), 97083 };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ "I Got What You Mead", "ac=10542" };
@@ -479,12 +479,12 @@ local myMaps = {
 		{ WHIT.." 2) "..Atlas:GetBossName("Ularogg Cragshaper", 1665), 1665 };
 		{ WHIT.." 3) "..Atlas:GetBossName("Naraxas", 1673), 1673 };
 		{ WHIT.." 4) "..Atlas:GetBossName("Dargrul the Underking", 1687), 1687 };
-		{ GREN.." 1') "..L["Spiritwalker Ebonhorn"], 113526 };
-		{ GREN.." 2') "..L["Mushroom Merchant"], 111746 };
-		{ ORNG.." 1) "..L["Ultanok"], 103247 };
-		{ ORNG.." 2) "..L["Understone Lasher"], 103597 };
-		{ ORNG.." 3) "..L["Ragoul"], 103199 };
-		{ ORNG.." 4) "..L["Kraxa <Mother of Gnashers>"], 103271 };
+		{ GREN.." 1') "..Atlas:GetCreatureName(L["Spiritwalker Ebonhorn"], 113526), 113526 };
+		{ GREN.." 2') "..Atlas:GetCreatureName(L["Mushroom Merchant"], 111746), 111746 };
+		{ ORNG.." 1) "..Atlas:GetCreatureName(L["Ultanok"], 103247), 103247 };
+		{ ORNG.." 2) "..Atlas:GetCreatureName(L["Understone Lasher"], 103597), 103597 };
+		{ ORNG.." 3) "..Atlas:GetCreatureName(L["Ragoul"], 103199), 103199 };
+		{ ORNG.." 4) "..Atlas:GetCreatureName(L["Kraxa <Mother of Gnashers>"], 103271), 103271 };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ "Got to Ketchum All", "ac=10996" };
@@ -510,13 +510,13 @@ local myMaps = {
 		{ BLUE.." A) "..BZ["Karazhan"]..ALC["L-Parenthesis"]..ALC["Front"]..ALC["R-Parenthesis"], 10001 };
 		{ BLUE.." B) "..BZ["Karazhan"]..ALC["L-Parenthesis"]..ALC["Back"]..ALC["R-Parenthesis"], 10002 };
 		{ BLUE.." C) "..BZ["Return to Karazhan"]..ALC["L-Parenthesis"]..ALC["Upper"]..ALC["R-Parenthesis"], 10003 };
-		{ GREN.." 1') "..L["Mage Darius"], 18255 };
+		{ GREN.." 1') "..Atlas:GetCreatureName(L["Mage Darius"], 18255), 18255 };
 		{ GREN.." 2') "..format(ALC["Stairs to %s"], BZ["The Master's Cellar"]), 10004 };
 		{ GREN.." 3') "..format(ALC["Stairs to %s"], BZ["The Master's Cellar"]), 10005 };
 		{ GREN.." 4') "..L["Charred Bone Fragment"], 10006 };
 		{ GREN.." 5') "..ALC["Meeting Stone"], 10007 };
 		{ GREN.." 6') "..ALC["Graveyard"], 10008 };
-		{ GREN.." 7') "..L["Lydia Accoste"], 66255 };
+		{ GREN.." 7') "..Atlas:GetCreatureName(L["Lydia Accoste"], 66255), 66255 };
 	};
 	ReturntoKarazhanA = {
 		ZoneName = { BZ["Return to Karazhan"]..ALC["MapA"] };
@@ -535,7 +535,7 @@ local myMaps = {
 		NextMap = "ReturntoKarazhanB";
 		{ BLUE.." A) "..ALC["Entrance"], 10001 };
 		{ BLUE.." B-D) "..ALC["Connection"], 10002 };
-		{ GREN.." 1') "..L["Barnes"], 114339 }; 
+		{ GREN.." 1') "..Atlas:GetCreatureName(L["Barnes"], 114339), 114339 }; 
 		{ WHIT.." 1) "..Atlas:GetBossName("Opera Hall: Wikket", 1820), 1820 };
 		{ WHIT.." 2) "..Atlas:GetBossName("Opera Hall: Westfall Story", 1826), 1826 };
 		{ WHIT.." 3) "..Atlas:GetBossName("Opera Hall: Beautiful Beast", 1827), 1827 };
@@ -599,7 +599,7 @@ local myMaps = {
 		NextMap = "ReturntoKarazhanE";
 		{ BLUE.." F-H) "..ALC["Connection"], 10001 };
 		{ BLUE.." I) "..format(ALC["Portal to %s"], ALC["Entrance"]), 10002 };
-		{ GREN.." 5') "..L["Koren"], 114815};
+		{ GREN.." 5') "..Atlas:GetCreatureName(L["Koren"], 114815), 114815};
 		{ WHIT.." 6) "..Atlas:GetBossName("Attumen the Huntsman", 1835), 1835 };
 		{ WHIT..INDENT..Atlas:GetBossName("Midnight", 1835, 2) };
 		{ GREN.." 6') "..L["Soul Fragment"], 10003 };
@@ -662,7 +662,7 @@ local myMaps = {
 		PrevMap = "ReturntoKarazhanF";
 		NextMap = "ReturntoKarazhanH";
 		{ BLUE.." K) "..ALC["Entrance"], 10001 };
-		{ GREN.." 8') "..L["Medivh's Footlocker"], 266826 };
+		{ GREN.." 8') "..L["Medivh's Footlocker"], 266826 }; -- object
 		{ WHIT.." 9) "..Atlas:GetBossName("Mana Devourer", 1818), 1818 };
 	};
 	ReturntoKarazhanH = {
@@ -704,7 +704,7 @@ local myMaps = {
 		PrevMap = "ReturntoKarazhanH";
 		{ BLUE.." M) "..ALC["Connection"], 10001 };
 		{ WHIT.."10) "..Atlas:GetBossName("Viz'aduum the Watcher", 1838), 1838 };
-		{ GREN.." 9') "..L["Archmage Khadgar"].."\n"..INDENT..WHIT..format(ALC["Portal to %s"], BZ["Dalaran"]), 115497 };
+		{ GREN.." 9') "..Atlas:GetCreatureName(L["Archmage Khadgar"], 115497).."\n"..INDENT..WHIT..format(ALC["Portal to %s"], BZ["Dalaran"]), 115497 };
 		{ INDENT..WHIT..format(ALC["Portal to %s"], BZ["Dalaran"]) };
 	};
 	TheArcwayEnt = {
@@ -726,8 +726,8 @@ local myMaps = {
 		{ INDENT..PURP.." A) "..ALC["Transport"], 10005 };
 		{ INDENT..PURP.." B) "..L["Portal to Shal'Aran"], 10006 };
 		{ INDENT..WHIT.." 1) "..ALC["Meeting Stone"], 10007 };
-		{ INDENT..GREN.." 1') "..L["First Arcanist Thalyssra"].."\n"..L["Archmage Khadgar"], 115366 }; 
-		{ INDENT..INDENT..GREN..L["Archmage Khadgar"], 115367 };
+		{ INDENT..GREN.." 1') "..Atlas:GetCreatureName(L["First Arcanist Thalyssra"], 115366).."\n"..Atlas:GetCreatureName(L["Archmage Khadgar"], 115367), 115366 }; 
+		{ INDENT..INDENT..GREN..Atlas:GetCreatureName(L["Archmage Khadgar"], 115367), 115367 };
 	};
 	TheArcway = {
 		ZoneName = { BZ["The Arcway"] };
@@ -746,9 +746,9 @@ local myMaps = {
 		{ WHIT.." 3) "..Atlas:GetBossName("General Xakal", 1499), 1499 };
 		{ WHIT.." 4) "..Atlas:GetBossName("Nal'tira", 1500), 1500 };
 		{ WHIT.." 5) "..Atlas:GetBossName("Advisor Vandros", 1501), 1501 };
-		{ ORNG.." 1) "..L["The Rat King"], 10002 };
-		{ ORNG.." 2) "..L["Sludge Face"], 10003 };
-		{ GREN.." 1') "..L["Suramar Leyline Map"], 10004 };
+		{ ORNG.." 1) "..Atlas:GetCreatureName(L["The Rat King"], 111057), 111057 };
+		{ ORNG.." 2) "..Atlas:GetCreatureName(L["Sludge Face"], 111021), 111021 };
+		{ GREN.." 1') "..L["Suramar Leyline Map"], 251641 }; -- object
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ "Arcanic Cling", "ac=10773" };
@@ -802,7 +802,7 @@ local myMaps = {
 		{ BLUE.." D) "..ALC["Portal"]..ALC["Colon"]..BZ["Mulgore"], 10004 };
 		{ BLUE.." E) "..ALC["Portal"]..ALC["Colon"]..BZ["Grizzly Hills"], 10005 };
 		{ BLUE.." F) "..ALC["Portal"]..ALC["Colon"]..BZ["The Emerald Dreamway"], 10006 };
-		{ GREN.." 1') "..L["Malfurion Stormrage"], 10010 };
+		{ GREN.." 1') "..Atlas:GetCreatureName(L["Malfurion Stormrage"], 106482), 106482 };
 		{ INDENT..GREY..L["Teleport to Moonglade"] };
 	};
 	TheEmeraldNightmareC = {
@@ -970,8 +970,8 @@ local myMaps = {
 		{ INDENT..PURP.." A) "..ALC["Transport"], 10005 };
 		{ INDENT..PURP.." B) "..L["Portal to Shal'Aran"], 10006 };
 		{ INDENT..WHIT.." 1) "..ALC["Meeting Stone"], 10007 };
-		{ INDENT..GREN.." 1') "..L["First Arcanist Thalyssra"].."\n"..L["Archmage Khadgar"], 115366 }; 
-		{ INDENT..INDENT..GREN..L["Archmage Khadgar"], 115367 };
+		{ INDENT..GREN.." 1') "..Atlas:GetCreatureName(L["First Arcanist Thalyssra"], 115366).."\n"..Atlas:GetCreatureName(L["Archmage Khadgar"], 115367), 115366 }; 
+		{ INDENT..INDENT..GREN..Atlas:GetCreatureName(L["Archmage Khadgar"], 115367), 115367 };
 	};
 	TheNightholdA = {
 		ZoneName = { BZ["The Nighthold"]..ALC["MapA"] };
@@ -994,8 +994,8 @@ local myMaps = {
 		{ WHIT.." 1) "..Atlas:GetBossName("Skorpyron", 1706), 1706 };
 		{ WHIT.." 2) "..Atlas:GetBossName("Chronomatic Anomaly", 1725)..ALC["L-Parenthesis"]..ALC["Wanders"]..ALC["R-Parenthesis"], 1725 };
 		{ WHIT.." 3) "..Atlas:GetBossName("Trilliax", 1731), 1731 };
-		{ GREN.." 1') "..L["First Arcanist Thalyssra"].."\n"..L["Archmage Khadgar"], 110791 }; 
-		{ INDENT..GREN..L["Archmage Khadgar"] };
+		{ GREN.." 1') "..Atlas:GetCreatureName(L["First Arcanist Thalyssra"], 110791).."\n"..Atlas:GetCreatureName(L["Archmage Khadgar"], 110792), 110791 }; 
+		{ INDENT..GREN..Atlas:GetCreatureName(L["Archmage Khadgar"], 110792) };
 --		{ GREY..INDENT..L["Teleport to Tichondrius / Grand Magistrix Elisande"] };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
@@ -1034,9 +1034,9 @@ local myMaps = {
 		{ WHIT.." 6) "..Atlas:GetBossName("High Botanist Tel'arn", 1761), 1761 };
 		{ WHIT.." 8) "..Atlas:GetBossName("Krosus", 1713), 1713 };
 		{ WHIT.." 10) "..Atlas:GetBossName("Gul'dan", 1737)..ALC["L-Parenthesis"]..ALC["Upper"]..ALC["R-Parenthesis"], 1737 };
-		{ ORNG.." 1) "..L["Gilded Guardian"]..ALC["L-Parenthesis"]..ALC["Wanders"]..ALC["R-Parenthesis"], 112712 };
-		{ ORNG.." 2) "..L["Flightmaster Volnath"], 116004 };
-		{ GREN.." 2') "..L["Ly'leth Lunastre"], 117085 };
+		{ ORNG.." 1) "..Atlas:GetCreatureName(L["Gilded Guardian"], 112712), 112712 };
+		{ ORNG.." 2) "..Atlas:GetCreatureName(L["Flightmaster Volnath"], 116004), 116004 };
+		{ GREN.." 2') "..Atlas:GetCreatureName(L["Ly'leth Lunastre"], 117085), 117085 };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ "A Change In Scenery", "ac=10817" };
@@ -1141,6 +1141,7 @@ local myMaps = {
 		MinGearLevel = "835";
 		Module = "Atlas_Legion";
 		PrevMap = "TheNightholdE";
+		NextMap = "TheNightholdG";
 		LargeMap = "TheNightholdF";
 		{ WHIT.." 9) "..Atlas:GetBossName("Grand Magistrix Elisande", 1743), 1743 };
 		{ BLUE.." K) "..ALC["Portal"], 10002 };
@@ -1151,6 +1152,30 @@ local myMaps = {
 		{ "Infinitesimal", "ac=10699" };
 		{ "Nightspire", "ac=10838" };
 		{ "Mythic: Grand Magistrix Elisande", "ac=10849" };
+		{ "The Nighthold Guild Run", "ac=10868" };
+	};
+	TheNightholdG = {
+		ZoneName = { BZ["The Nighthold"]..ALC["MapG"] };
+		Location = { BZ["Suramar"] };
+		DungeonID = "1351";
+		DungeonHeroicID = "1352";
+		DungeonMythicID = "1353";
+		--Acronym = "";
+		WorldMapID = "1088";
+		DungeonLevel = "9";
+		JournalInstanceID = "786";
+		PlayerLimit = "10-30";
+		MinGearLevel = "835";
+		Module = "Atlas_Legion";
+		PrevMap = "TheNightholdF";
+		LargeMap = "TheNightholdG";
+		{ WHIT.." 10) "..Atlas:GetBossName("Gul'dan", 1737), 1737 };
+		{ "" };
+		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
+		{ "Mythic: Gul'dan", "ac=10850" };
+		{ "Mythic: Gul'dan Guild Run", "ac=11239" };
+		{ "Cutting Edge: Gul'dan", "ac=11192" };
+		{ "Ahead of the Curve: Gul'dan", "ac=11195" };
 		{ "The Nighthold Guild Run", "ac=10868" };
 	};
 	TombofSargerasA = {
@@ -1412,7 +1437,7 @@ local myMaps = {
 		{ WHIT.." 2) "..Atlas:GetBossName("Inquisitor Tormentorum", 1695), 1695 };
 		{ WHIT.." 3) "..Atlas:GetBossName("Ash'golm", 1468), 1468 };
 		{ WHIT.." 4) "..Atlas:GetBossName("Glazer", 1469), 1469 };
-		{ ORNG.." 1) "..L["Grimoira"], 105824 };
+		{ ORNG.." 1) "..Atlas:GetCreatureName(L["Grimoira"], 105824), 105824 };
 		{ INDENT..GREY..ALC["L-Parenthesis"]..L["Requires Skaggldrynk"]..ALC["R-Parenthesis"] };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
@@ -1435,8 +1460,8 @@ local myMaps = {
 		PrevMap = "VaultoftheWardensB";
 		{ BLUE.." D) "..ALC["Elevator"], 10004 };
 		{ WHIT.." 5) "..Atlas:GetBossName("Cordana Felsong", 1470), 1470 };
-		{ GREN.." 1') "..L["Fel-Ravaged Tome"], 10005};
-		{ GREN.." 2') "..L["Drelanim Whisperwind"], 10006 };
+		{ GREN.." 1') "..L["Fel-Ravaged Tome"], 258979}; -- object
+		{ GREN.." 2') "..Atlas:GetCreatureName(L["Drelanim Whisperwind"], 103860), 103860 };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ "Who's Afraid of the Dark?", "ac=10680" };
