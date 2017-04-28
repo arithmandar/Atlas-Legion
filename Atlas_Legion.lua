@@ -329,8 +329,8 @@ local myMaps = {
 		{ INDENT..GREY..QUESTS_COLON..L["Put a Cork in It"] };
 		{ ORNG.." 1) "..Atlas:GetCreatureName(L["Shellmaw"], 91788), 91788 };
 		{ ORNG.." 2) "..Atlas:GetCreatureName(L["Dread Captain Thedon"], 108543), 108543 };
-		{ ORNG.." 2) "..Atlas:GetCreatureName(L["Gom Crabbar"], 101411), 101411 };
-		{ ORNG.." 3) "..Atlas:GetCreatureName(L["Jaggen-Ra"], 101467), 101467 };
+		{ ORNG.." 3) "..Atlas:GetCreatureName(L["Gom Crabbar"], 101411), 101411 };
+		{ ORNG.." 4) "..Atlas:GetCreatureName(L["Jaggen-Ra"], 101467), 101467 };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ "But You Say He's Just a Friend", "ac=10456" };
@@ -539,7 +539,7 @@ local myMaps = {
 		{ WHIT.." 1) "..Atlas:GetBossName("Opera Hall: Wikket", 1820), 1820 };
 		{ WHIT.." 2) "..Atlas:GetBossName("Opera Hall: Westfall Story", 1826), 1826 };
 		{ WHIT.." 3) "..Atlas:GetBossName("Opera Hall: Beautiful Beast", 1827), 1827 };
-		{ GREN.." 2') "..L["Soul Fragment"], 10002 };
+		{ GREN.." 2') "..Atlas:GetCreatureName(L["Soul Fragment"], 115105), 115105 };
 	};
 	ReturntoKarazhanB = {
 		ZoneName = { BZ["Return to Karazhan"]..ALC["MapB"] };
@@ -558,7 +558,7 @@ local myMaps = {
 		PrevMap = "ReturntoKarazhanA";
 		NextMap = "ReturntoKarazhanC";
 		{ BLUE.." D-F) "..ALC["Connection"], 10001 };
-		{ GREN.." 3') "..L["Soul Fragment"], 10002 };
+		{ GREN.." 3') "..Atlas:GetCreatureName(L["Soul Fragment"], 115013), 115013 };
 		{ WHIT.." 4) "..Atlas:GetBossName("Maiden of Virtue", 1825), 1825 };
 	};
 	ReturntoKarazhanC = {
@@ -579,7 +579,7 @@ local myMaps = {
 		NextMap = "ReturntoKarazhanD";
 		{ BLUE.." E-H) "..ALC["Connection"], 10001 };
 		{ WHIT.." 5) "..Atlas:GetBossName("Moroes", 1837), 1837 };
-		{ GREN.." 4') "..L["Soul Fragment"], 10002 };
+		{ GREN.." 4') "..Atlas:GetCreatureName(L["Soul Fragment"], 115103), 115103 };
 	};
 	ReturntoKarazhanD = {
 		ZoneName = { BZ["Return to Karazhan"]..ALC["MapD"] };
@@ -602,7 +602,7 @@ local myMaps = {
 		{ GREN.." 5') "..Atlas:GetCreatureName(L["Koren"], 114815), 114815};
 		{ WHIT.." 6) "..Atlas:GetBossName("Attumen the Huntsman", 1835), 1835 };
 		{ WHIT..INDENT..Atlas:GetBossName("Midnight", 1835, 2) };
-		{ GREN.." 6') "..L["Soul Fragment"], 10003 };
+		{ GREN.." 6') "..Atlas:GetCreatureName(L["Soul Fragment"], 115101), 115101 };
 	};
 	ReturntoKarazhanE = {
 		ZoneName = { BZ["Return to Karazhan"]..ALC["MapE"] };
@@ -622,7 +622,7 @@ local myMaps = {
 		NextMap = "ReturntoKarazhanF";
 		{ BLUE.." C) "..ALC["Connection"], 10001 };
 		{ WHIT.." 7) "..Atlas:GetBossName("The Curator", 1836)..ALC["L-Parenthesis"]..ALC["Wanders"]..ALC["R-Parenthesis"], 1836 };
-		{ GREN.." 7') "..L["Soul Fragment"], 10002 };
+		{ GREN.." 7') "..Atlas:GetCreatureName(L["Soul Fragment"], 115113), 115113 };
 		{ BLUE.." J) "..format(ALC["Portal to %s"], BZ["Guardian's Library"]), 10003 };
 	};
 	ReturntoKarazhanF = {
@@ -748,7 +748,7 @@ local myMaps = {
 		{ WHIT.." 5) "..Atlas:GetBossName("Advisor Vandros", 1501), 1501 };
 		{ ORNG.." 1) "..Atlas:GetCreatureName(L["The Rat King"], 111057), 111057 };
 		{ ORNG.." 2) "..Atlas:GetCreatureName(L["Sludge Face"], 111021), 111021 };
-		{ GREN.." 1') "..L["Suramar Leyline Map"], 251641 }; -- object
+		{ GREN.." 1') ", 138394, "item", L["Suramar Leyline Map"] };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ "Arcanic Cling", "ac=10773" };

@@ -206,21 +206,21 @@ local myDB = {
 		{ 2, 1826, 74, 370 }; -- Opera Hall: Westfall Story
 		{ 3, 1827, 70, 388 }; -- Opera Hall: Beautiful Beast
 		{ "1'", 114339, 100, 369 }; -- Barnes
-		{ "2'", 10002, 152, 373 }; -- Soul Fragment
+		{ "2'", 115105, 152, 373 }; -- Soul Fragment
 	};
 	ReturntoKarazhanB = {
 		{ "D", 10001, 23, 216 }; -- Connection
 		{ "E", 10001, 270, 268 }; -- Connection
 		{ "F", 10001, 33, 152 }; -- Connection
 		{ 4, 1825, 410, 289 }; -- Maiden of Virtue
-		{ "3'", 10002, 397, 117 }; -- Soul Fragment
+		{ "3'", 115013, 397, 117 }; -- Soul Fragment
 	};
 	ReturntoKarazhanC = {
 		{ "E", 10001, 352, 99 }; -- Connection
 		{ "H", 10001, 278, 249 }; -- Connection
 		{ "G", 10001, 170, 436 }; -- Connection
 		{ 5, 1837, 142, 177 }; -- Moroes
-		{ "4'", 10002, 118, 172 };
+		{ "4'", 115103, 118, 172 }; -- Soul Fragment
 	};
 	ReturntoKarazhanD = {
 		{ "F", 10001, 116, 15 }; -- Connection
@@ -229,13 +229,13 @@ local myDB = {
 		{ "I", 10002, 431, 63 }; -- Connection
 		{ 6, 1835, 158, 416 }; -- Attumen the Huntsman
 		{ "5'", 114815, 154, 359 }; -- Koren
-		{ "6'", 10003, 418, 58 }; -- Soul Fragment
+		{ "6'", 115101, 418, 58 }; -- Soul Fragment
 	};
 	ReturntoKarazhanE = {
 		{ "C", 10001, 349, 162 }; -- Connection
 		{ "J", 10003, 275, 398 }; -- Portal
 		{ 7, 1836, 249, 363 }; -- The Curator
-		{ "7'", 10002, 229, 401 }; -- Soul Fragment
+		{ "7'", 115113, 229, 401 }; -- Soul Fragment
 	};
 	ReturntoKarazhanF = {
 		{ "J", 10001, 56, 102 }; -- Portal
@@ -310,7 +310,7 @@ local myDB = {
 		{  5, 1501,   270, 178, 491, 252 }; -- Advisor Vandros
 		{ "1", 111057, 203, 232, 382, 317, "Orange" }; -- The Rat King
 		{ "2", 111021, 270, 395, 491, 564, "Orange" }; -- Sludge Face
-		{ "1'", 251641, 92, 304, 211, 425, "Green" }; -- Suramar Leyline Map
+		{ "1'", 138394, 92, 304, 211, 425, "Green" }; -- Suramar Leyline Map
 	};
 	TheEmeraldNightmareA = {
 		{ "A", 10001, 122, 344 }; -- Entrance

@@ -6,6 +6,13 @@ Copyright 2016 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
+v1.41.04 (Apr. 28, 2017)
+------------------------
+- Fixed WQ bosses' number in Eye of Azshara
+- Localization update:
+  - German (pas06)
+  - Traditional Chinese
+
 v1.41.03 (Apr. 18, 2017)
 ------------------------
 - Added map of Gul'dan's chamber

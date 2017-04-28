@@ -36,12 +36,12 @@ if L then
 	--Court of Stars
 	L["Ly'leth Lunastre"] = "黎利斯·路納斯特"; -- 106468
 	L["Arcanist Malrodi"] = "秘法師瑪洛蒂"; -- 108796
-	--L["Velimar"] = "Velimar"; -- 108740
+	L["Velimar"] = "威利瑪"; -- 108740
 
 	--Black Rook Hold 
 	L["Dantalionax"] = "丹塔利翁斯";
 	L["Lady Velandras Ravencrest"] = "維蘭卓絲·黑雨女士";
-	-- L["Ancient Widow"] = "Ancient Widow";
+	L["Ancient Widow"] = "遠古寡婦蛛";
 	L["Archmage Galeorn"] = "大法師加里恩";
 	L["Kalyndras <Rook's Quartermaster>"] = "卡林達斯 <玄鴉堡軍需官>";
 	L["Braxas the Fleshcarver"] = "『刻肉者』布拉薩斯"; -- 111290
@@ -54,10 +54,10 @@ if L then
 	--Eye of Azshara
 	L["Crate of Corks"] = "一箱木栓"; -- Alchemy quest - Put a Cork in It (39331)
 	L["Put a Cork in It"] = "塞進木栓";
-	-- L["Shellmaw"] = "Shellmaw"; -- 91788
+	L["Shellmaw"] = "巨殼顎"; -- 91788
 	L["Gom Crabbar"] = "戈姆·蟹巴"; -- 101411
 	L["Jaggen-Ra"] = "迦耿拉"; 
-	-- L["Dread Captain Thedon"] = "Dread Captain Thedon";
+	L["Dread Captain Thedon"] = "恐怖船長席頓";
 
 	--Halls of Valor
 	L["Fenryr's western spawn point"] = "芬里爾的西邊出現點";
@@ -73,8 +73,8 @@ if L then
 	--Neltharion's Lair
 	L["Spiritwalker Ebonhorn"] = "靈行者黯角";
 	L["Mushroom Merchant"] = "蘑菇商人";
-	-- L["Understone Lasher"] = "Understone Lasher"; -- 103597
-	-- L["Ragoul"] = "Ragoul"; -- 103199
+	L["Understone Lasher"] = "底石奴隸監工"; -- 103597
+	L["Ragoul"] = "拉格爾"; -- 103199
 	L["Kraxa <Mother of Gnashers>"] = "夸克薩 <銳齒蜥之母>";
 	L["Ultanok"] = "烏塔諾克"; -- 103247
 
@@ -87,7 +87,7 @@ if L then
 	L["Archmage Leryda"] = "大法師利瑞達";
 	L["Lydia Accoste"] = "黎蒂雅·艾柯斯塔";
 	L["Barnes"] = "巴奈斯"; -- 114339
-	--L["Soul Fragment"] = "Soul Fragment";
+	L["Soul Fragment"] = "靈魂碎片";
 	L["Koren"] = "卡爾侖"; -- 114815
 	--L["Medivh's Footlocker"] = "Medivh's Footlocker"; -- object: 266826
 	L["Archmage Khadgar"] = "大法師卡德加"; -- 115497
@@ -95,7 +95,7 @@ if L then
 	--The Arcway
 	L["Portal to Shal'Aran"] = "沙亞蘭傳送門";
 	L["The Rat King"] = "鼠王"; -- 111057
-	--L["Sludge Face"] = "Sludge Face"; -- 111021
+	L["Sludge Face"] = "泥巴臉"; -- 111021
 	L["Suramar Leyline Map"] = "蘇拉瑪爾地脈地圖"; -- object: 251641
 
 	--The Emerald Nightmare
