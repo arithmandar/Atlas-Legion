@@ -45,6 +45,12 @@ if L then
 	L["Archmage Galeorn"] = "大法師加里恩";
 	L["Kalyndras <Rook's Quartermaster>"] = "卡林達斯 <玄鴉堡軍需官>";
 	L["Braxas the Fleshcarver"] = "『刻肉者』布拉薩斯"; -- 111290
+	L["Torn Page"] = "撕開的書頁"
+	L["Dog-Eared Page"] = "折頁的書頁"
+	L["Worn-Edged Page"] = "邊緣磨損的書頁"
+	L["Singed Page"] = "燒焦的書頁"
+	L["Ink-splattered Page"] = "濺到墨水的書頁"
+	L["Hastily-Scrawled Page"] = "飛快潦草的書頁"
 
 	--Darkheart Thicket
 	L["Rage Rot"] = "怒朽"; -- 101660

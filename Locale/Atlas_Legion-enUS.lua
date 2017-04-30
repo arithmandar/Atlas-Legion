@@ -43,6 +43,12 @@ if L then
 	L["Archmage Galeorn"] = "Archmage Galeorn"; -- 111068
 	L["Kalyndras <Rook's Quartermaster>"] = "Kalyndras <Rook's Quartermaster>"; -- 112725
 	L["Braxas the Fleshcarver"] = "Braxas the Fleshcarver"; -- 111290
+	L["Torn Page"] = "Torn Page"
+	L["Dog-Eared Page"] = "Dog-Eared Page"
+	L["Worn-Edged Page"] = "Worn-Edged Page"
+	L["Singed Page"] = "Singed Page"
+	L["Ink-splattered Page"] = "Ink-splattered Page"
+	L["Hastily-Scrawled Page"] = "Hastily-Scrawled Page"
 
 	-- Darkheart Thicket
 	L["Rage Rot"] = "Rage Rot"; -- 101660

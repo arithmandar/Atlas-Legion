@@ -43,30 +43,44 @@ local myDB = {
 		{   8, 1711, 244,  73, 500, 92  }; -- Fel Lord Betrug
 	};
 	BlackRookHoldA = {
-		{ "A", 10001, 115, 49, 280, 42, "Blue" }; -- Entrance
-		{ "B", 10002, 429, 415, 644, 568, "Blue" }; -- Connection
-		{   1,  1518, 219, 314, 383, 411 }; -- The Amalgam of Souls
-		{   1, 98538, 50, 211, 174, 250, "Orange" }; -- Lady Velandras Ravencrest
-		{   2, 98637, 462, 400, 699, 559, "Orange" }; -- Ancient Widow
+		{ "A", 10001, 130,  34, 305,  24, "Blue" }; -- Entrance
+		{ "B", 10002, 420, 448, 689, 592, "Blue" }; -- Connection
+		{   1,  1518, 215, 326, 418, 424 }; -- The Amalgam of Souls
+		{   1, 98538,  47, 201, 186, 252, "Orange" }; -- Lady Velandras Ravencrest
+		{   2, 98521, 308, 188, 547, 235, "Orange" }; -- Lord Etheldrin Ravencrest
+		{   3, 110993, 351, 423, 605, 556, "Orange" }; -- Lord Etheldrin Ravencrest
+		{   4, 98637, 466, 439, 765, 577, "Orange" }; -- Ancient Widow
+		{ "1'", 10003, 329, 447, 572, 586, "Green" }; -- Torn Page
 	};
 	BlackRookHoldB = {
-		{ "B", 10001, 69, 337, 107, 351, "Blue" }; -- Connection
-		{ "C", 10001, 201, 477, 309, 612, "Blue" }; -- Connection
-		{ "C", 10001, 294, 478, 467, 623, "Blue" }; -- Connection
-		{ "D", 10001, 186, 320, 298, 325, "Blue" }; -- Connection
-		{ "D", 10001, 428, 319, 870, 512, "Blue" }; -- Connection
-		{ "E", 10001, 324, 292, 686, 445, "Blue" }; -- Connection
-		{ "E", 10001, 130, 142, 413, 222, "Blue" }; -- Connection
-		{ "F", 10001, 243,  26, 629, 36, "Blue" }; -- Connection
-		{ "G", 10001, 172, 162, 483, 261, "Blue" }; -- Connection
-		{  2, 1653, 251, 413, 394, 496 }; -- Illysanna Ravencrest
-		{  3, 111068, 139, 445, 192, 545, "Orange" }; -- Archmage Galeorn
-		{  4, 112725, 379, 194, 798, 277, "Orange" }; -- Kalyndras <Rook's Quartermaster>
-		{  5, 111290, 92, 156, 341, 244, "Orange" };-- Braxas the Fleshcarver
+		{ "B", 10001,  99, 190, 240, 219, "Blue" }; -- Connection
+		{ "C", 10001, 279, 413, 534, 589, "Blue" }; -- Connection
+		{ "C", 10001, 412, 423, 764, 608, "Blue" }; -- Connection
+		{ "D", 10001, 275, 171, 530, 186, "Blue" }; -- Connection
+		{   2,  1653, 351, 319, 659, 433 }; -- Illysanna Ravencrest
+		{  5, 111068, 189, 351, 386, 485, "Orange" }; -- Archmage Galeorn
+		{ "2'", 10002, 339, 242, 639, 306, "Green" }; -- Worn-Edged Page
+		{ "3'", 10003, 151, 296, 329, 397, "Green" }; -- Dog-Eared Page
 	};
 	BlackRookHoldC = {
+		{ "D", 10001, 356, 443, 862, 560, "Blue" }; -- Connection
+		{ "E", 10001, 232, 386, 671, 479, "Blue" }; -- Connection
+		{ "E", 10001, 315, 159, 442, 225, "Blue" }; -- Connection
+		{ "F", 10001, 475,  25, 682,  30, "Blue" }; -- Connection
+		{ "G", 10001, 289, 142, 408, 207, "Blue" }; -- Connection
+		{ "G", 10001,  63, 142,  80, 202, "Blue" }; -- Connection
+		{ "H", 10001, 123, 174, 170, 247, "Blue" }; -- Connection
+		{  6, 112725, 304, 294, 784, 330, "Orange" }; -- Kalyndras <Rook's Quartermaster>
+		{  7, 111290, 200, 429, 622, 539, "Orange" }; -- Braxas the Fleshcarver
+		{  8, 111361, 180, 202, 253, 288, "Orange" }; -- Braxas the Fleshcarver
+		{ "4'", 10002, 289, 379, 765, 466, "Green" }; -- Singed Page
+		{ "5'", 136812, 132, 394, 523, 484, "Green" }; -- Dog-Eared Page
+		{ "6'", 10003, 342, 176, 481, 263, "Green" }; -- Ink-splattered Page
+		{ "7'", 10004, 198, 212, 286, 302, "Green" }; -- Hastily-Scrawled Page
+	};
+	BlackRookHoldD = {
 		{ "F", 10001, 300, 107 }; -- Connection
-		{ "G", 10001, 203, 191 }; -- Connection
+		{ "H", 10001, 203, 191 }; -- Connection
 		{  3, 1664, 351, 60 }; -- Smashspite the Hateful
 		{  4, 1672, 158, 171 }; -- Lord Kur'talos Ravencrest
 	};
