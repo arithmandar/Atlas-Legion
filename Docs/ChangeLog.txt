@@ -6,6 +6,10 @@ Copyright 2016 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
+v1.42.00 (Jun. 29, 2017)
+------------------------
+- Updated to support Atlas 1.42.00
+
 v1.41.05 (Apr. 30, 2017)
 ------------------------
 - Black Rook Hold maps revamped

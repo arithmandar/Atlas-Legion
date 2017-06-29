@@ -40,5 +40,5 @@
 ## RequiredDeps: Atlas
 
 Locale\Locales.xml
-Atlas_Legion.lua
-Atlas_Legion_DB.lua
+Core.lua
+Data.lua
