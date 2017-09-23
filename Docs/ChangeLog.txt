@@ -6,6 +6,12 @@ Copyright 2016 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
+v1.43.01 (Sep. 23, 2017)
+------------------------
+- Added The Seat of the Triumvirate
+- Localization update:
+  - Korean (netaras)
+
 v1.43.00 (Aug. 30, 2017)
 ------------------------
 - ToC update to support WoW 7.3.0
