@@ -56,6 +56,128 @@ local YLOW = "|cffcccc33"
 local INDENT = "      "
 
 db.AtlasMaps = {
+	AntorustheBurningThroneA = {
+		ZoneName = { BZ["Antorus, the Burning Throne"]..ALC["MapA"] },
+		Location = { BZ["Val'sharah"] },
+		DungeonID = "1640",
+		DungeonHeroicID = "1641",
+		DungeonMythicID = "1642",
+		--Acronym = "",
+		WorldMapID = "1188",
+		DungeonLevel = "1",
+		JournalInstanceID = "946",
+		PlayerLimit = { 10, 30 },
+		MinGearLevel = "860",
+		Module = "Atlas_Legion",
+		NextMap = "AntorustheBurningThroneB",
+		{ BLUE.." A) "..ALC["Entrance"], 10001 },
+		{ WHIT.." 1) "..Atlas:GetBossName("Garothi Worldbreaker", 1992), 1992 },
+		{ WHIT.." 2) "..Atlas:GetBossName("Felhounds of Sargeras", 1987), 1987 },
+	},
+	AntorustheBurningThroneB = {
+		ZoneName = { BZ["Antorus, the Burning Throne"]..ALC["MapB"] },
+		Location = { BZ["Val'sharah"] },
+		DungeonID = "1640",
+		DungeonHeroicID = "1641",
+		DungeonMythicID = "1642",
+		--Acronym = "",
+		WorldMapID = "1188",
+		DungeonLevel = "2",
+		JournalInstanceID = "946",
+		PlayerLimit = { 10, 30 },
+		MinGearLevel = "860",
+		Module = "Atlas_Legion",
+		PrevMap = "AntorustheBurningThroneA",
+		NextMap = "AntorustheBurningThroneC",
+		{ WHIT.." 3) "..Atlas:GetBossName("Antoran High Command", 1997), 1997 },
+	},
+	AntorustheBurningThroneC = {
+		ZoneName = { BZ["Antorus, the Burning Throne"]..ALC["MapC"] },
+		Location = { BZ["Val'sharah"] },
+		DungeonID = "1640",
+		DungeonHeroicID = "1641",
+		DungeonMythicID = "1642",
+		--Acronym = "",
+		WorldMapID = "1188",
+		DungeonLevel = "3",
+		JournalInstanceID = "946",
+		PlayerLimit = { 10, 30 },
+		MinGearLevel = "860",
+		Module = "Atlas_Legion",
+		PrevMap = "AntorustheBurningThroneB",
+		NextMap = "AntorustheBurningThroneD",
+		{ WHIT.." 4) "..Atlas:GetBossName("Portal Keeper Hasabel", 1985), 1985 },
+	},
+	AntorustheBurningThroneD = {
+		ZoneName = { BZ["Antorus, the Burning Throne"]..ALC["MapD"] },
+		Location = { BZ["Val'sharah"] },
+		DungeonID = "1640",
+		DungeonHeroicID = "1641",
+		DungeonMythicID = "1642",
+		--Acronym = "",
+		WorldMapID = "1188",
+		DungeonLevel = "5",
+		JournalInstanceID = "946",
+		PlayerLimit = { 10, 30 },
+		MinGearLevel = "860",
+		Module = "Atlas_Legion",
+		PrevMap = "AntorustheBurningThroneC",
+		NextMap = "AntorustheBurningThroneE",
+		{ WHIT.." 5) "..Atlas:GetBossName("Eonar the Life-Binder", 2025), 2025 },
+	},
+	AntorustheBurningThroneE = {
+		ZoneName = { BZ["Antorus, the Burning Throne"]..ALC["MapE"] },
+		Location = { BZ["Val'sharah"] },
+		DungeonID = "1640",
+		DungeonHeroicID = "1641",
+		DungeonMythicID = "1642",
+		--Acronym = "",
+		WorldMapID = "1188",
+		DungeonLevel = "6",
+		JournalInstanceID = "946",
+		PlayerLimit = { 10, 30 },
+		MinGearLevel = "860",
+		Module = "Atlas_Legion",
+		PrevMap = "AntorustheBurningThroneD",
+		NextMap = "AntorustheBurningThroneF",
+		{ WHIT.." 6) "..Atlas:GetBossName("Imonar the Soulhunter", 2009), 2009 },
+		{ WHIT.." 7) "..Atlas:GetBossName("Kin'garoth", 2004), 2004 },
+	},
+	AntorustheBurningThroneF = {
+		ZoneName = { BZ["Antorus, the Burning Throne"]..ALC["MapF"] },
+		Location = { BZ["Val'sharah"] },
+		DungeonID = "1640",
+		DungeonHeroicID = "1641",
+		DungeonMythicID = "1642",
+		--Acronym = "",
+		WorldMapID = "1188",
+		DungeonLevel = "7",
+		JournalInstanceID = "946",
+		PlayerLimit = { 10, 30 },
+		MinGearLevel = "860",
+		Module = "Atlas_Legion",
+		PrevMap = "AntorustheBurningThroneE",
+		NextMap = "AntorustheBurningThroneG",
+		{ WHIT.." 8) "..Atlas:GetBossName("The Coven of Shivarra", 1986), 1986 },
+		{ WHIT.." 9) "..Atlas:GetBossName("Varimathras", 1983), 1983 },
+		{ WHIT.."10) "..Atlas:GetBossName("Aggramar", 1984), 1984 },
+	},
+	AntorustheBurningThroneG = {
+		ZoneName = { BZ["Antorus, the Burning Throne"]..ALC["MapG"] },
+		Location = { BZ["Val'sharah"] },
+		DungeonID = "1640",
+		DungeonHeroicID = "1641",
+		DungeonMythicID = "1642",
+		--Acronym = "",
+		WorldMapID = "1188",
+		DungeonLevel = "10",
+		JournalInstanceID = "946",
+		PlayerLimit = { 10, 30 },
+		MinGearLevel = "860",
+		Module = "Atlas_Legion",
+		PrevMap = "AntorustheBurningThroneF",
+		{ WHIT.."11) "..Atlas:GetBossName("Argus the Unmaker", 2031), 2031 },
+	},
 	AssaultonVioletHold = {
 		ZoneName = { BZ["Assault on Violet Hold"] },
 		Location = { BZ["Dalaran"] },
@@ -1547,6 +1669,32 @@ db.AtlasMaps = {
  };
 /////////////////////////////////////////////]]
 db.AtlasMaps_NPC_DB = {
+	AntorustheBurningThroneA = {
+		{ "A", 10001, 475, 404 }, -- Entrance
+		{  1, 1992, 404, 370 }, -- Garothi Worldbreaker
+		{  2, 1987, 105, 341 }, -- Felhounds of Sargeras
+	},
+	AntorustheBurningThroneB = {
+		{  3, 1997, 192, 212 }, -- Antoran High Command
+	},
+	AntorustheBurningThroneC = {
+		{  4, 1985, 202, 250 }, -- Portal Keeper Hasabel
+	},
+	AntorustheBurningThroneD = {
+		{  5, 2025, 141, 230 }, -- Eonar the Life-Binder
+	},
+	AntorustheBurningThroneE = {
+		{  6, 2009,  39, 251 }, -- Imonar the Soulhunter
+		{  7, 2004, 414, 250 }, -- Kin'garoth
+	},
+	AntorustheBurningThroneF = {
+		{  8, 1986, 292, 251 }, -- The Coven of Shivarra
+		{  9, 1983, 291, 300 }, -- Varimathras
+		{ 10, 1984, 115, 249 }, -- Aggramar
+	},
+	AntorustheBurningThroneG = {
+		{ 11, 2031, 250, 286 }, -- Argus the Unmaker
+	},
 	AssaultonVioletHold = {
 		{ "A", 10001, 241, 460, 501, 627, "Blue" }, -- Entrance
 		{   1, 1694, 373, 339, 676, 466 }, -- Shivermaw
@@ -2015,6 +2163,7 @@ db.AssocDefaults = {
 	[BZ["Trial of Valor"]] = 		"TrialofValorA",
 	[BZ["Karazhan"]] =			"ReturntoKarazhanEnt", -- not sure if we should use "Return to Karazhan"
 	[BZ["Cathedral of Eternal Night"]] = 	"CathedralofEternalNightA",
+	[BZ["Antorus, the Burning Throne"]] = 	"AntorustheBurningThroneA",
 }
 
 --[[
@@ -2230,6 +2379,22 @@ db.SubZoneData = {
 --		
 --		},
 --	},
+	[BZ["Antorus, the Burning Throne"]] = {
+		["AntorustheBurningThroneA"] = {
+		},
+		["AntorustheBurningThroneB"] = {
+		},
+		["AntorustheBurningThroneC"] = {
+		},
+		["AntorustheBurningThroneD"] = {
+		},
+		["AntorustheBurningThroneE"] = {
+		},
+		["AntorustheBurningThroneF"] = {
+		},
+		["AntorustheBurningThroneG"] = {
+		},
+	},
 }
 
 --[[
@@ -2254,6 +2419,7 @@ db.OutdoorZoneToAtlas = {
 	[BZ["Deadwind Pass"]] = 		"ReturntoKarazhanEnt",
 	[BZ["Broken Shore"]] = 			"CathedralofEternalNightA",
 	[BZ["Mac'Aree"]] = 			"TheSeatoftheTriumvirate",
+	--"AntorustheBurningThroneA",
 }
 
 db.EntToInstMatches = {
@@ -2334,6 +2500,13 @@ db.MapSeries = {
 	["TombofSargerasE"] = 			{"TombofSargerasA", "TombofSargerasB", "TombofSargerasC", "TombofSargerasD", "TombofSargerasE", "TombofSargerasF", "TombofSargerasG" },
 	["TombofSargerasF"] = 			{"TombofSargerasA", "TombofSargerasB", "TombofSargerasC", "TombofSargerasD", "TombofSargerasE", "TombofSargerasF", "TombofSargerasG" },
 	["TombofSargerasG"] = 			{"TombofSargerasA", "TombofSargerasB", "TombofSargerasC", "TombofSargerasD", "TombofSargerasE", "TombofSargerasF", "TombofSargerasG" },
+	["AntorustheBurningThroneA"] = 		{"AntorustheBurningThroneA", "AntorustheBurningThroneB", "AntorustheBurningThroneC", "AntorustheBurningThroneD", "AntorustheBurningThroneE", "AntorustheBurningThroneF", "AntorustheBurningThroneG" },
+	["AntorustheBurningThroneB"] = 		{"AntorustheBurningThroneA", "AntorustheBurningThroneB", "AntorustheBurningThroneC", "AntorustheBurningThroneD", "AntorustheBurningThroneE", "AntorustheBurningThroneF", "AntorustheBurningThroneG" },
+	["AntorustheBurningThroneC"] = 		{"AntorustheBurningThroneA", "AntorustheBurningThroneB", "AntorustheBurningThroneC", "AntorustheBurningThroneD", "AntorustheBurningThroneE", "AntorustheBurningThroneF", "AntorustheBurningThroneG" },
+	["AntorustheBurningThroneD"] = 		{"AntorustheBurningThroneA", "AntorustheBurningThroneB", "AntorustheBurningThroneC", "AntorustheBurningThroneD", "AntorustheBurningThroneE", "AntorustheBurningThroneF", "AntorustheBurningThroneG" },
+	["AntorustheBurningThroneE"] = 		{"AntorustheBurningThroneA", "AntorustheBurningThroneB", "AntorustheBurningThroneC", "AntorustheBurningThroneD", "AntorustheBurningThroneE", "AntorustheBurningThroneF", "AntorustheBurningThroneG" },
+	["AntorustheBurningThroneF"] = 		{"AntorustheBurningThroneA", "AntorustheBurningThroneB", "AntorustheBurningThroneC", "AntorustheBurningThroneD", "AntorustheBurningThroneE", "AntorustheBurningThroneF", "AntorustheBurningThroneG" },
+	["AntorustheBurningThroneG"] = 		{"AntorustheBurningThroneA", "AntorustheBurningThroneB", "AntorustheBurningThroneC", "AntorustheBurningThroneD", "AntorustheBurningThroneE", "AntorustheBurningThroneF", "AntorustheBurningThroneG" },
 }
 
 db.SubZoneAssoc = {
@@ -2388,6 +2561,13 @@ db.SubZoneAssoc = {
 	["TombofSargerasE"] = 			BZ["Tomb of Sargeras"],
 	["TombofSargerasF"] = 			BZ["Tomb of Sargeras"],
 	["TombofSargerasG"] = 			BZ["Tomb of Sargeras"],
+	["AntorustheBurningThroneA"] = 		BZ["Antorus, the Burning Throne"],
+	["AntorustheBurningThroneB"] = 		BZ["Antorus, the Burning Throne"],
+	["AntorustheBurningThroneC"] = 		BZ["Antorus, the Burning Throne"],
+	["AntorustheBurningThroneD"] = 		BZ["Antorus, the Burning Throne"],
+	["AntorustheBurningThroneE"] = 		BZ["Antorus, the Burning Throne"],
+	["AntorustheBurningThroneF"] = 		BZ["Antorus, the Burning Throne"],
+	["AntorustheBurningThroneG"] = 		BZ["Antorus, the Burning Throne"],
 }
 
 db.DropDownLayouts_Order = {
@@ -2456,6 +2636,13 @@ db.DropDownLayouts = {
 			"VaultoftheWardensC",
 		},
 		[ATLAS_DDL_CONTINENT_BROKENISLES2] = { -- raids
+			"AntorustheBurningThroneA",
+			"AntorustheBurningThroneB",
+			"AntorustheBurningThroneC",
+			"AntorustheBurningThroneD",
+			"AntorustheBurningThroneE",
+			"AntorustheBurningThroneF",
+			"AntorustheBurningThroneG",
 			"TheEmeraldNightmareA",
 			"TheEmeraldNightmareB",
 			"TheEmeraldNightmareC",
@@ -2522,6 +2709,13 @@ db.DropDownLayouts = {
 			"VaultoftheWardensC",
 		},
 		[ATLAS_DDL_EXPANSION_LEGION2] = { -- raids
+			"AntorustheBurningThroneA",
+			"AntorustheBurningThroneB",
+			"AntorustheBurningThroneC",
+			"AntorustheBurningThroneD",
+			"AntorustheBurningThroneE",
+			"AntorustheBurningThroneF",
+			"AntorustheBurningThroneG",
 			"TheEmeraldNightmareA",
 			"TheEmeraldNightmareB",
 			"TheEmeraldNightmareC",
@@ -2560,6 +2754,13 @@ db.DropDownLayouts = {
 			"NeltharionsLair",		-- Legion
 		},
 		[ATLAS_DDL_LEVEL_110PLUS] = {
+			"AntorustheBurningThroneA",
+			"AntorustheBurningThroneB",
+			"AntorustheBurningThroneC",
+			"AntorustheBurningThroneD",
+			"AntorustheBurningThroneE",
+			"AntorustheBurningThroneF",
+			"AntorustheBurningThroneG",
 			"BlackRookHoldA",
 			"BlackRookHoldB",
 			"BlackRookHoldC",
@@ -2654,6 +2855,13 @@ db.DropDownLayouts = {
 			"VaultoftheWardensC",		-- Legion
 		},
 		[ATLAS_DDL_PARTYSIZE_10] = {
+			"AntorustheBurningThroneA",
+			"AntorustheBurningThroneB",
+			"AntorustheBurningThroneC",
+			"AntorustheBurningThroneD",
+			"AntorustheBurningThroneE",
+			"AntorustheBurningThroneF",
+			"AntorustheBurningThroneG",
 			"TheEmeraldNightmareA",		-- Legion
 			"TheEmeraldNightmareB",		-- Legion
 			"TheEmeraldNightmareC",		-- Legion
@@ -2679,6 +2887,13 @@ db.DropDownLayouts = {
 			"TombofSargerasG",		-- Legion
 		},
 		[ATLAS_DDL_PARTYSIZE_20TO40] = {
+			"AntorustheBurningThroneA",
+			"AntorustheBurningThroneB",
+			"AntorustheBurningThroneC",
+			"AntorustheBurningThroneD",
+			"AntorustheBurningThroneE",
+			"AntorustheBurningThroneF",
+			"AntorustheBurningThroneG",
 			"TheEmeraldNightmareA",		-- Legion
 			"TheEmeraldNightmareB",		-- Legion
 			"TheEmeraldNightmareC",		-- Legion
@@ -2708,6 +2923,13 @@ db.DropDownLayouts = {
 	},
 	[ATLAS_DDL_TYPE] = {
 		[ATLAS_DDL_TYPE_INSTANCE] = {
+			"AntorustheBurningThroneA",
+			"AntorustheBurningThroneB",
+			"AntorustheBurningThroneC",
+			"AntorustheBurningThroneD",
+			"AntorustheBurningThroneE",
+			"AntorustheBurningThroneF",
+			"AntorustheBurningThroneG",
 			"TheArcway",			-- Legion
 			"AssaultonVioletHold",		-- Legion
 			"BlackRookHoldA",		-- Legion
