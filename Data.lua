@@ -58,7 +58,7 @@ local INDENT = "      "
 db.AtlasMaps = {
 	AntorustheBurningThroneA = {
 		ZoneName = { BZ["Antorus, the Burning Throne"]..ALC["MapA"] },
-		Location = { BZ["Val'sharah"] },
+		Location = { BZ["Antoran Wastes"] },
 		DungeonID = "1640",
 		DungeonHeroicID = "1641",
 		DungeonMythicID = "1642",
@@ -76,7 +76,7 @@ db.AtlasMaps = {
 	},
 	AntorustheBurningThroneB = {
 		ZoneName = { BZ["Antorus, the Burning Throne"]..ALC["MapB"] },
-		Location = { BZ["Val'sharah"] },
+		Location = { BZ["Antoran Wastes"] },
 		DungeonID = "1640",
 		DungeonHeroicID = "1641",
 		DungeonMythicID = "1642",
@@ -93,7 +93,7 @@ db.AtlasMaps = {
 	},
 	AntorustheBurningThroneC = {
 		ZoneName = { BZ["Antorus, the Burning Throne"]..ALC["MapC"] },
-		Location = { BZ["Val'sharah"] },
+		Location = { BZ["Antoran Wastes"] },
 		DungeonID = "1640",
 		DungeonHeroicID = "1641",
 		DungeonMythicID = "1642",
@@ -110,7 +110,7 @@ db.AtlasMaps = {
 	},
 	AntorustheBurningThroneD = {
 		ZoneName = { BZ["Antorus, the Burning Throne"]..ALC["MapD"] },
-		Location = { BZ["Val'sharah"] },
+		Location = { BZ["Antoran Wastes"] },
 		DungeonID = "1640",
 		DungeonHeroicID = "1641",
 		DungeonMythicID = "1642",
@@ -127,7 +127,7 @@ db.AtlasMaps = {
 	},
 	AntorustheBurningThroneE = {
 		ZoneName = { BZ["Antorus, the Burning Throne"]..ALC["MapE"] },
-		Location = { BZ["Val'sharah"] },
+		Location = { BZ["Antoran Wastes"] },
 		DungeonID = "1640",
 		DungeonHeroicID = "1641",
 		DungeonMythicID = "1642",
@@ -145,7 +145,7 @@ db.AtlasMaps = {
 	},
 	AntorustheBurningThroneF = {
 		ZoneName = { BZ["Antorus, the Burning Throne"]..ALC["MapF"] },
-		Location = { BZ["Val'sharah"] },
+		Location = { BZ["Antoran Wastes"] },
 		DungeonID = "1640",
 		DungeonHeroicID = "1641",
 		DungeonMythicID = "1642",
@@ -164,7 +164,7 @@ db.AtlasMaps = {
 	},
 	AntorustheBurningThroneG = {
 		ZoneName = { BZ["Antorus, the Burning Throne"]..ALC["MapG"] },
-		Location = { BZ["Val'sharah"] },
+		Location = { BZ["Antoran Wastes"] },
 		DungeonID = "1640",
 		DungeonHeroicID = "1641",
 		DungeonMythicID = "1642",
