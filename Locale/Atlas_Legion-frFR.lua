@@ -1,8 +1,8 @@
-﻿-- $Id$
+-- $Id$
 --[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2016 ~ 2023 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
+	Copyright 2016 ~ 2026 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 
 	This file is part of Atlas.
 
@@ -26,74 +26,99 @@ local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local L = AceLocale:NewLocale("Atlas_Legion", "frFR", false);
 
 if L then
---@do-not-package@
 	-- Assault on VioletHold
 
+	-- Cathedral of Eternal Night
+	-- L["Raga'yut"] = "Raga'yut" -- 120715
+
 	-- Court of Stars
-	L["Ly'leth Lunastre"] = "Ly’leth Lunastre"
-	-- L["Arcanist Malrodi"] = ""
-	-- L["Velimar"] = ""
+	L["Ly'leth Lunastre"] = "Ly’leth Lunastre"; -- 106468
+	-- L["Arcanist Malrodi"] = "Arcanist Malrodi"; -- 108796
+	-- L["Velimar"] = "Velimar"; -- 108740
 
 	-- Black Rook Hold 
-	-- L["Dantalionax"] = ""
-	L["Lady Velandras Ravencrest"] = "Dame Velandras Corvaltus"
-	L["Ancient Widow"] = "Veuve ancienne"
-	-- L["Archmage Galeorn"] = ""
-	L["Kalyndras <Rook's Quartermaster>"] = "Kalyndras <Intendant du Freux>"
-	L["Braxas the Fleshcarver"] = "Braxas le Découpe-chair"
+	-- L["Dantalionax"] = "Dantalionax"; -- 99611
+	L["Lady Velandras Ravencrest"] = "Dame Velandras Corvaltus"; -- 98538
+	L["Ancient Widow"] = "Veuve ancienne"; --98637
+	-- L["Archmage Galeorn"] = "Archmage Galeorn"; -- 111068
+	L["Kalyndras <Rook's Quartermaster>"] = "Kalyndras <Intendant du Freux>"; -- 112725
+	L["Braxas the Fleshcarver"] = "Braxas le Découpe-chair"; -- 111290
+	-- L["Torn Page"] = "Torn Page"
+	-- L["Dog-Eared Page"] = "Dog-Eared Page"
+	-- L["Worn-Edged Page"] = "Worn-Edged Page"
+	-- L["Singed Page"] = "Singed Page"
+	-- L["Ink-splattered Page"] = "Ink-splattered Page"
+	-- L["Hastily-Scrawled Page"] = "Hastily-Scrawled Page"
 
 	-- Darkheart Thicket
-	L["Rage Rot"] = "Rage-Putride"
-	-- L["Kudzilla"] = ""
+	L["Rage Rot"] = "Rage-Putride"; -- 101660
+	-- L["Kudzilla"] = "Kudzilla"; -- 99362
+	-- L["Mythana"] = "Mythana"; -- 101641
 
 	-- Eye of Azshara
-	-- L["Crate of Corks"] = ""
-	-- L["Put a Cork in It"] = ""
-	L["Shellmaw"] = "Croquille <Coquille qui croque>"
-	L["Gom Crabbar"] = "Gom Crabbar"
+	-- L["Crate of Corks"] = "Crate of Corks"; -- object=248930, Alchemy quest - Put a Cork in It (39331)
+	-- L["Put a Cork in It"] = "Put a Cork in It"; -- quest=39331
+	L["Shellmaw"] = "Croquille <Coquille qui croque>"; -- 91788
+	L["Gom Crabbar"] = "Gom Crabbar"; -- 101411
+	-- L["Jaggen-Ra"] = "Jaggen-Ra"; -- 101467
+	-- L["Dread Captain Thedon"] = "Dread Captain Thedon"; -- 108543
 
 	-- Halls of Valor
-	-- L["Fenryr's western spawn point"] = ""
-	-- L["Fenryr's eastern spawn point"] = ""
-	L["King Tor"] = "Roi Tor"
-	L["King Bjorn"] = "Roi Bjorn"
-	L["King Haldor"] = "Roi Haldor"
-	L["King Ranulf"] = "Roi Ranulf"
-	L["Volynd Stormbringer"] = "Volynd Porte-tempête"
-	L["Arthfael"] = "Arthfaël"
-	L["Earlnoc the Beastbreaker"] = "Earlnoc le Brise-bête"
+	-- L["Fenryr's western spawn point"] = "Fenryr's western spawn point";
+	-- L["Fenryr's eastern spawn point"] = "Fenryr's eastern spawn point";
+	L["King Tor"] = "Roi Tor"; -- 97084
+	L["King Bjorn"] = "Roi Bjorn"; -- 97081
+	L["King Haldor"] = "Roi Haldor"; -- 95843
+	L["King Ranulf"] = "Roi Ranulf"; -- 97083
+	L["Volynd Stormbringer"] = "Volynd Porte-tempête"; -- 106320
+	L["Arthfael"] = "Arthfaël"; -- 99802
+	L["Earlnoc the Beastbreaker"] = "Earlnoc le Brise-bête"; -- 96647
 
 	-- Neltharion's Lair
-	L["Spiritwalker Ebonhorn"] = "Marcheur des esprits Corne-d’Ebène"
-	L["Mushroom Merchant"] = "Marchand de champignons"
-	-- L["Understone Lasher"] = ""
-	L["Ragoul"] = "Ragoul"
+	L["Spiritwalker Ebonhorn"] = "Marcheur des esprits Corne-d’Ebène"; -- 113526
+	L["Mushroom Merchant"] = "Marchand de champignons"; -- 111746
+	-- L["Understone Lasher"] = "Understone Lasher"; -- 103597
+	L["Ragoul"] = "Ragoul"; -- 103199
+	L["Kraxa <Mother of Gnashers>"] = "Kraxa <Mère des grinceurs>"; -- 103271
+	-- L["Ultanok"] = "Ultanok"; -- 103247
 
 	-- Maw of Souls
-	-- L["Echoing Horn of the Damned"] = ""
+	-- L["Echoing Horn of the Damned"] = "Echoing Horn of the Damned";
 
 	-- Return to Karazhan
+	-- L["Mage Darius"] = "Mage Darius";
+	-- L["Charred Bone Fragment"] = "Charred Bone Fragment";
+	-- L["Archmage Leryda"] = "Archmage Leryda";
+	-- L["Lydia Accoste"] = "Lydia Accoste";
+	-- L["Barnes"] = "Barnes"; -- 114339
+	-- L["Soul Fragment"] = "Soul Fragment";
+	-- L["Koren"] = "Koren"; -- 114815
+	-- L["Medivh's Footlocker"] = "Medivh's Footlocker"; -- object: 266826
+	-- L["Archmage Khadgar"] = "Archmage Khadgar"; -- 115497
 	
 	-- The Arcway
-	-- L["Portal to Shal'Aran"] = ""
-	-- L["The Rat King"] = ""
-	-- L["Sludge Face"] = ""
+	-- L["Portal to Shal'Aran"] = "Portal to Shal'Aran";
+	-- L["The Rat King"] = "The Rat King"; -- 111057
+	-- L["Sludge Face"] = "Sludge Face"; -- 111021
+	-- L["Suramar Leyline Map"] = "Suramar Leyline Map"; -- object: 251641
 
 	-- The Emerald Nightmare
-	-- L["Nightmare Watcher"] = ""
-	-- L["Malfurion Stormrage"] = ""
-	-- L["Teleport to Moonglade"] = ""
+	-- L["Nightmare Watcher"] = "Nightmare Watcher";
+	-- L["Malfurion Stormrage"] = "Malfurion Stormrage"; -- 106482
+	-- L["Teleport to Moonglade"] = "Teleport to Moonglade";
 
 	-- The Nighthold
-	-- L["Teleport to Tichondrius / Grand Magistrix Elisande"] = ""
+	-- L["Teleport to Tichondrius / Grand Magistrix Elisande"] = "Teleport to Tichondrius / Grand Magistrix Elisande";
+	-- L["First Arcanist Thalyssra"] = "First Arcanist Thalyssra"; -- 110791
+	-- L["Gilded Guardian"] = "Gilded Guardian"; -- 112712
+	-- L["Flightmaster Volnath"] = "Flightmaster Volnath"; -- 116004
 	
 	-- Trial of Valor
 	
 	-- Vault of the Wardens
-	-- L["Fel-Ravaged Tome"] = ""
-	L["Drelanim Whisperwind"] = "Drelanim Murmevent"
-	L["Grimoira"] = "Grimoira"
-	-- L["Requires Skaggldrynk"] = ""
---@end-do-not-package@
---@localization(locale="frFR", format="lua_additive_table")@
+	-- L["Fel-Ravaged Tome"] = "Fel-Ravaged Tome"; -- object=258979
+	L["Drelanim Whisperwind"] = "Drelanim Murmevent"; -- 103860
+	L["Grimoira"] = "Grimoira"; -- 105824
+	-- L["Requires Skaggldrynk"] = "Requires Skaggldrynk";
+
 end

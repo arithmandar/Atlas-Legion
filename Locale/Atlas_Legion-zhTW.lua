@@ -1,8 +1,8 @@
-﻿-- $Id$
+-- $Id$
 --[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2016 ~ 2023 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
+	Copyright 2016 ~ 2026 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 
 	This file is part of Atlas.
 
@@ -26,24 +26,22 @@ local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local L = AceLocale:NewLocale("Atlas_Legion", "zhTW", false);
 
 if L then
---@localization(locale="zhTW", format="lua_additive_table")@
---@do-not-package@
-	--Assault on VioletHold
+	-- Assault on VioletHold
 
 	-- Cathedral of Eternal Night
 	L["Raga'yut"] = "蕾佳雅特" -- 120715
 
-	--Court of Stars
+	-- Court of Stars
 	L["Ly'leth Lunastre"] = "黎利斯·路納斯特"; -- 106468
 	L["Arcanist Malrodi"] = "秘法師瑪洛蒂"; -- 108796
 	L["Velimar"] = "威利瑪"; -- 108740
 
-	--Black Rook Hold 
-	L["Dantalionax"] = "丹塔利翁斯";
-	L["Lady Velandras Ravencrest"] = "維蘭卓絲·黑雨女士";
-	L["Ancient Widow"] = "遠古寡婦蛛";
-	L["Archmage Galeorn"] = "大法師加里恩";
-	L["Kalyndras <Rook's Quartermaster>"] = "卡林達斯 <玄鴉堡軍需官>";
+	-- Black Rook Hold 
+	L["Dantalionax"] = "丹塔利翁斯"; -- 99611
+	L["Lady Velandras Ravencrest"] = "維蘭卓絲·黑雨女士"; -- 98538
+	L["Ancient Widow"] = "遠古寡婦蛛"; --98637
+	L["Archmage Galeorn"] = "大法師加里恩"; -- 111068
+	L["Kalyndras <Rook's Quartermaster>"] = "卡林達斯 <玄鴉堡軍需官>"; -- 112725
 	L["Braxas the Fleshcarver"] = "『刻肉者』布拉薩斯"; -- 111290
 	L["Torn Page"] = "撕開的書頁"
 	L["Dog-Eared Page"] = "折頁的書頁"
@@ -52,20 +50,20 @@ if L then
 	L["Ink-splattered Page"] = "濺到墨水的書頁"
 	L["Hastily-Scrawled Page"] = "飛快潦草的書頁"
 
-	--Darkheart Thicket
+	-- Darkheart Thicket
 	L["Rage Rot"] = "怒朽"; -- 101660
 	L["Kudzilla"] = "庫吉拉"; -- 99362
 	L["Mythana"] = "秘薩納"; -- 101641
 
-	--Eye of Azshara
-	L["Crate of Corks"] = "一箱木栓"; -- Alchemy quest - Put a Cork in It (39331)
-	L["Put a Cork in It"] = "塞進木栓";
+	-- Eye of Azshara
+	L["Crate of Corks"] = "一箱木栓"; -- object=248930, Alchemy quest - Put a Cork in It (39331)
+	L["Put a Cork in It"] = "塞進木栓"; -- quest=39331
 	L["Shellmaw"] = "巨殼顎"; -- 91788
 	L["Gom Crabbar"] = "戈姆·蟹巴"; -- 101411
-	L["Jaggen-Ra"] = "迦耿拉"; 
-	L["Dread Captain Thedon"] = "恐怖船長席頓";
+	L["Jaggen-Ra"] = "迦耿拉"; -- 101467
+	L["Dread Captain Thedon"] = "恐怖船長席頓"; -- 108543
 
-	--Halls of Valor
+	-- Halls of Valor
 	L["Fenryr's western spawn point"] = "芬里爾的西邊出現點";
 	L["Fenryr's eastern spawn point"] = "芬里爾的東邊出現點";
 	L["King Tor"] = "托爾王"; -- 97084
@@ -76,15 +74,15 @@ if L then
 	L["Arthfael"] = "阿斯菲爾"; -- 99802
 	L["Earlnoc the Beastbreaker"] = "『降獸者』厄諾克"; -- 96647
 
-	--Neltharion's Lair
-	L["Spiritwalker Ebonhorn"] = "靈行者黯角";
-	L["Mushroom Merchant"] = "蘑菇商人";
+	-- Neltharion's Lair
+	L["Spiritwalker Ebonhorn"] = "靈行者黯角"; -- 113526
+	L["Mushroom Merchant"] = "蘑菇商人"; -- 111746
 	L["Understone Lasher"] = "底石奴隸監工"; -- 103597
 	L["Ragoul"] = "拉格爾"; -- 103199
-	L["Kraxa <Mother of Gnashers>"] = "夸克薩 <銳齒蜥之母>";
+	L["Kraxa <Mother of Gnashers>"] = "夸克薩 <銳齒蜥之母>"; -- 103271
 	L["Ultanok"] = "烏塔諾克"; -- 103247
 
-	--Maw of Souls
+	-- Maw of Souls
 	L["Echoing Horn of the Damned"] = "遭譴者回音號角";
 
 	-- Return to Karazhan
@@ -95,34 +93,32 @@ if L then
 	L["Barnes"] = "巴奈斯"; -- 114339
 	L["Soul Fragment"] = "靈魂碎片";
 	L["Koren"] = "卡爾侖"; -- 114815
-	--L["Medivh's Footlocker"] = "Medivh's Footlocker"; -- object: 266826
+	-- L["Medivh's Footlocker"] = "Medivh's Footlocker"; -- object: 266826
 	L["Archmage Khadgar"] = "大法師卡德加"; -- 115497
-
-	--The Arcway
+	
+	-- The Arcway
 	L["Portal to Shal'Aran"] = "沙亞蘭傳送門";
 	L["The Rat King"] = "鼠王"; -- 111057
 	L["Sludge Face"] = "泥巴臉"; -- 111021
 	L["Suramar Leyline Map"] = "蘇拉瑪爾地脈地圖"; -- object: 251641
 
-	--The Emerald Nightmare
-	--L["Nightmare Watcher"] = "Nightmare Watcher";
-	L["Malfurion Stormrage"] = "瑪法里恩·怒風";
+	-- The Emerald Nightmare
+	-- L["Nightmare Watcher"] = "Nightmare Watcher";
+	L["Malfurion Stormrage"] = "瑪法里恩·怒風"; -- 106482
 	L["Teleport to Moonglade"] = "傳送到月光林地";
 
-	--The Nighthold
+	-- The Nighthold
 	L["Teleport to Tichondrius / Grand Magistrix Elisande"] = "傳送到提克迪奧斯／大博學者艾莉珊德處";
 	L["First Arcanist Thalyssra"] = "首席秘法師薩莉瑟拉"; -- 110791
 	L["Gilded Guardian"] = "金輝守護者"; -- 112712
-	L["Flightmaster Volnath"] = "飛行管理員沃納斯"; 
+	L["Flightmaster Volnath"] = "飛行管理員沃納斯"; -- 116004
 	
 	-- Trial of Valor
 	
-	--Vault of the Wardens
-	L["Fel-Ravaged Tome"] = "燒壞的秘典";
+	-- Vault of the Wardens
+	L["Fel-Ravaged Tome"] = "燒壞的秘典"; -- object=258979
 	L["Drelanim Whisperwind"] = "蕾拉妮·語風"; -- 103860
 	L["Grimoira"] = "葛摩菈"; -- 105824
 	L["Requires Skaggldrynk"] = "需要斯卡格藥劑";
-
---@end-do-not-package@
 
 end
