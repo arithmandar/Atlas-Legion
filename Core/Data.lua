@@ -2372,7 +2372,7 @@ db.OutdoorZoneToAtlas = {
 	[BZ["Suramar"]] = 			"TheNightholdEnt",
 	[BZ["Deadwind Pass"]] = 		"ReturntoKarazhanEnt",
 	[BZ["Broken Shore"]] = 			"CathedralofEternalNightA",
-	[BZ["Mac'Aree"]] = 			"TheSeatoftheTriumvirate",
+	[BZ["Eredath"]] = 			"TheSeatoftheTriumvirate",
 	--"AntorustheBurningThroneA",
 }
 

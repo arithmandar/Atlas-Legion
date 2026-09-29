@@ -6,6 +6,10 @@ Copyright 2016 ~ 2026 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
+v1.53.01 (Sep. 29, 2026)
+------------------------
+- Change the name Mac'Aree to Eredath
+
 v1.53.00 (Sep. 21, 2026)
 ------------------------
 - Toc update to support WoW 12.1.0
