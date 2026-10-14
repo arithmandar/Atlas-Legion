@@ -23,7 +23,8 @@
 ## Notes-zhTW: 適用於 Atlas 的軍臨天下副本地圖
 ## Version: @project-version@
 ## Author: arith
-## X-Date: @project-date-iso@
+## IconTexture: Interface\WorldMap\WorldMap-Icon
+## RequiredDeps: Atlas
 ## Category: Map
 ## Category-deDE: Karte
 ## Category-esES: Mapa
@@ -36,8 +37,10 @@
 ## Category-zhCN: 地图
 ## Category-zhTW: 地圖
 ## X-Category: Map
-## RequiredDeps: Atlas
-## IconTexture: Interface\WorldMap\WorldMap-Icon
+## X-Date: @project-date-iso@
+## X-Website: https://www.curseforge.com/wow/addons/atlas-legion
+## X-Curse-Project-ID: 100963
+## X-WoWI-ID: 24172
 
 Locale\Locales.xml
 Core\Core.lua

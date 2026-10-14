@@ -1,4 +1,3 @@
--- $Id$
 --[[
 
 	Atlas, a World of Warcraft instance map browser
