@@ -1,4 +1,4 @@
-﻿## Interface: 120100
+﻿## Interface: 120105
 ## Title: Atlas Legion
 ## Notes: Legion instance maps for Atlas
 ## Title-deDE: Atlas: Legion
